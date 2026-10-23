@@ -1,0 +1,12 @@
+COMMAND: C:\Users\RTX-SPARK\Documents\RTX ANDROID\tools\android\platform-tools\adb.exe
+ARGUMENTS: ["-s","127.0.0.1:15555","shell","cmd","package","resolve-activity","--brief","org.videolan.vlc"]
+EXIT: 0
+TIMED OUT: False
+ELAPSED MS: 74.014
+
+STDOUT
+priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+org.videolan.vlc/.StartActivity
+
+STDERR
+

@@ -1,0 +1,88 @@
+/vendor/lib64/dri:
+total 25136
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 armada-drm_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 asahi_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 etnaviv_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 exynos_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 gm12u320_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 hdlcd_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 hx8357d_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 ili9163_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 ili9225_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 ili9341_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 ili9486_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 imx-dcss_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 imx-drm_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 imx-lcdif_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 ingenic-drm_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 kgsl_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 kirin_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 kms_swrast_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 komeda_dri.so -> libgallium_dri.so
+-rw-r--r-- 1 root root 25737776 2025-06-26 14:53 libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 lima_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 mali-dp_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 mcde_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 mediatek_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 meson_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 mi0283qt_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 msm_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 mxsfb-drm_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 nouveau_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 panel-mipi-dbi_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 panfrost_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 pl111_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 r300_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 r600_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 radeonsi_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 rcar-du_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 repaper_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 rockchip_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 st7586_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 st7735r_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 sti_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 stm_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 sun4i-drm_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 tegra_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 udl_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 v3d_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 vc4_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 virtio_gpu_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 vmwgfx_dri.so -> libgallium_dri.so
+lrwxrwxrwx 1 root root       17 2025-06-26 14:53 zink_dri.so -> libgallium_dri.so
+
+/vendor/lib64/egl:
+total 356
+-rw-r--r-- 1 root root 262728 2025-06-26 14:53 libEGL_mesa.so
+-rw-r--r-- 1 root root  27296 2025-06-26 14:53 libGLESv1_CM_mesa.so
+-rw-r--r-- 1 root root  67392 2025-06-26 14:53 libGLESv2_mesa.so
+
+/vendor/lib64/hw:
+total 69352
+-rw-r--r-- 1 root root   333328 2025-06-26 14:53 android.hardware.audio.effect@7.0-impl.so
+-rw-r--r-- 1 root root   216976 2025-06-26 14:53 android.hardware.audio@7.0-impl.so
+-rw-r--r-- 1 root root    36808 2025-06-26 14:53 android.hardware.graphics.allocator@2.0-impl.so
+-rw-r--r-- 1 root root    52464 2025-06-26 14:53 android.hardware.graphics.mapper@2.0-impl-2.1.so
+-rw-r--r-- 1 root root    37336 2025-06-26 14:53 android.hidl.memory@1.0-impl.so
+-rw-r--r-- 1 root root    52000 2025-06-26 14:53 audio.primary.default.so
+-rw-r--r-- 1 root root    52680 2025-06-26 14:53 audio.r_submix.default.so
+-rw-r--r-- 1 root root   220168 2025-06-26 14:53 gralloc.cros.so
+-rw-r--r-- 1 root root    52424 2025-06-26 14:53 gralloc.default.so
+-rw-r--r-- 1 root root    47088 2025-06-26 14:53 gralloc.gbm.so
+-rw-r--r-- 1 root root    52232 2025-06-26 14:53 gralloc.redroid.so
+-rw-r--r-- 1 root root    48000 2025-06-26 14:53 hwcomposer.redroid.so
+-rw-r--r-- 1 root root    51536 2025-06-26 14:53 local_time.default.so
+-rw-r--r-- 1 root root    51640 2025-06-26 14:53 power.default.so
+-rw-r--r-- 1 root root    51608 2025-06-26 14:53 vibrator.default.so
+-rw-r--r-- 1 root root  6127424 2025-06-26 14:53 vulkan.broadcom.so
+-rw-r--r-- 1 root root  7144216 2025-06-26 14:53 vulkan.freedreno.so
+-rw-r--r-- 1 root root 10914952 2025-06-26 14:53 vulkan.nouveau.so
+-rw-r--r-- 1 root root  6897920 2025-06-26 14:53 vulkan.panfrost.so
+-rw-r--r-- 1 root root 27341584 2025-06-26 14:53 vulkan.pastel.so
+-rw-r--r-- 1 root root 10063136 2025-06-26 14:53 vulkan.radeon.so
+-rw-r--r-- 1 root root  1134696 2025-06-26 14:53 vulkan.virtio.so
+angle
+redroid
+pastel
+guest
+

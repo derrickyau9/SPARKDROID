@@ -1,0 +1,43 @@
+{
+  "capturedUtc": "2026-10-23T15:45:46.6654172Z",
+  "requestedHz": 120,
+  "codec": "h264",
+  "width": 720,
+  "height": 1280,
+  "lowComplexity": false,
+  "warmupSamplesDiscarded": 2,
+  "samples": [
+    95,
+    120,
+    121,
+    119,
+    118,
+    118,
+    105,
+    91,
+    95,
+    99,
+    117,
+    119,
+    119,
+    120,
+    119
+  ],
+  "steadyMeanFps": 112.31,
+  "steadyMinimumFps": 91.0,
+  "steadyMaximumFps": 121.0,
+  "arguments": [
+    "-s",
+    "127.0.0.1:15555",
+    "--new-display=720x1280/240",
+    "--start-app=+dev.sparkdroid.frameprobe",
+    "--max-fps=120",
+    "--print-fps",
+    "--video-buffer=0",
+    "--no-audio",
+    "--video-codec=h264",
+    "--time-limit=16",
+    "--window-title=SPARKDROID FPS measurement"
+  ],
+  "note": "scrcpy Windows client FPS on a continuously animated test app. Android draw callback rate and display mode are separate metrics."
+}

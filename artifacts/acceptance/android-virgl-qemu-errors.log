@@ -1,0 +1,11 @@
+virtio_gpu_virgl_process_cmd: ctrl 0x103, error 0x1203
+virtio_gpu_virgl_process_cmd: ctrl 0x103, error 0x1203
+virtio_gpu_virgl_process_cmd: ctrl 0x103, error 0x1203
+virtio_gpu_virgl_process_cmd: ctrl 0x103, error 0x1203
+virtio_gpu_virgl_process_cmd: ctrl 0x103, error 0x1203
+virtio_gpu_virgl_process_cmd: ctrl 0x103, error 0x1203
+virtio_gpu_virgl_process_cmd: ctrl 0x103, error 0x1203
+Failed to complete framebuffer 0x8d56 surfaceflinger
+vrend_check_no_error: context error reported 3 "surfaceflinger" Unknown 1286
+context 3 failed to dispatch CLEAR: 22
+vrend_decode_ctx_submit_cmd: context error reported 3 "surfaceflinger" Illegal command buffer 524295

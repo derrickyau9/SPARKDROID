@@ -1,0 +1,16 @@
+[
+  {
+    "path": "scripts/SparkDroid.ps1",
+    "oldBytes": 17415,
+    "oldSha256": "ea48679efda581820ba6b25ec1522d37cddfcdbc03a89ebb7a3f16bc06c480aa",
+    "newBytes": 17495,
+    "newSha256": "d7e5c45baf0fb28a46532824845a24cfb00de2c7d137cfbaa99b6a7790740f8f"
+  },
+  {
+    "path": "scripts/Measure-Runtime.ps1",
+    "oldBytes": 23505,
+    "oldSha256": "d674f0a2523651a428728d4c3c6ef07521aea0a19f939b55bb29e6fc5126548e",
+    "newBytes": 23576,
+    "newSha256": "a499f5168065205980f6a12b570278a0ff00a679ba337ec9b103bf03027b1310"
+  }
+]

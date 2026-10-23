@@ -1,0 +1,13 @@
+{
+  "name": "process-id",
+  "arguments": [
+    "shell",
+    "pidof",
+    "com.tencent.mm"
+  ],
+  "exitCode": 0,
+  "timedOut": false,
+  "elapsedMilliseconds": 77.774,
+  "stdout": "1890\r\n",
+  "stderr": ""
+}

@@ -1,0 +1,16 @@
+{
+  "hostAngleNvidiaRenderReadbackValidated": true,
+  "linuxVirglNvidiaRenderReadbackValidated": true,
+  "androidHardwareFramesValidated": false,
+  "androidFrameworkBootedInVirglMode": true,
+  "androidHardwareRendererReported": "Mesa, virgl (ANGLE (NVIDIA, NVIDIA RTX Spark N1X (6144-core Black...), OpenGL ES 2.0 Mesa 24.0.8",
+  "observedFailure": "Android screenshot is black; QEMU reports framebuffer incomplete 0x8d56 (GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE), GL error 1286 and failed CLEAR command.",
+  "fallback": "Explicit Android guest software renderer (ANGLE + SwiftShader); no automatic renderer fallback is configured.",
+  "evidence": [
+    "artifacts/toolchain/angle-renderer.json",
+    "artifacts/toolchain/linux-virgl-render.json",
+    "artifacts/acceptance/android-virgl-surfaceflinger.txt",
+    "artifacts/acceptance/android-virgl-qemu-errors.log",
+    "artifacts/acceptance/android-virgl-check.png"
+  ]
+}

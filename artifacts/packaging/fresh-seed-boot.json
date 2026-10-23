@@ -1,0 +1,41 @@
+{
+  "testedUtc": "2026-10-23T07:32:22.7804279Z",
+  "package": "dist/SPARKDROID-0.1.0-win-arm64",
+  "validationCopy": "artifacts/package-validation",
+  "freshSeedGenerated": true,
+  "freshManagementKeyGenerated": true,
+  "managementKeysDiffer": true,
+  "newKeySshSucceeded": true,
+  "sshEvidence": [
+    "aarch64",
+    "spark",
+    "package:/data/app/~~znVfrGzvZdBe_FHMqi2e7Q==/com.tencent.mm-chpvaOeo6tibZve4sftk-Q==/base.apk"
+  ],
+  "androidBootCompleted": true,
+  "status": {
+    "backend": "whpx-linux-redroid",
+    "vmRunning": true,
+    "profile": "Balanced",
+    "graphics": "software-explicit",
+    "graphicsAccelerationValidated": false,
+    "androidBootCompleted": true,
+    "adb": "127.0.0.1:15555",
+    "logDirectory": "C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\artifacts\\package-validation\\artifacts\\logs",
+    "pid": 26336,
+    "qmp": {
+      "status": "running",
+      "running": true
+    },
+    "actualRenderer": "GLES: Google Inc. (Google), ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 16.0.0) (0x0000C0DE)), SwiftShader driver-5.0.0), OpenGL ES 3.1.0 (ANGLE 2.1 git hash: 1166eec4c0b125e9e945196acfc549983ef72b18)",
+    "hardwareRendererReported": false
+  },
+  "boot": {
+    "vmStartToAndroidReadySeconds": 39.0709387,
+    "bootWaitSeconds": 37.7234374,
+    "note": "Readiness includes provisioning when first boot. Poll quantization is up to 3 seconds plus ADB command time.",
+    "pollIntervalSeconds": 3,
+    "measuredUtc": "2026-10-23T07:28:29.508526Z"
+  },
+  "publicGuestImageWasNotBooted": true,
+  "cleanShutdown": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "install",
+  "arguments": [
+    "install",
+    "-r",
+    "C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\artifacts\\apks\\WeChat-arm64.apk"
+  ],
+  "exitCode": 0,
+  "timedOut": false,
+  "elapsedMilliseconds": 9091.404,
+  "stdout": "Performing Streamed Install\r\nSuccess\r\n",
+  "stderr": ""
+}

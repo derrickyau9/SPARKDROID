@@ -1,0 +1,9 @@
+{
+    "image-end-offset": 6792413184,
+    "total-clusters": 786432,
+    "check-errors": 0,
+    "allocated-clusters": 103596,
+    "filename": "C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\dist\\SPARKDROID-0.1.0-win-arm64\\state\\android-host.qcow2",
+    "format": "qcow2",
+    "fragmented-clusters": 3
+}

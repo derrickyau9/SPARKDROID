@@ -1,0 +1,34 @@
+scrcpy 5.0.1 <https://github.com/Genymobile/scrcpy>
+INFO: ADB device found:
+INFO:     --> (tcpip)  127.0.0.1:15555                 device  redroid16_arm64_only
+INFO:         (tcpip)  emulator-5554                  offline  
+[server] INFO: Device: [redroid] redroid redroid16_arm64_only (Android 16)
+[server] INFO: SPARKDROID requested virtual refresh: 120.0 Hz
+[server] INFO: New display: 720x1280/240 (id=6)
+INFO: Renderer: direct3d11
+INFO: Interop: d3d11va
+INFO: Video decoding: d3d11va
+INFO: FPS counter started
+[server] INFO: Starting app "SPARKDROID Frame Test" [dev.sparkdroid.frameprobe] on display 6...
+INFO: Texture (D3D11VA): 720x1280
+INFO: 90 fps (+19 frames skipped)
+INFO: 123 fps
+INFO: 119 fps
+INFO: 100 fps
+INFO: 121 fps
+INFO: 119 fps
+INFO: 120 fps
+INFO: 120 fps
+INFO: 115 fps
+INFO: 119 fps
+INFO: 118 fps
+INFO: 107 fps
+INFO: 113 fps
+INFO: 120 fps
+INFO: 120 fps
+INFO: 120 fps
+INFO: 117 fps
+INFO: 109 fps
+INFO: 113 fps
+INFO: Time limit reached
+

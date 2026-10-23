@@ -1,0 +1,31 @@
+COMMAND: C:\Users\RTX-SPARK\Documents\RTX ANDROID\tools\android\platform-tools\adb.exe
+ARGUMENTS: ["-s","127.0.0.1:15555","shell","dumpsys","cpuinfo"]
+EXIT: 0
+TIMED OUT: False
+ELAPSED MS: 82.15
+
+STDOUT
+Load: 0.64 / 0.51 / 0.24
+CPU usage from 28350ms to 514ms ago (2026-10-23 06:52:26.052 to 2026-10-23 06:52:53.888):
+  3.1% 3576/system_server: 1.7% user + 1.4% kernel / faults: 3919 minor
+  0.5% 3517/surfaceflinger: 0.3% user + 0.2% kernel / faults: 50 minor
+  0.5% 187/android.hardware.graphics.composer@2.1-service: 0.1% user + 0.3% kernel / faults: 19 minor
+  0.3% 4312/com.android.launcher3: 0.2% user + 0% kernel / faults: 4261 minor
+  0.2% 214/adbd: 0% user + 0.2% kernel / faults: 8154 minor
+  0.1% 3998/com.android.systemui: 0% user + 0% kernel / faults: 128 minor
+  0.1% 4003/com.android.permissioncontroller: 0% user + 0.1% kernel / faults: 382 minor
+  0% 62/logd: 0% user + 0% kernel / faults: 82 minor
+  0% 64/servicemanager: 0% user + 0% kernel
+  0% 164/statsd: 0% user + 0% kernel
+  0% 3513/netd: 0% user + 0% kernel / faults: 651 minor
+  0% 3516/audioserver: 0% user + 0% kernel
+  0% 4478/com.android.providers.media.module: 0% user + 0% kernel / faults: 44 minor
+  0% 3515/zygote64: 0% user + 0% kernel / faults: 40 minor
+  0% 3698/artd: 0% user + 0% kernel / faults: 249 minor
+  0% 4491/com.android.documentsui: 0% user + 0% kernel / faults: 28 minor
+ +0% 5446/org.videolan.vlc: 0% user + 0% kernel
+ +0% 5529/dumpsys: 0% user + 0% kernel
+4.2% TOTAL: 2.2% user + 1.8% kernel + 0.1% iowait + 0% softirq
+
+STDERR
+

@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="dev.sparkdroid.frameprobe" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="34" android:targetSdkVersion="36" />
+  <application android:label="SPARKDROID Frame Test" android:theme="@android:style/Theme.Material.Light.NoActionBar" android:hardwareAccelerated="true" android:allowBackup="false">
+    <activity android:name=".FrameActivity" android:exported="true">
+      <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+    </activity>
+  </application>
+</manifest>

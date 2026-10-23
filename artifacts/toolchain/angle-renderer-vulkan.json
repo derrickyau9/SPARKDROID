@@ -1,0 +1,11 @@
+{
+  "timestampUtc": "2026-10-23T06:56:05.4201614Z",
+  "backend": "ANGLE Vulkan",
+  "environment": {
+    "ANGLE_DEFAULT_PLATFORM": "vulkan"
+  },
+  "success": false,
+  "exitCode": "0xC0000005",
+  "failure": "Native access violation in libEGL.dll eglInitialize from an isolated ARM64 PowerShell process",
+  "note": "No hardware Vulkan or Android Vulkan success claimed. Validated D3D11 backend remains the default."
+}

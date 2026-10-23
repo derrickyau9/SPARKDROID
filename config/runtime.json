@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "backend": "whpx-linux-redroid",
+  "qemu": "tools/qemu-arm64/clangarm64/bin/qemu-system-aarch64.exe",
+  "qemuImg": "tools/qemu-arm64/clangarm64/bin/qemu-img.exe",
+  "firmware": "tools/qemu-arm64/clangarm64/share/qemu/edk2-aarch64-code.fd",
+  "adb": "tools/android/platform-tools/adb.exe",
+  "scrcpy": "tools/scrcpy/scrcpy.exe",
+  "baseImage": "tools/images/ubuntu-noble-arm64.img",
+  "disk": "state/android-host.qcow2",
+  "seed": "state/seed.iso",
+  "sshPort": 22222,
+  "adbPort": 15555,
+  "qmpPort": 14444,
+  "profile": "Performance",
+  "graphics": "software-explicit",
+  "profiles": {
+    "Performance": {
+      "cpus": 8,
+      "memoryMiB": 8192,
+      "fps": 60
+    },
+    "Balanced": {
+      "cpus": 4,
+      "memoryMiB": 6144,
+      "fps": 30
+    },
+    "UltraEfficient": {
+      "cpus": 2,
+      "memoryMiB": 3072,
+      "fps": 15
+    }
+  },
+  "display": {
+    "refreshHz": 60,
+    "matchWindows": false,
+    "server": "tools/scrcpy/scrcpy-server-sparkdroid",
+    "width": 540,
+    "height": 960,
+    "dpi": 180,
+    "videoCodec": "h264",
+    "lowComplexity": true
+  }
+}

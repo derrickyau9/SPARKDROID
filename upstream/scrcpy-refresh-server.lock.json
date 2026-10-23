@@ -1,0 +1,8 @@
+{
+  "version": "5.0.1",
+  "revision": "a60891aea193d92e7e5c3942700eca63f9d19a5f",
+  "modification": "Request Android virtual display refresh rate from max_fps on Android 14+",
+  "sourceUrl": "https://github.com/Genymobile/scrcpy",
+  "sha256": "228975BED2F493395EBA65EDA8149B6EE04D49DCA75C000B30E55EE2350C904E",
+  "builtUtc": "2026-10-23T15:30:00.4907234Z"
+}

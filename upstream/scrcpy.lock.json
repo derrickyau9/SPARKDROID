@@ -1,0 +1,6 @@
+{
+  "Version": "5.0.1",
+  "Architecture": "arm64",
+  "Url": "https://github.com/Genymobile/scrcpy/releases/download/v5.0.1/scrcpy-winarm64-v5.0.1.zip",
+  "Sha256": "16c3fc2068df64946f670e3504b4752073ebae47a416a45b46e79a5ab19c689b"
+}

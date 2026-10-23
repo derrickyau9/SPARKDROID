@@ -1,0 +1,91 @@
+{
+  "capturedUtc": "2026-10-23T06:57:10.7466858Z",
+  "processArchitecture": "Arm64",
+  "os": {
+    "Caption": "Microsoft Windows 11 Pro",
+    "Version": "10.0.28000",
+    "BuildNumber": "28000",
+    "OSArchitecture": "ARM 64-bit Processor",
+    "TotalVisibleMemorySize": 31911600
+  },
+  "computer": {
+    "Manufacturer": "HP",
+    "Model": "HP OmniBook X Laptop 14-ks000",
+    "SystemType": "ARM64-based PC",
+    "TotalPhysicalMemory": 32677478400,
+    "HypervisorPresent": true
+  },
+  "cpu": {
+    "Name": "NVIDIA RTX Spark N1X (6144-core GPU, 20-core CPU)",
+    "Architecture": 12,
+    "NumberOfCores": 20,
+    "NumberOfLogicalProcessors": 20,
+    "VirtualizationFirmwareEnabled": true,
+    "SecondLevelAddressTranslationExtensions": true
+  },
+  "gpu": [
+    {
+      "Name": "NVIDIA NPU",
+      "DriverVersion": "32.0.16.1721",
+      "DriverDate": "2026-09-21T17:00:00-07:00",
+      "AdapterRAM": null,
+      "PNPDeviceID": "ACPI\\NVDA200A\\0"
+    },
+    {
+      "Name": "NVIDIA RTX Spark N1X (6144-core Blackwell RTX GPU)",
+      "DriverVersion": "32.0.16.1721",
+      "DriverDate": "2026-09-21T17:00:00-07:00",
+      "AdapterRAM": 4293918720,
+      "PNPDeviceID": "PCI\\VEN_10DE&DEV_2E03&SUBSYS_8F22103C&REV_A1\\00000000002DB04800"
+    }
+  ],
+  "optionalFeatureInventory": [
+    {
+      "Name": "VirtualMachinePlatform",
+      "InstallState": 2
+    },
+    {
+      "Name": "HypervisorPlatform",
+      "InstallState": 2
+    },
+    {
+      "Name": "Microsoft-Windows-Subsystem-Linux",
+      "InstallState": 2
+    },
+    {
+      "Name": "Microsoft-Hyper-V-All",
+      "InstallState": 2
+    },
+    {
+      "Name": "Microsoft-Hyper-V",
+      "InstallState": 2
+    },
+    {
+      "Name": "Microsoft-Hyper-V-Tools-All",
+      "InstallState": 2
+    },
+    {
+      "Name": "Microsoft-Hyper-V-Management-PowerShell",
+      "InstallState": 2
+    },
+    {
+      "Name": "Microsoft-Hyper-V-Hypervisor",
+      "InstallState": 2
+    },
+    {
+      "Name": "Microsoft-Hyper-V-Services",
+      "InstallState": 2
+    },
+    {
+      "Name": "Microsoft-Hyper-V-Management-Clients",
+      "InstallState": 2
+    }
+  ],
+  "whp": {
+    "hypervisorPresent": 1,
+    "capabilityHResult": "0x00000000",
+    "createPartitionHResult": "0x00000000"
+  },
+  "gpuSensor": "NVIDIA RTX Spark N1X (6144-core Blackwell RTX GPU), 617.21, 98304 MiB, 0.98 W, [N/A]\r\nNVIDIA NPU, 617.21, [N/A], 0.00 W, [N/A]",
+  "memoryCaution": "Win32 host RAM, legacy AdapterRAM and nvidia-smi device memory disagree on this host. They are reported separately; unified/shared memory is not inferred."
+}

@@ -1,0 +1,5 @@
+/system/fonts/NotoSansCJK-Regular.ttc
+2025-06-05
+userdebug
+1
+Disabled

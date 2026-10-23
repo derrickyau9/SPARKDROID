@@ -1,0 +1,11 @@
+COMMAND: C:\Users\RTX-SPARK\Documents\RTX ANDROID\tools\android\platform-tools\adb.exe
+ARGUMENTS: ["-s","127.0.0.1:15555","shell","uname","-a"]
+EXIT: 0
+TIMED OUT: False
+ELAPSED MS: 69.247
+
+STDOUT
+Linux localhost 6.8.0-147-generic #147-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep 24 11:39:52 UTC 2026 aarch64 Toybox
+
+STDERR
+

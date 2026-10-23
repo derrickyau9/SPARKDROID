@@ -1,0 +1,67 @@
+COMMAND: C:\Windows\System32\OpenSSH\ssh.exe
+ARGUMENTS: ["-p","22222","-i","C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\state\\ssh_key","-o","BatchMode=yes","-o","ConnectTimeout=5","-o","StrictHostKeyChecking=accept-new","-o","UserKnownHostsFile=C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\state\\known_hosts","spark@127.0.0.1","uname -a; cat /proc/meminfo; cat /proc/loadavg"]
+EXIT: 0
+TIMED OUT: False
+ELAPSED MS: 323.559
+
+STDOUT
+Linux sparkdroid 6.8.0-147-generic #147-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep 24 11:39:52 UTC 2026 aarch64 aarch64 aarch64 GNU/Linux
+MemTotal:        6048864 kB
+MemFree:          395572 kB
+MemAvailable:    4708464 kB
+Buffers:           54840 kB
+Cached:          4370444 kB
+SwapCached:            0 kB
+Active:          1078680 kB
+Inactive:        3952028 kB
+Active(anon):     669152 kB
+Inactive(anon):        0 kB
+Active(file):     409528 kB
+Inactive(file):  3952028 kB
+Unevictable:       63104 kB
+Mlocked:           63104 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Zswap:                 0 kB
+Zswapped:              0 kB
+Dirty:             49140 kB
+Writeback:             0 kB
+AnonPages:        668572 kB
+Mapped:           694196 kB
+Shmem:             23200 kB
+KReclaimable:     185272 kB
+Slab:             335524 kB
+SReclaimable:     185272 kB
+SUnreclaim:       150252 kB
+KernelStack:       20960 kB
+ShadowCallStack:    5240 kB
+PageTables:        55376 kB
+SecPageTables:         0 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     3024432 kB
+Committed_AS:   115428712 kB
+VmallocTotal:   133141626880 kB
+VmallocUsed:       41544 kB
+VmallocChunk:          0 kB
+Percpu:             5152 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:          32768 kB
+CmaFree:           29696 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+1.06 0.56 0.25 1/1308 23733
+
+STDERR
+Warning: Permanently added '[127.0.0.1]:22222' (ED25519) to the list of known hosts.
+

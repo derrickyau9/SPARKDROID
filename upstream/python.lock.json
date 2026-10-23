@@ -1,0 +1,7 @@
+{
+  "Url": "https://www.python.org/ftp/python/3.14.4/python-3.14.4-embed-arm64.zip",
+  "Sha256": "55bc0d232f16a8450e6c37c774e4cf397f5212d5e4603e5b92bd1fe85451eead",
+  "Version": "3.14.4",
+  "Architecture": "arm64",
+  "DigestSource": "Python.org Sigstore digest compared; signature not independently verified"
+}

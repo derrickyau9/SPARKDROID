@@ -1,0 +1,6 @@
+"utc","elapsedSeconds","intervalSeconds","hostCpuPercent","hostAvailablePhysicalBytes","hostTotalPhysicalBytes","vmPid","vmCpuPercentOneCore","vmCpuPercentWholeMachine","vmCpuSecondsTotal","vmWorkingSetBytes","vmPrivateBytes","gpuSensorCount","systemPowerWatts"
+"2026-10-23T06:58:02.4889931Z","2.0353","2.0264","7.7583","17366786048","32677478400",,,,,,,"2",
+"2026-10-23T06:58:04.4608626Z","4.0118","1.9766","10.0939","17360293888","32677478400",,,,,,,"2",
+"2026-10-23T06:58:06.4623049Z","6.0132","2.0014","9.7163","17365164032","32677478400",,,,,,,"2",
+"2026-10-23T06:58:08.4705851Z","8.0215","2.0083","8.9628","17358360576","32677478400",,,,,,,"2",
+"2026-10-23T06:58:10.4627642Z","10.0137","1.9922","5.7647","17342091264","32677478400",,,,,,,"2",

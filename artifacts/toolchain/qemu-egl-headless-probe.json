@@ -1,0 +1,25 @@
+{
+  "arguments": [
+    "-M",
+    "virt",
+    "-accel",
+    "whpx",
+    "-cpu",
+    "host",
+    "-m",
+    "512",
+    "-smp",
+    "1",
+    "-nodefaults",
+    "-display",
+    "egl-headless",
+    "-device",
+    "virtio-gpu-gl-pci",
+    "-S"
+  ],
+  "exitedBeforeTimeout": false,
+  "exitCode": -1,
+  "stdout": "",
+  "stderr": "",
+  "processArchitecture": "Arm64"
+}

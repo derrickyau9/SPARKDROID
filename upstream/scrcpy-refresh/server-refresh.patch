@@ -1,0 +1,79 @@
+diff --git "a/C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\tools\\scrcpy-refresh-build/src/com/genymobile/scrcpy/BuildConfig.java" "b/C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\tools\\scrcpy-refresh-build/src/com/genymobile/scrcpy/BuildConfig.java"
+new file mode 100644
+index 0000000..51a2468
+--- /dev/null
++++ "b/C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\tools\\scrcpy-refresh-build/src/com/genymobile/scrcpy/BuildConfig.java"	
+@@ -0,0 +1 @@
++package com.genymobile.scrcpy; public final class BuildConfig { public static final boolean DEBUG=false; public static final String VERSION_NAME="5.0.1"; }
+\ No newline at end of file
+diff --git "a/C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\tools\\scrcpy-source/server/src/main/java/com/genymobile/scrcpy/video/NewDisplayCapture.java" "b/C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\tools\\scrcpy-refresh-build/src/com/genymobile/scrcpy/video/NewDisplayCapture.java"
+index 53afb85..b868426 100644
+--- "a/C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\tools\\scrcpy-source/server/src/main/java/com/genymobile/scrcpy/video/NewDisplayCapture.java"	
++++ "b/C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\tools\\scrcpy-refresh-build/src/com/genymobile/scrcpy/video/NewDisplayCapture.java"	
+@@ -43,7 +43,8 @@ public class NewDisplayCapture extends SurfaceCapture {
+     private static final int VIRTUAL_DISPLAY_FLAG_DEVICE_DISPLAY_GROUP = 1 << 15;
+ 
+     private final VirtualDisplayListener vdListener;
+-    private final NewDisplay newDisplay;
++    private final NewDisplay newDisplay;
++    private final float requestedRefreshRate;
+ 
+     private final DisplayMonitor displayMonitor = new DisplayMonitor();
+ 
+@@ -76,7 +77,8 @@ public class NewDisplayCapture extends SurfaceCapture {
+ 
+     public NewDisplayCapture(VirtualDisplayListener vdListener, Options options) {
+         this.vdListener = vdListener;
+-        this.newDisplay = options.getNewDisplay();
++        this.newDisplay = options.getNewDisplay();
++        this.requestedRefreshRate = options.getMaxFps();
+         assert newDisplay != null;
+         this.displayImePolicy = options.getDisplayImePolicy();
+         this.crop = options.getCrop();
+@@ -232,8 +234,8 @@ public class NewDisplayCapture extends SurfaceCapture {
+                 }
+             }
+             VirtualDisplay vd = ServiceManager.getDisplayManager()
+-                    .createNewVirtualDisplay("scrcpy", displaySize.getWidth(), displaySize.getHeight(), dpi, surface, flags);
+-            setCurrentVirtualDisplay(vd); // used for client resize
++                    .createNewVirtualDisplay("scrcpy", displaySize.getWidth(), displaySize.getHeight(), dpi, surface, flags, requestedRefreshRate);
++            Ln.i("SPARKDROID requested virtual refresh: " + requestedRefreshRate + " Hz"); setCurrentVirtualDisplay(vd); // used for client resize
+             int virtualDisplayId = vd.getDisplay().getDisplayId();
+             Ln.i("New display: " + displaySize.getWidth() + "x" + displaySize.getHeight() + "/" + dpi + " (id=" + virtualDisplayId + ")");
+ 
+diff --git "a/C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\tools\\scrcpy-source/server/src/main/java/com/genymobile/scrcpy/wrappers/DisplayManager.java" "b/C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\tools\\scrcpy-refresh-build/src/com/genymobile/scrcpy/wrappers/DisplayManager.java"
+index eca2708..2ff0ae9 100644
+--- "a/C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\tools\\scrcpy-source/server/src/main/java/com/genymobile/scrcpy/wrappers/DisplayManager.java"	
++++ "b/C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\tools\\scrcpy-refresh-build/src/com/genymobile/scrcpy/wrappers/DisplayManager.java"	
+@@ -10,7 +10,9 @@ import com.genymobile.scrcpy.util.Ln;
+ import android.annotation.SuppressLint;
+ import android.annotation.TargetApi;
+ import android.content.Context;
+-import android.hardware.display.VirtualDisplay;
++import android.hardware.display.VirtualDisplay;
++import android.hardware.display.VirtualDisplayConfig;
++import android.os.Build;
+ import android.os.Handler;
+ import android.view.Display;
+ import android.view.Surface;
+@@ -173,11 +175,19 @@ public final class DisplayManager {
+         return (VirtualDisplay) method.invoke(null, name, width, height, displayIdToMirror, surface);
+     }
+ 
+-    public VirtualDisplay createNewVirtualDisplay(String name, int width, int height, int dpi, Surface surface, int flags) throws Exception {
++    public VirtualDisplay createNewVirtualDisplay(String name, int width, int height, int dpi, Surface surface, int flags, float refreshRate) throws Exception {
+         Constructor<android.hardware.display.DisplayManager> ctor = android.hardware.display.DisplayManager.class.getDeclaredConstructor(
+                 Context.class);
+         ctor.setAccessible(true);
+         android.hardware.display.DisplayManager dm = ctor.newInstance(FakeContext.get());
++        if (Build.VERSION.SDK_INT >= 34) {
++            VirtualDisplayConfig config = new VirtualDisplayConfig.Builder(name, width, height, dpi)
++                    .setFlags(flags).setSurface(surface).setRequestedRefreshRate(refreshRate).build();
++            return dm.createVirtualDisplay(config);
++        }
++        if (refreshRate > 60) {
++            throw new UnsupportedOperationException("SPARKDROID high-refresh displays require Android 14+");
++        }
+         return dm.createVirtualDisplay(name, width, height, dpi, surface, flags);
+     }
+ 

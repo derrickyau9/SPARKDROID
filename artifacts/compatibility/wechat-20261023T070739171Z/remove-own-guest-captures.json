@@ -1,0 +1,15 @@
+{
+  "name": "remove-own-guest-captures",
+  "arguments": [
+    "shell",
+    "rm",
+    "-f",
+    "/sdcard/sparkdroid-wechat-20261023T070739171Z.png",
+    "/sdcard/sparkdroid-wechat-20261023T070739171Z.xml"
+  ],
+  "exitCode": 0,
+  "timedOut": false,
+  "elapsedMilliseconds": 76.331,
+  "stdout": "",
+  "stderr": ""
+}

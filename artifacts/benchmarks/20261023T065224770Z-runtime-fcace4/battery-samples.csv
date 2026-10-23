@@ -1,0 +1,6 @@
+"utc","elapsedSeconds","instanceName","powerOnline","charging","discharging","dischargeRateRaw","remainingCapacityRaw","voltageRaw","systemPowerWatts"
+"2026-10-23T06:52:29.0988262Z","2.0254","ACPI\PNP0C0A\0_0","True","False","False",,"61230","16830",
+"2026-10-23T06:52:31.0846969Z","4.0172","ACPI\PNP0C0A\0_0","True","False","False",,"61230","16830",
+"2026-10-23T06:52:33.0823011Z","6.0148","ACPI\PNP0C0A\0_0","True","False","False",,"61230","16830",
+"2026-10-23T06:52:35.0906976Z","8.0232","ACPI\PNP0C0A\0_0","True","False","False",,"61230","16830",
+"2026-10-23T06:52:37.0865333Z","10.019","ACPI\PNP0C0A\0_0","True","False","False",,"61230","16830",

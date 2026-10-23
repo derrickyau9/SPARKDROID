@@ -1,0 +1,15 @@
+{
+  "dynamicReclamationAccepted": false,
+  "backend": "Windows ARM64 QEMU 11.1.2 WHPX",
+  "configuredBootMemoryMiB": 6144,
+  "requestedBalloonMemoryMiB": 4096,
+  "observations": [
+    "QMP accepted balloon request, but reported actual memory initially remained about 6 GiB.",
+    "QEMU working set decreased from about 6.5 GB to about 3.7 GB.",
+    "ADB and SSH became unresponsive; restoring target to 6144 MiB did not restore responsiveness.",
+    "QEMU emitted MADVISE not available while inflating and Couldn't MADV_WILLNEED on balloon deflate: Invalid argument.",
+    "The later normal Stop operation succeeded cleanly, followed by a successful boot without a balloon device. Emergency termination was not needed."
+  ],
+  "cause": "Host memory discard is unsupported in this build's Win32 path. The precise cause of the observed guest liveness failure remains unestablished; the paging-hint warning alone is not causal proof.",
+  "resolution": "Remove virtio-balloon from the supported VM configuration, reject ReclaimMemory, use fixed startup profiles and recover the test guest explicitly."
+}

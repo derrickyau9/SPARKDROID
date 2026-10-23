@@ -1,0 +1,17 @@
+COMMAND: C:\Users\RTX-SPARK\Documents\RTX ANDROID\tools\android\platform-tools\adb.exe
+ARGUMENTS: ["-s","127.0.0.1:15555","shell","am","start","-W","-n","org.videolan.vlc/.StartActivity"]
+EXIT: 0
+TIMED OUT: False
+ELAPSED MS: 569.778
+
+STDOUT
+Starting: Intent { cmp=org.videolan.vlc/.StartActivity }
+Status: ok
+LaunchState: COLD
+Activity: org.videolan.vlc/.gui.onboarding.OnboardingActivity
+TotalTime: 472
+WaitTime: 474
+Complete
+
+STDERR
+

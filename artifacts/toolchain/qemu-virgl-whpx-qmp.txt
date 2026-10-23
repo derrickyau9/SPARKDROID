@@ -1,0 +1,8 @@
+{"QMP": {"version": {"qemu": {"micro": 2, "minor": 1, "major": 11}, "package": ""}, "capabilities": ["oob"]}}
+{"return": {}, "id": "qmp_capabilities"}
+{"return": {"status": "prelaunch", "running": false}, "id": "query-status"}
+{"return": [{"thread-id": 21544, "qom-type": "host-arm-cpu", "props": {"core-id": 0, "thread-id": 0, "socket-id": 0, "cluster-id": 0}, "qom-path": "/machine/unattached/device[0]", "cpu-index": 0, "target": "aarch64"}], "id": "query-cpus-fast"}
+{"timestamp": {"seconds": 1792738194, "microseconds": 677503}, "event": "SHUTDOWN", "data": {"guest": false, "reason": "host-qmp-quit"}}
+{"return": {}, "id": "quit"}
+
+

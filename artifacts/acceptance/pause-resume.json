@@ -1,0 +1,7 @@
+{
+  "measuredUtc": "2026-10-23T07:16:48.2063167Z",
+  "durationSeconds": 5.0141628,
+  "processCpuSeconds": 0.03125,
+  "workingSetBytes": 3278102528,
+  "note": "Manual QMP pause; Android background services and notifications are paused too. RAM remains allocated."
+}

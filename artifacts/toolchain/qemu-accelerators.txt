@@ -1,0 +1,4 @@
+Accelerators supported in QEMU binary:
+whpx
+tcg
+

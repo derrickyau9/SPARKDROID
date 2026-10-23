@@ -1,0 +1,10 @@
+{
+  "qemuVersion": "11.1.2",
+  "hostBackend": "Windows ARM64 WHPX",
+  "log": "artifacts/logs/qemu-20261023T070513Z.err.log",
+  "logBytes": 1368187,
+  "inflateUnsupportedDiscardMessages": 3840,
+  "deflateUnsupportedHintMessages": 3840,
+  "hostRamDiscardValidated": false,
+  "note": "Unsupported host RAM discard is directly logged. Guest unresponsiveness is observed by root runtime testing; exact hang mechanism is not proven."
+}

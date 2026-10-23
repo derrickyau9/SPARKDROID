@@ -1,0 +1,55 @@
+{
+  "file": "artifacts/apks/VLC-Android-3.7.1-arm64-v8a.apk",
+  "bytes": 47990842,
+  "sha256": "bea9ea0cdecfd8f461ef305d2afe5d1ac1459cfb9156acce2f615788a486de74",
+  "package": "org.videolan.vlc",
+  "version_name": "3.7.1",
+  "version_code": 13070106,
+  "min_sdk": 17,
+  "target_sdk": 36,
+  "native_libraries": [
+    {
+      "path": "lib/arm64-v8a/libc++_shared.so",
+      "bytes": 1253544,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "sha256": "cd61762848882a16c8244c964a6f396c0caa0b440588a210ce9cc4ab0e6d9f0c"
+    },
+    {
+      "path": "lib/arm64-v8a/libmla.so",
+      "bytes": 5304024,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "sha256": "d271097f8b4ecc3376a4a6bebf0cf3a88df4ee233a04bff5dc6641706be2fddd"
+    },
+    {
+      "path": "lib/arm64-v8a/libvlc.so",
+      "bytes": 42827720,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "sha256": "5155c767d8d28294296f358bffb890ac537df99eb9a5cc26931bbeb08b5b2ad4"
+    },
+    {
+      "path": "lib/arm64-v8a/libvlcjni.so",
+      "bytes": 94296,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "sha256": "93d40e1fb2b2cefdbc1a01c3494eef11883be00cb33eaa3d29044f93742081fb"
+    }
+  ],
+  "signature_blocks": [
+    {
+      "id": "0x7109871a",
+      "type": "APK Signature Scheme v2"
+    },
+    {
+      "id": "0xf05368c0",
+      "type": "APK Signature Scheme v3"
+    },
+    {
+      "id": "0x42726577",
+      "type": "Verity padding"
+    }
+  ],
+  "signature_verification": "Presence inspected; Android package-manager cryptographic verification pending install"
+}

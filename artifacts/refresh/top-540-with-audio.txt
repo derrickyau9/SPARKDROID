@@ -1,0 +1,180 @@
+Tasks: 84 total,   1 running,  83 sleeping,   0 stopped,   0 zombie
+  Mem:  8108288K total,  2826544K used,  5281744K free,    33184K buffers
+ Swap:        0K total,        0K used,        0K free,  1609336K cached
+800%cpu   0%user   0%nice   4%sys 796%idle   0%iow   0%irq   0%sirq   0%host
+    PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+    175 system       -3   0  10G  10M 8.8M S  8.0   0.1   0:09.69 android.hardware.graphics.composer@2.1-service
+  21235 shell        20   0  10G 5.1M 4.4M R  4.0   0.0   0:00.01 top -b -n 2 -d 2
+    193 system       -3  -8  11G 115M  46M S  4.0   1.4   3:58.69 surfaceflinger
+  21161 u0_a90       20   0  16G 158M  98M S  0.0   2.0   0:28.25 dev.sparkdroid.frameprobe
+   2119 bluetooth    20   0  32T  16M  10M S  0.0   0.1   0:00.00 android.hardware.bluetooth@1.1-service.sim
+   1804 u0_a89       20   0  19G 286M 199M S  0.0   3.6   0:02.08 com.tencent.mm:push
+   1651 u0_a25       20   0  16G 105M  52M S  0.0   1.3   0:00.04 com.android.externalstorage
+   1631 u0_a74       20   0  16G 107M  54M S  0.0   1.3   0:00.10 com.android.photopicker
+   1568 system       20   0  16G 104M  51M S  0.0   1.3   0:00.08 com.android.localtransport
+   1527 u0_a89       20   0 134G 511M 382M S  0.0   6.4   0:06.09 com.tencent.mm
+   1514 u0_a61       20   0  16G 112M  57M S  0.0   1.4   0:00.08 com.android.statementservice
+   1494 shell        20   0  16G 103M  50M S  0.0   1.3   0:00.03 com.android.shell
+   1478 u0_a87       20   0  16G 115M  60M S  0.0   1.4   0:00.05 com.android.rkpdapp
+   1463 u0_a15       20   0  16G 111M  57M S  0.0   1.3   0:00.03 com.android.providers.calendar
+   1450 u0_a12       20   0  16G 104M  51M S  0.0   1.3   0:00.03 com.android.packageinstaller
+   1417 u0_a77       20   0  16G 105M  51M S  0.0   1.3   0:00.05 com.android.ondevicepersonalization.services
+   1386 u0_a16       20   0  16G 107M  53M S  0.0   1.3   0:00.07 com.android.managedprovisioning
+   1372 u0_a66       20   0  16G 108M  55M S  0.0   1.3   0:00.10 com.android.healthconnect.controller
+   1343 system       20   0  16G 104M  51M S  0.0   1.3   0:00.07 com.android.dynsystem:dynsystem
+   1342 u0_a78       20   0  16G 103M  50M S  0.0   1.3   0:00.08 com.android.federatedcompute.services
+   1329 system       20   0  16G 104M  51M S  0.0   1.3   0:00.02 com.android.dynsystem
+   1295 u0_a23       20   0  16G 108M  55M S  0.0   1.3   0:00.09 com.android.devicediagnostics
+   1271 u0_a65       20   0  16G 111M  58M S  0.0   1.4   0:00.08 .adservices
+   1247 u0_a27       20   0  16G 106M  52M S  0.0   1.3   0:00.09 com.android.printspooler
+   1185 u0_a88       20   0  17G 148M  90M S  0.0   1.8   0:00.37 org.videolan.vlc
+   1130 u0_a41       20   0  16G 106M  53M S  0.0   1.3   0:00.14 com.android.traceur
+   1086 system       20   0  16G 107M  53M S  0.0   1.3   0:00.10 com.android.keychain
+   1075 u0_a14       20   0  16G 120M  66M S  0.0   1.5   0:00.26 android.process.media
+   1072 u0_a17       20   0  16G 121M  66M S  0.0   1.5   0:00.27 android.process.acore
+   1056 u0_a47       20   0  16G 104M  50M S  0.0   1.3   0:00.12 com.android.quicksearchbox
+   1029 u0_a75       20   0  16G 139M  80M S  0.0   1.7   0:00.51 com.android.providers.media.module
+   1001 u0_a65       20   0  16G 110M  57M S  0.0   1.3   0:00.10 android.ext.services
+    997 u0_a54       10 -10  16G 137M  79M S  0.0   1.7   0:00.40 com.android.inputmethod.latin
+    907 u0_a58       10 -10  17G 239M 128M S  0.0   3.0   0:08.27 com.android.launcher3
+    841 u0_a69       20   0  16G 131M  73M S  0.0   1.6   0:00.28 com.android.permissioncontroller
+    759 system       20   0  16G 179M 119M S  0.0   2.2   0:00.51 com.android.settings
+    739 radio        20   0  16G 116M  61M S  0.0   1.4   0:00.10 com.android.phone
+    728 secure_element 20 0  16G 106M  52M S  0.0   1.3   0:00.07 com.android.se
+    713 network_stack 20  0  16G 123M  67M S  0.0   1.5   0:00.28 com.android.networkstack.process
+    693 webview_zygote 20 0  33G 100M  44M S  0.0   1.2   0:00.06 webview_zygote
+    627 u0_a62       20   0  18G 268M 164M S  0.0   3.3   0:07.48 com.android.systemui
+    351 system       18  -2  21G 429M 290M S  0.0   5.4   0:08.78 system_server
+    250 system       20   0  10G 6.3M 5.9M S  0.0   0.0   0:00.05 gatekeeperd /data/misc/gatekeeper
+    242 mediacodec   20   0  11G  44M  39M S  0.0   0.5   1:16.18 media.swcodec oid.media.swcodec/bin/mediaswcodec
+    241 radio        20   0  10G 7.6M 7.1M S  0.0   0.0   0:00.07 rild
+    240 wifi         20   0  10G 7.2M 6.6M S  0.0   0.0   0:00.04 wificond
+    237 root         30  10  10G 5.8M 5.3M S  0.0   0.0   0:00.04 storaged
+    236 media        20   0  11G  32M  28M S  0.0   0.4   0:00.32 mediaserver
+    235 media        20   0  10G 8.3M 7.2M S  0.0   0.1   0:00.09 media.metrics diametrics
+    234 mediaex      20   0  11G  31M  27M S  0.0   0.3   0:00.28 media.extractor aextractor
+    233 root         20   0  10G 6.6M 5.7M S  0.0   0.0   0:00.13 installd
+    232 incidentd    20   0  10G 5.6M 5.0M S  0.0   0.0   0:00.02 incidentd
+    230 cameraserver 20   0  11G  28M  25M S  0.0   0.3   0:00.23 cameraserver
+    220 nobody       20   0  10G 6.8M 6.0M S  0.0   0.0   0:00.03 traced
+    219 mdnsr        20   0  10G 3.7M 3.2M S  0.0   0.0   0:00.01 mdnsd
+    211 nobody       20   0  10G 3.8M 3.3M S  0.0   0.0   0:00.02 traced_probes
+    201 shell        20   0  11G  11M 6.6M S  0.0   0.1   0:04.88 adbd --root_seclabel=u:r:su:s0 --tim_seclabel=u:r:adbd_tradeinmode:s0
+    191 gpu_service  20   0  10G 8.0M 7.4M S  0.0   0.1   0:00.05 gpuservice
+    186 credstore    20   0  10G 8.2M 7.2M S  0.0   0.1   0:00.03 credstore /data/misc/credstore
+    182 audioserver  20   0  11G  29M  24M S  0.0   0.3   0:01.00 audioserver
+    179 media        20   0  10G 4.5M 4.0M S  0.0   0.0   0:00.03 android.hardware.cas-service.example
+    178 nobody       20   0  10G 5.6M 5.2M S  0.0   0.0   0:00.04 android.hardware.power-service.example
+    177 system       20   0  10G 4.8M 4.5M S  0.0   0.0   0:00.01 android.hardware.thermal@2.0-service.mock
+    176 system       20   0  10G 6.3M 5.7M S  0.0   0.0   0:00.03 android.hardware.health-service.example
+    174 system       20   0  10G 5.0M 4.5M S  0.0   0.0   0:00.07 android.hardware.graphics.allocator@2.0-service
+    173 system       20   0  10G 6.2M 5.7M S  0.0   0.0   0:00.01 android.hardware.gatekeeper@1.0-service.software
+    171 audioserver  20   0  10G  11M  10M S  0.0   0.1   0:00.52 android.hardware.audio.service
+    170 system       20   0  10G 3.9M 3.7M S  0.0   0.0   0:00.01 android.hidl.allocator@1.0-service
+    158 root         20   0  15G 197M 145M S  0.0   2.4   0:02.43 zygote64
+    157 statsd       20   0  10G 6.0M 5.3M S  0.0   0.0   0:00.23 statsd
+    156 root         20   0  11G  13M  11M S  0.0   0.1   0:01.00 netd
+     84 tombstoned   20   0  10G 3.1M 2.9M S  0.0   0.0   0:00.01 tombstoned
+     80 system       20   0  10G 7.7M 7.0M S  0.0   0.0   0:00.02 android.hardware.keymaster@4.1-service
+     79 keystore     20   0  11G  15M  13M S  0.0   0.1   0:00.05 keystore2 /data/misc/keystore
+     78 system       20   0  10G 5.4M 4.8M S  0.0   0.0   0:00.09 android.system.suspend-service
+     72 root         20   0  11G 8.9M 7.9M S  0.0   0.1   0:00.06 vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+     59 system       20   0  10G 6.5M 5.7M S  0.0   0.0   0:00.07 hwservicemanager
+     58 system       20   0  10G 5.7M 5.2M S  0.0   0.0   0:01.54 servicemanager
+     57 lmkd         -2   0  10G 4.2M 3.6M S  0.0   0.0   0:00.05 lmkd
+     56 logd         30  10  10G 7.2M 4.5M S  0.0   0.0   0:00.70 logd
+     52 prng_seeder  20   0  10G 6.8M 6.0M S  0.0   0.0   0:00.02 prng_seeder
+     10 root         20   0  10G 8.0M 6.8M S  0.0   0.1   0:00.01 ueventd
+      9 root         20   0  10G 7.7M 6.4M S  0.0   0.0   0:00.01 init subcontext u:r:vendor_init:s0 16
+      1 root         20   0  10G  13M  10M S  0.0   0.1   0:00.95 init second_stage qemu=1 androidboot.hardware=redroid androidboot.use_memfd=1 androidboot.redroid_width=720 androidboot.redroid_height=1280 androidboot.redroid_dpi=240 androidboot.redroid_net_ndns=2 androidboot.redroid_net_dns1=1.1.1.1 androidboot.redroid_net_dns2=8.8.8.8 androidboot.redroid_gpu_mode=guest androidboot.redroid_fps=120
+
+
+
+Tasks: 83 total,   1 running,  82 sleeping,   0 stopped,   0 zombie
+  Mem:  8108288K total,  3047344K used,  5060944K free,    33192K buffers
+ Swap:        0K total,        0K used,        0K free,  1654720K cached
+800%cpu 325%user   3%nice 148%sys 315%idle   1%iow   0%irq   9%sirq   0%host
+    PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+    193 system       -3  -8  11G 115M  46M S  219   1.4   3:58.70 surfaceflinger
+    242 mediacodec   20   0  11G  44M  39M S 45.5   0.5   1:16.18 media.swcodec oid.media.swcodec/bin/mediaswcodec
+    627 u0_a62       20   0  18G 268M 164M S 37.5   3.3   0:07.48 com.android.systemui
+    351 system       18  -2  21G 429M 290M S 29.0   5.4   0:08.78 system_server
+    907 u0_a58       10 -10  17G 239M 128M S 15.5   3.0   0:08.27 com.android.launcher3
+    201 shell        20   0  11G  11M 6.6M S  8.0   0.1   0:04.88 adbd --root_seclabel=u:r:su:s0 --tim_seclabel=u:r:adbd_tradeinmode:s0
+    182 audioserver  20   0  11G  29M  24M S  4.5   0.3   0:01.00 audioserver
+    175 system       -3   0  10G  10M 8.8M S  4.5   0.1   0:09.71 android.hardware.graphics.composer@2.1-service
+    997 u0_a54       10 -10  16G 137M  79M S  3.5   1.7   0:00.40 com.android.inputmethod.latin
+     58 system       20   0  10G 5.7M 5.2M S  3.5   0.0   0:01.54 servicemanager
+    171 audioserver  20   0  10G  11M  10M S  1.5   0.1   0:00.52 android.hardware.audio.service
+     56 logd         30  10  10G 7.2M 4.5M S  1.5   0.0   0:00.70 logd
+    157 statsd       20   0  10G 6.0M 5.3M S  1.0   0.0   0:00.23 statsd
+   1804 u0_a89       20   0  19G 286M 199M S  0.5   3.6   0:02.08 com.tencent.mm:push
+    759 system       20   0  16G 179M 119M S  0.5   2.2   0:00.51 com.android.settings
+    178 nobody       20   0  10G 5.6M 5.2M S  0.5   0.0   0:00.04 android.hardware.power-service.example
+    174 system       20   0  10G 5.0M 4.5M S  0.5   0.0   0:00.07 android.hardware.graphics.allocator@2.0-service
+    158 root         20   0  15G 197M 145M S  0.5   2.4   0:02.43 zygote64
+    156 root         20   0  11G  13M  11M S  0.5   0.1   0:01.00 netd
+     57 lmkd         -2   0  10G 4.2M 3.6M S  0.5   0.0   0:00.05 lmkd
+  21235 shell        20   0  10G 5.1M 4.4M R  0.0   0.0   0:00.02 top -b -n 2 -d 2
+   2119 bluetooth    20   0  32T  16M  10M S  0.0   0.1   0:00.00 android.hardware.bluetooth@1.1-service.sim
+   1651 u0_a25       20   0  16G 105M  52M S  0.0   1.3   0:00.04 com.android.externalstorage
+   1631 u0_a74       20   0  16G 107M  54M S  0.0   1.3   0:00.10 com.android.photopicker
+   1568 system       20   0  16G 104M  51M S  0.0   1.3   0:00.08 com.android.localtransport
+   1527 u0_a89       20   0 134G 511M 382M S  0.0   6.4   0:06.09 com.tencent.mm
+   1514 u0_a61       20   0  16G 112M  57M S  0.0   1.4   0:00.08 com.android.statementservice
+   1494 shell        20   0  16G 103M  50M S  0.0   1.3   0:00.03 com.android.shell
+   1478 u0_a87       20   0  16G 115M  60M S  0.0   1.4   0:00.05 com.android.rkpdapp
+   1463 u0_a15       20   0  16G 111M  57M S  0.0   1.3   0:00.03 com.android.providers.calendar
+   1450 u0_a12       20   0  16G 104M  51M S  0.0   1.3   0:00.03 com.android.packageinstaller
+   1417 u0_a77       20   0  16G 105M  51M S  0.0   1.3   0:00.05 com.android.ondevicepersonalization.services
+   1386 u0_a16       20   0  16G 107M  53M S  0.0   1.3   0:00.07 com.android.managedprovisioning
+   1372 u0_a66       20   0  16G 108M  55M S  0.0   1.3   0:00.10 com.android.healthconnect.controller
+   1343 system       20   0  16G 104M  51M S  0.0   1.3   0:00.07 com.android.dynsystem:dynsystem
+   1342 u0_a78       20   0  16G 103M  50M S  0.0   1.3   0:00.08 com.android.federatedcompute.services
+   1329 system       20   0  16G 104M  51M S  0.0   1.3   0:00.02 com.android.dynsystem
+   1295 u0_a23       20   0  16G 108M  55M S  0.0   1.3   0:00.09 com.android.devicediagnostics
+   1271 u0_a65       20   0  16G 111M  58M S  0.0   1.4   0:00.08 .adservices
+   1247 u0_a27       20   0  16G 106M  52M S  0.0   1.3   0:00.09 com.android.printspooler
+   1185 u0_a88       20   0  17G 148M  90M S  0.0   1.8   0:00.37 org.videolan.vlc
+   1130 u0_a41       20   0  16G 106M  53M S  0.0   1.3   0:00.14 com.android.traceur
+   1086 system       20   0  16G 107M  53M S  0.0   1.3   0:00.10 com.android.keychain
+   1075 u0_a14       20   0  16G 120M  66M S  0.0   1.5   0:00.26 android.process.media
+   1072 u0_a17       20   0  16G 121M  66M S  0.0   1.5   0:00.27 android.process.acore
+   1056 u0_a47       20   0  16G 104M  50M S  0.0   1.3   0:00.12 com.android.quicksearchbox
+   1029 u0_a75       20   0  16G 139M  80M S  0.0   1.7   0:00.51 com.android.providers.media.module
+   1001 u0_a65       20   0  16G 110M  57M S  0.0   1.3   0:00.10 android.ext.services
+    841 u0_a69       20   0  16G 131M  73M S  0.0   1.6   0:00.28 com.android.permissioncontroller
+    739 radio        20   0  16G 116M  61M S  0.0   1.4   0:00.10 com.android.phone
+    728 secure_element 20 0  16G 106M  52M S  0.0   1.3   0:00.07 com.android.se
+    713 network_stack 20  0  16G 123M  67M S  0.0   1.5   0:00.28 com.android.networkstack.process
+    693 webview_zygote 20 0  33G 100M  44M S  0.0   1.2   0:00.06 webview_zygote
+    250 system       20   0  10G 6.3M 5.9M S  0.0   0.0   0:00.05 gatekeeperd /data/misc/gatekeeper
+    241 radio        20   0  10G 7.6M 7.1M S  0.0   0.0   0:00.07 rild
+    240 wifi         20   0  10G 7.2M 6.6M S  0.0   0.0   0:00.04 wificond
+    237 root         30  10  10G 5.8M 5.3M S  0.0   0.0   0:00.04 storaged
+    236 media        20   0  11G  32M  28M S  0.0   0.4   0:00.32 mediaserver
+    235 media        20   0  10G 8.3M 7.2M S  0.0   0.1   0:00.09 media.metrics diametrics
+    234 mediaex      20   0  11G  31M  27M S  0.0   0.3   0:00.28 media.extractor aextractor
+    233 root         20   0  10G 6.6M 5.7M S  0.0   0.0   0:00.13 installd
+    232 incidentd    20   0  10G 5.6M 5.0M S  0.0   0.0   0:00.02 incidentd
+    230 cameraserver 20   0  11G  28M  25M S  0.0   0.3   0:00.23 cameraserver
+    220 nobody       20   0  10G 6.8M 6.0M S  0.0   0.0   0:00.03 traced
+    219 mdnsr        20   0  10G 3.7M 3.2M S  0.0   0.0   0:00.01 mdnsd
+    211 nobody       20   0  10G 3.8M 3.3M S  0.0   0.0   0:00.02 traced_probes
+    191 gpu_service  20   0  10G 8.0M 7.4M S  0.0   0.1   0:00.05 gpuservice
+    186 credstore    20   0  10G 8.2M 7.2M S  0.0   0.1   0:00.03 credstore /data/misc/credstore
+    179 media        20   0  10G 4.5M 4.0M S  0.0   0.0   0:00.03 android.hardware.cas-service.example
+    177 system       20   0  10G 4.8M 4.5M S  0.0   0.0   0:00.01 android.hardware.thermal@2.0-service.mock
+    176 system       20   0  10G 6.3M 5.7M S  0.0   0.0   0:00.03 android.hardware.health-service.example
+    173 system       20   0  10G 6.2M 5.7M S  0.0   0.0   0:00.01 android.hardware.gatekeeper@1.0-service.software
+    170 system       20   0  10G 3.9M 3.7M S  0.0   0.0   0:00.01 android.hidl.allocator@1.0-service
+     84 tombstoned   20   0  10G 3.1M 2.9M S  0.0   0.0   0:00.01 tombstoned
+     80 system       20   0  10G 7.7M 7.0M S  0.0   0.0   0:00.02 android.hardware.keymaster@4.1-service
+     79 keystore     20   0  11G  15M  13M S  0.0   0.1   0:00.05 keystore2 /data/misc/keystore
+     78 system       20   0  10G 5.4M 4.8M S  0.0   0.0   0:00.09 android.system.suspend-service
+     72 root         20   0  11G 8.9M 7.9M S  0.0   0.1   0:00.06 vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+     59 system       20   0  10G 6.5M 5.7M S  0.0   0.0   0:00.07 hwservicemanager
+     52 prng_seeder  20   0  10G 6.8M 6.0M S  0.0   0.0   0:00.02 prng_seeder
+     10 root         20   0  10G 8.0M 6.8M S  0.0   0.1   0:00.01 ueventd
+      9 root         20   0  10G 7.7M 6.4M S  0.0   0.0   0:00.01 init subcontext u:r:vendor_init:s0 16
+      1 root         20   0  10G  13M  10M S  0.0   0.1   0:00.95 init second_stage qemu=1 androidboot.hardware=redroid androidboot.use_memfd=1 androidboot.redroid_width=720 androidboot.redroid_height=1280 androidboot.redroid_dpi=240 androidboot.redroid_net_ndns=2 androidboot.redroid_net_dns1=1.1.1.1 androidboot.redroid_net_dns2=8.8.8.8 androidboot.redroid_gpu_mode=guest androidboot.redroid_fps=120

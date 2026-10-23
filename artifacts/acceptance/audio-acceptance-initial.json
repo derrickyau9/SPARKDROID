@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "passed": false,
+  "startedUtc": "2026-10-23T07:10:08.1059729Z",
+  "completedUtc": "2026-10-23T07:10:26.7786803Z",
+  "serial": "127.0.0.1:15555",
+  "source": "Generated 18-second 440/880 Hz alternating PCM WAV played by Android VLC",
+  "route": "VLC -> Android remote_submix -> scrcpy raw audio -> Windows default playback endpoint -> WASAPI output loopback",
+  "microphoneOpened": false,
+  "captureDurationSeconds": 10,
+  "physicalAudibilityTested": false,
+  "analysis": "artifacts/acceptance/audio-loopback-analysis.json",
+  "recording": "artifacts/acceptance/audio-windows-output-loopback.wav",
+  "error": "Known alternating 440/880 Hz Android signal was not established at the Windows playback endpoint."
+}

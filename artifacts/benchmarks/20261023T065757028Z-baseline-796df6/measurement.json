@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "mode": "Baseline",
+  "workloadLabel": "SPARKDROID stopped; diagnostic GPU VM and other development host activity still present",
+  "startedUtc": "2026-10-23T06:58:00.4473438Z",
+  "observationEndedUtc": "2026-10-23T06:58:10.5419561Z",
+  "requestedSeconds": 10,
+  "actualObservationSeconds": 10.0049,
+  "nominalIntervalSeconds": 2,
+  "validStoppedRuntimeBaseline": true,
+  "host": {
+    "logicalProcessors": 20,
+    "physicalMemoryBytes": 32677478400,
+    "osArchitecture": "Arm64",
+    "processArchitecture": "Arm64"
+  },
+  "runtime": {
+    "backend": "whpx-linux-redroid",
+    "profile": "Balanced",
+    "configuredGraphics": "software-explicit",
+    "vmPid": null,
+    "vmExecutable": null,
+    "androidBootCompletedBeforeObservation": false,
+    "androidProperties": {},
+    "rendererEvidence": [],
+    "hardwareGraphicsAccelerationValidated": false
+  },
+  "summary": {
+    "hostCpuPercent": {
+      "count": 5,
+      "mean": 8.4592,
+      "minimum": 5.7647,
+      "maximum": 10.0939
+    },
+    "vmCpuPercentOneCore": null,
+    "vmCpuPercentWholeMachine": null,
+    "windowAverageVmCpuPercentOneCore": null,
+    "windowAverageVmCpuPercentWholeMachine": null,
+    "vmWorkingSetBytes": null,
+    "vmPrivateBytes": null,
+    "gpuDevices": [
+      {
+        "index": "0",
+        "name": "NVIDIA RTX Spark N1X (6144-core Blackwell RTX GPU)",
+        "devicePowerWatts": {
+          "count": 5,
+          "mean": 1.176,
+          "minimum": 0.94,
+          "maximum": 1.53
+        },
+        "utilizationPercent": {
+          "count": 5,
+          "mean": 2.0,
+          "minimum": 1.0,
+          "maximum": 3.0
+        }
+      },
+      {
+        "index": "1",
+        "name": "NVIDIA NPU",
+        "devicePowerWatts": {
+          "count": 5,
+          "mean": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "utilizationPercent": {
+          "count": 5,
+          "mean": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        }
+      }
+    ],
+    "systemPowerWatts": null
+  },
+  "samples": [
+    {
+      "utc": "2026-10-23T06:58:02.4889931Z",
+      "elapsedSeconds": 2.0353,
+      "intervalSeconds": 2.0264,
+      "hostCpuPercent": 7.7583,
+      "hostAvailablePhysicalBytes": 17366786048,
+      "hostTotalPhysicalBytes": 32677478400,
+      "vmPid": null,
+      "vmCpuPercentOneCore": null,
+      "vmCpuPercentWholeMachine": null,
+      "vmCpuSecondsTotal": null,
+      "vmWorkingSetBytes": null,
+      "vmPrivateBytes": null,
+      "gpuSensorCount": 2,
+      "systemPowerWatts": null
+    },
+    {
+      "utc": "2026-10-23T06:58:04.4608626Z",
+      "elapsedSeconds": 4.0118,
+      "intervalSeconds": 1.9766,
+      "hostCpuPercent": 10.0939,
+      "hostAvailablePhysicalBytes": 17360293888,
+      "hostTotalPhysicalBytes": 32677478400,
+      "vmPid": null,
+      "vmCpuPercentOneCore": null,
+      "vmCpuPercentWholeMachine": null,
+      "vmCpuSecondsTotal": null,
+      "vmWorkingSetBytes": null,
+      "vmPrivateBytes": null,
+      "gpuSensorCount": 2,
+      "systemPowerWatts": null
+    },
+    {
+      "utc": "2026-10-23T06:58:06.4623049Z",
+      "elapsedSeconds": 6.0132,
+      "intervalSeconds": 2.0014,
+      "hostCpuPercent": 9.7163,
+      "hostAvailablePhysicalBytes": 17365164032,
+      "hostTotalPhysicalBytes": 32677478400,
+      "vmPid": null,
+      "vmCpuPercentOneCore": null,
+      "vmCpuPercentWholeMachine": null,
+      "vmCpuSecondsTotal": null,
+      "vmWorkingSetBytes": null,
+      "vmPrivateBytes": null,
+      "gpuSensorCount": 2,
+      "systemPowerWatts": null
+    },
+    {
+      "utc": "2026-10-23T06:58:08.4705851Z",
+      "elapsedSeconds": 8.0215,
+      "intervalSeconds": 2.0083,
+      "hostCpuPercent": 8.9628,
+      "hostAvailablePhysicalBytes": 17358360576,
+      "hostTotalPhysicalBytes": 32677478400,
+      "vmPid": null,
+      "vmCpuPercentOneCore": null,
+      "vmCpuPercentWholeMachine": null,
+      "vmCpuSecondsTotal": null,
+      "vmWorkingSetBytes": null,
+      "vmPrivateBytes": null,
+      "gpuSensorCount": 2,
+      "systemPowerWatts": null
+    },
+    {
+      "utc": "2026-10-23T06:58:10.4627642Z",
+      "elapsedSeconds": 10.0137,
+      "intervalSeconds": 1.9922,
+      "hostCpuPercent": 5.7647,
+      "hostAvailablePhysicalBytes": 17342091264,
+      "hostTotalPhysicalBytes": 32677478400,
+      "vmPid": null,
+      "vmCpuPercentOneCore": null,
+      "vmCpuPercentWholeMachine": null,
+      "vmCpuSecondsTotal": null,
+      "vmWorkingSetBytes": null,
+      "vmPrivateBytes": null,
+      "gpuSensorCount": 2,
+      "systemPowerWatts": null
+    }
+  ],
+  "gpuSamples": [
+    {
+      "utc": "2026-10-23T06:58:02.4889931Z",
+      "elapsedSeconds": 2.0353,
+      "index": "0",
+      "name": "NVIDIA RTX Spark N1X (6144-core Blackwell RTX GPU)",
+      "devicePowerWatts": 1.0,
+      "utilizationPercent": 1.0,
+      "memoryUsedMiB": 1109.0,
+      "queryElapsedMilliseconds": 78.014
+    },
+    {
+      "utc": "2026-10-23T06:58:02.4889931Z",
+      "elapsedSeconds": 2.0353,
+      "index": "1",
+      "name": "NVIDIA NPU",
+      "devicePowerWatts": 0.0,
+      "utilizationPercent": 0.0,
+      "memoryUsedMiB": null,
+      "queryElapsedMilliseconds": 78.014
+    },
+    {
+      "utc": "2026-10-23T06:58:04.4608626Z",
+      "elapsedSeconds": 4.0118,
+      "index": "0",
+      "name": "NVIDIA RTX Spark N1X (6144-core Blackwell RTX GPU)",
+      "devicePowerWatts": 1.53,
+      "utilizationPercent": 3.0,
+      "memoryUsedMiB": 1109.0,
+      "queryElapsedMilliseconds": 64.235
+    },
+    {
+      "utc": "2026-10-23T06:58:04.4608626Z",
+      "elapsedSeconds": 4.0118,
+      "index": "1",
+      "name": "NVIDIA NPU",
+      "devicePowerWatts": 0.0,
+      "utilizationPercent": 0.0,
+      "memoryUsedMiB": null,
+      "queryElapsedMilliseconds": 64.235
+    },
+    {
+      "utc": "2026-10-23T06:58:06.4623049Z",
+      "elapsedSeconds": 6.0132,
+      "index": "0",
+      "name": "NVIDIA RTX Spark N1X (6144-core Blackwell RTX GPU)",
+      "devicePowerWatts": 0.94,
+      "utilizationPercent": 1.0,
+      "memoryUsedMiB": 1109.0,
+      "queryElapsedMilliseconds": 61.744
+    },
+    {
+      "utc": "2026-10-23T06:58:06.4623049Z",
+      "elapsedSeconds": 6.0132,
+      "index": "1",
+      "name": "NVIDIA NPU",
+      "devicePowerWatts": 0.0,
+      "utilizationPercent": 0.0,
+      "memoryUsedMiB": null,
+      "queryElapsedMilliseconds": 61.744
+    },
+    {
+      "utc": "2026-10-23T06:58:08.4705851Z",
+      "elapsedSeconds": 8.0215,
+      "index": "0",
+      "name": "NVIDIA RTX Spark N1X (6144-core Blackwell RTX GPU)",
+      "devicePowerWatts": 1.43,
+      "utilizationPercent": 3.0,
+      "memoryUsedMiB": 1109.0,
+      "queryElapsedMilliseconds": 63.166
+    },
+    {
+      "utc": "2026-10-23T06:58:08.4705851Z",
+      "elapsedSeconds": 8.0215,
+      "index": "1",
+      "name": "NVIDIA NPU",
+      "devicePowerWatts": 0.0,
+      "utilizationPercent": 0.0,
+      "memoryUsedMiB": null,
+      "queryElapsedMilliseconds": 63.166
+    },
+    {
+      "utc": "2026-10-23T06:58:10.4627642Z",
+      "elapsedSeconds": 10.0137,
+      "index": "0",
+      "name": "NVIDIA RTX Spark N1X (6144-core Blackwell RTX GPU)",
+      "devicePowerWatts": 0.98,
+      "utilizationPercent": 2.0,
+      "memoryUsedMiB": 1109.0,
+      "queryElapsedMilliseconds": 59.69
+    },
+    {
+      "utc": "2026-10-23T06:58:10.4627642Z",
+      "elapsedSeconds": 10.0137,
+      "index": "1",
+      "name": "NVIDIA NPU",
+      "devicePowerWatts": 0.0,
+      "utilizationPercent": 0.0,
+      "memoryUsedMiB": null,
+      "queryElapsedMilliseconds": 59.69
+    }
+  ],
+  "batterySamples": [
+    {
+      "utc": "2026-10-23T06:58:02.4889931Z",
+      "elapsedSeconds": 2.0353,
+      "instanceName": "ACPI\\PNP0C0A\\0_0",
+      "powerOnline": true,
+      "charging": false,
+      "discharging": false,
+      "dischargeRateRaw": null,
+      "remainingCapacityRaw": 61230,
+      "voltageRaw": 16826,
+      "systemPowerWatts": null
+    },
+    {
+      "utc": "2026-10-23T06:58:04.4608626Z",
+      "elapsedSeconds": 4.0118,
+      "instanceName": "ACPI\\PNP0C0A\\0_0",
+      "powerOnline": true,
+      "charging": false,
+      "discharging": false,
+      "dischargeRateRaw": null,
+      "remainingCapacityRaw": 61230,
+      "voltageRaw": 16827,
+      "systemPowerWatts": null
+    },
+    {
+      "utc": "2026-10-23T06:58:06.4623049Z",
+      "elapsedSeconds": 6.0132,
+      "instanceName": "ACPI\\PNP0C0A\\0_0",
+      "powerOnline": true,
+      "charging": false,
+      "discharging": false,
+      "dischargeRateRaw": null,
+      "remainingCapacityRaw": 61230,
+      "voltageRaw": 16826,
+      "systemPowerWatts": null
+    },
+    {
+      "utc": "2026-10-23T06:58:08.4705851Z",
+      "elapsedSeconds": 8.0215,
+      "instanceName": "ACPI\\PNP0C0A\\0_0",
+      "powerOnline": true,
+      "charging": false,
+      "discharging": false,
+      "dischargeRateRaw": null,
+      "remainingCapacityRaw": 61230,
+      "voltageRaw": 16826,
+      "systemPowerWatts": null
+    },
+    {
+      "utc": "2026-10-23T06:58:10.4627642Z",
+      "elapsedSeconds": 10.0137,
+      "instanceName": "ACPI\\PNP0C0A\\0_0",
+      "powerOnline": true,
+      "charging": false,
+      "discharging": false,
+      "dischargeRateRaw": null,
+      "remainingCapacityRaw": 61230,
+      "voltageRaw": 16827,
+      "systemPowerWatts": null
+    }
+  ],
+  "coldStartPackage": "",
+  "coldStartTrials": [],
+  "diagnosticCommands": [],
+  "notes": [
+    "Workload labels are supplied by the caller. No idle state, FPS, frame latency, guest wakeup frequency, CPU speedup, or compatibility is inferred from host counters.",
+    "vmCpuPercentOneCore = delta QEMU process CPU seconds / elapsed wall seconds * 100; it can exceed 100. vmCpuPercentWholeMachine divides that result by detected logical processor count.",
+    "nvidia-smi reports individual device sensor power only. GPU/NPU Watts are not whole-system or Android-only power. Invoking sensor tools and WMI can affect power and wakeups.",
+    "systemPowerWatts is unavailable without a calibrated system power source. Battery dischargeRateRaw is null on AC, while charging, or if unavailable; raw battery units are not converted to Watts because relative-capacity reporting has not been independently excluded.",
+    "Application trials force-stop the package and relaunch its resolved activity, preserving its data. Filesystem/ART caches are not cleared; report LaunchState and am timings rather than asserting storage-cold starts.",
+    "Diagnostics and optional launch trials occur outside the host observation window. Concurrent host work and guest provisioning are not suppressed."
+  ],
+  "references": [
+    "https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getsystemtimes",
+    "https://docs.nvidia.com/deploy/nvidia-smi/",
+    "https://learn.microsoft.com/en-us/windows/win32/power/battery-status-str",
+    "https://learn.microsoft.com/en-us/windows/win32/api/batclass/ns-batclass-battery_wmi_status"
+  ]
+}

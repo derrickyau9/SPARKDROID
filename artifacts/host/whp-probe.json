@@ -1,0 +1,8 @@
+{
+  "TimestampUtc": "2026-10-23T06:37:58.7052021Z",
+  "ProcessArchitecture": "Arm64",
+  "CapabilityHResult": "0x00000000",
+  "BytesWritten": 4,
+  "HypervisorPresent": 1,
+  "CreatePartitionHResult": "0x00000000"
+}

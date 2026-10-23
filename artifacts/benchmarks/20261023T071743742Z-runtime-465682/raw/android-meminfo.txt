@@ -1,0 +1,422 @@
+COMMAND: C:\Users\RTX-SPARK\Documents\RTX ANDROID\tools\android\platform-tools\adb.exe
+ARGUMENTS: ["-s","127.0.0.1:15555","shell","dumpsys","meminfo"]
+EXIT: 0
+TIMED OUT: False
+ELAPSED MS: 501.373
+
+STDOUT
+Applications Memory Usage (in Kilobytes):
+Uptime: 144020 Realtime: 144020
+
+
+Total RSS by process:
+    541,236K: com.tencent.mm (pid 1452)
+    413,076K: system (pid 337)
+    287,604K: com.tencent.mm:push (pid 1698)
+    277,784K: com.android.systemui (pid 606)
+    243,076K: com.android.settings (pid 732 / activities)
+    230,272K: com.android.launcher3 (pid 893 / activities)
+    202,416K: zygote64 (pid 159)
+    143,632K: com.android.providers.media.module (pid 1007)
+    136,892K: com.android.inputmethod.latin (pid 962)
+    135,768K: com.android.permissioncontroller (pid 785)
+    126,304K: com.android.networkstack.process (pid 693)
+    124,516K: android.process.acore (pid 1041)
+    124,368K: android.process.media (pid 1059)
+    119,696K: com.android.phone (pid 726)
+    117,772K: com.android.rkpdapp (pid 1369)
+    114,860K: com.android.statementservice (pid 1416)
+    114,012K: .adservices (pid 1150)
+    113,796K: com.android.providers.calendar (pid 1353)
+    113,284K: android.ext.services (pid 965)
+    112,228K: surfaceflinger (pid 190)
+    111,492K: com.android.healthconnect.controller (pid 1274)
+    111,112K: com.android.devicediagnostics (pid 1191)
+    110,056K: com.android.photopicker (pid 1536)
+    109,728K: com.android.managedprovisioning (pid 1310)
+    109,260K: com.android.keychain (pid 1095)
+    109,060K: com.android.traceur (pid 1088)
+    108,720K: com.android.se (pid 707)
+    108,316K: com.android.printspooler (pid 1147)
+    107,708K: com.android.externalstorage (pid 1552)
+    107,488K: com.android.ondevicepersonalization.services (pid 1327)
+    107,388K: com.android.localtransport (pid 1585)
+    107,004K: com.android.dynsystem:dynsystem (pid 1238)
+    106,896K: com.android.packageinstaller (pid 1339)
+    106,608K: com.android.dynsystem (pid 1215)
+    106,572K: com.android.federatedcompute.services (pid 1231)
+    106,256K: com.android.quicksearchbox (pid 1017)
+    105,964K: com.android.shell (pid 1387)
+    102,904K: webview_zygote (pid 673)
+     44,792K: media.swcodec (pid 255)
+     33,352K: mediaserver (pid 242)
+     32,392K: media.extractor (pid 236)
+     29,564K: cameraserver (pid 224)
+     29,536K: audioserver (pid 181)
+     16,004K: keystore2 (pid 80)
+     15,840K: android.hardware.bluetooth@1.1-service.sim (pid 2039)
+     13,908K: artd (pid 2135)
+     13,892K: netd (pid 157)
+     13,672K: init (pid 1)
+     12,044K: android.hardware.audio.service (pid 172)
+     10,908K: adbd (pid 196)
+     10,724K: android.hardware.graphics.composer@2.1-service (pid 176)
+      9,700K: vold (pid 72)
+      9,516K: media.metrics (pid 240)
+      9,036K: gpuservice (pid 184)
+      8,528K: credstore (pid 182)
+      8,320K: ueventd (pid 10)
+      8,240K: rild (pid 252)
+      8,052K: init (pid 9)
+      8,052K: android.hardware.keymaster@4.1-service (pid 81)
+      7,704K: wificond (pid 247)
+      7,240K: gatekeeperd (pid 258)
+      7,164K: prng_seeder (pid 52)
+      7,104K: logd (pid 56)
+      7,104K: installd (pid 233)
+      7,036K: statsd (pid 158)
+      6,932K: hwservicemanager (pid 59)
+      6,836K: android.hardware.health-service.example (pid 177)
+      6,764K: servicemanager (pid 58)
+      6,684K: android.hardware.gatekeeper@1.0-service.software (pid 174)
+      6,520K: storaged (pid 245)
+      6,472K: incidentd (pid 231)
+      6,148K: android.hardware.power-service.example (pid 179)
+      5,860K: android.system.suspend-service (pid 79)
+      5,724K: android.hardware.thermal@2.0-service.mock (pid 178)
+      5,640K: android.hardware.graphics.allocator@2.0-service (pid 175)
+      4,712K: dumpsys (pid 2219)
+      4,692K: android.hardware.cas-service.example (pid 180)
+      4,536K: lmkd (pid 57)
+      4,512K: android.hidl.allocator@1.0-service (pid 169)
+      4,424K: traced (pid 212)
+      4,352K: mdnsd (pid 220)
+      4,236K: traced_probes (pid 211)
+      3,468K: tombstoned (pid 85)
+
+Total RSS by OOM adjustment:
+    905,484K: Native
+        202,416K: zygote64 (pid 159)
+        112,228K: surfaceflinger (pid 190)
+        102,904K: webview_zygote (pid 673)
+         44,792K: media.swcodec (pid 255)
+         33,352K: mediaserver (pid 242)
+         32,392K: media.extractor (pid 236)
+         29,564K: cameraserver (pid 224)
+         29,536K: audioserver (pid 181)
+         16,004K: keystore2 (pid 80)
+         15,840K: android.hardware.bluetooth@1.1-service.sim (pid 2039)
+         13,908K: artd (pid 2135)
+         13,892K: netd (pid 157)
+         13,672K: init (pid 1)
+         12,044K: android.hardware.audio.service (pid 172)
+         10,908K: adbd (pid 196)
+         10,724K: android.hardware.graphics.composer@2.1-service (pid 176)
+          9,700K: vold (pid 72)
+          9,516K: media.metrics (pid 240)
+          9,036K: gpuservice (pid 184)
+          8,528K: credstore (pid 182)
+          8,320K: ueventd (pid 10)
+          8,240K: rild (pid 252)
+          8,052K: init (pid 9)
+          8,052K: android.hardware.keymaster@4.1-service (pid 81)
+          7,704K: wificond (pid 247)
+          7,240K: gatekeeperd (pid 258)
+          7,164K: prng_seeder (pid 52)
+          7,104K: logd (pid 56)
+          7,104K: installd (pid 233)
+          7,036K: statsd (pid 158)
+          6,932K: hwservicemanager (pid 59)
+          6,836K: android.hardware.health-service.example (pid 177)
+          6,764K: servicemanager (pid 58)
+          6,684K: android.hardware.gatekeeper@1.0-service.software (pid 174)
+          6,520K: storaged (pid 245)
+          6,472K: incidentd (pid 231)
+          6,148K: android.hardware.power-service.example (pid 179)
+          5,860K: android.system.suspend-service (pid 79)
+          5,724K: android.hardware.thermal@2.0-service.mock (pid 178)
+          5,640K: android.hardware.graphics.allocator@2.0-service (pid 175)
+          4,712K: dumpsys (pid 2219)
+          4,692K: android.hardware.cas-service.example (pid 180)
+          4,536K: lmkd (pid 57)
+          4,512K: android.hidl.allocator@1.0-service (pid 169)
+          4,424K: traced (pid 212)
+          4,352K: mdnsd (pid 220)
+          4,236K: traced_probes (pid 211)
+          3,468K: tombstoned (pid 85)
+    413,076K: System
+        413,076K: system (pid 337)
+    632,504K: Persistent
+        277,784K: com.android.systemui (pid 606)
+        126,304K: com.android.networkstack.process (pid 693)
+        119,696K: com.android.phone (pid 726)
+        108,720K: com.android.se (pid 707)
+    143,632K: Persistent Service
+        143,632K: com.android.providers.media.module (pid 1007)
+    230,272K: Foreground
+        230,272K: com.android.launcher3 (pid 893 / activities)
+    113,284K: Visible
+        113,284K: android.ext.services (pid 965)
+    136,892K: Perceptible
+        136,892K: com.android.inputmethod.latin (pid 962)
+    243,076K: Previous
+        243,076K: com.android.settings (pid 732 / activities)
+  3,404,840K: Cached
+        541,236K: com.tencent.mm (pid 1452)
+        287,604K: com.tencent.mm:push (pid 1698)
+        135,768K: com.android.permissioncontroller (pid 785)
+        124,516K: android.process.acore (pid 1041)
+        124,368K: android.process.media (pid 1059)
+        117,772K: com.android.rkpdapp (pid 1369)
+        114,860K: com.android.statementservice (pid 1416)
+        114,012K: .adservices (pid 1150)
+        113,796K: com.android.providers.calendar (pid 1353)
+        111,492K: com.android.healthconnect.controller (pid 1274)
+        111,112K: com.android.devicediagnostics (pid 1191)
+        110,056K: com.android.photopicker (pid 1536)
+        109,728K: com.android.managedprovisioning (pid 1310)
+        109,260K: com.android.keychain (pid 1095)
+        109,060K: com.android.traceur (pid 1088)
+        108,316K: com.android.printspooler (pid 1147)
+        107,708K: com.android.externalstorage (pid 1552)
+        107,488K: com.android.ondevicepersonalization.services (pid 1327)
+        107,388K: com.android.localtransport (pid 1585)
+        107,004K: com.android.dynsystem:dynsystem (pid 1238)
+        106,896K: com.android.packageinstaller (pid 1339)
+        106,608K: com.android.dynsystem (pid 1215)
+        106,572K: com.android.federatedcompute.services (pid 1231)
+        106,256K: com.android.quicksearchbox (pid 1017)
+        105,964K: com.android.shell (pid 1387)
+
+Total RSS by category:
+  1,712,624K: .so mmap
+  1,204,504K: .art mmap
+  1,151,420K: .jar mmap
+    488,044K: Native
+    372,452K: Dalvik
+    330,084K: .oat mmap
+    304,292K: .dex mmap
+    241,288K: .apk mmap
+    137,688K: Other mmap
+    110,168K: Unknown
+     77,484K: Dalvik Other
+     27,132K: Other dev
+     26,852K: Ashmem
+     26,340K: Stack
+     12,688K: .ttf mmap
+          0K: Cursor
+          0K: Gfx dev
+          0K: EGL mtrack
+          0K: GL mtrack
+          0K: Other mtrack
+
+Total PSS by process:
+    337,105K: com.tencent.mm (pid 1452)
+    216,219K: system (pid 337)
+    108,517K: com.tencent.mm:push (pid 1698)
+    100,752K: com.android.systemui (pid 606)
+     82,737K: com.android.settings (pid 732 / activities)
+     80,966K: surfaceflinger (pid 190)
+     68,613K: com.android.launcher3 (pid 893 / activities)
+     38,164K: zygote64 (pid 159)
+     23,907K: com.android.providers.media.module (pid 1007)
+     22,402K: media.swcodec (pid 255)
+     22,382K: com.android.permissioncontroller (pid 785)
+     15,859K: com.android.inputmethod.latin (pid 962)
+     13,964K: audioserver (pid 181)
+     13,027K: com.android.networkstack.process (pid 693)
+     12,940K: android.process.acore (pid 1041)
+     12,657K: webview_zygote (pid 673)
+     12,196K: com.android.phone (pid 726)
+     11,652K: android.process.media (pid 1059)
+     11,561K: com.android.healthconnect.controller (pid 1274)
+     11,192K: com.android.devicediagnostics (pid 1191)
+     10,781K: android.hardware.bluetooth@1.1-service.sim (pid 2039)
+     10,291K: media.extractor (pid 236)
+     10,086K: cameraserver (pid 224)
+      9,891K: com.android.rkpdapp (pid 1369)
+      9,703K: com.android.statementservice (pid 1416)
+      9,557K: .adservices (pid 1150)
+      9,159K: com.android.photopicker (pid 1536)
+      9,086K: mediaserver (pid 242)
+      9,057K: com.android.traceur (pid 1088)
+      8,716K: com.android.managedprovisioning (pid 1310)
+      8,511K: android.ext.services (pid 965)
+      8,205K: netd (pid 157)
+      8,108K: com.android.keychain (pid 1095)
+      7,725K: com.android.packageinstaller (pid 1339)
+      7,672K: keystore2 (pid 80)
+      7,401K: init (pid 1)
+      7,369K: com.android.ondevicepersonalization.services (pid 1327)
+      7,298K: com.android.providers.calendar (pid 1353)
+      6,622K: com.android.federatedcompute.services (pid 1231)
+      6,604K: com.android.printspooler (pid 1147)
+      6,436K: adbd (pid 196)
+      6,227K: com.android.quicksearchbox (pid 1017)
+      6,221K: android.hardware.audio.service (pid 172)
+      6,212K: com.android.se (pid 707)
+      6,192K: com.android.shell (pid 1387)
+      5,977K: com.android.externalstorage (pid 1552)
+      5,949K: com.android.dynsystem:dynsystem (pid 1238)
+      5,934K: com.android.localtransport (pid 1585)
+      5,868K: com.android.dynsystem (pid 1215)
+      4,518K: android.hardware.graphics.composer@2.1-service (pid 176)
+      3,433K: vold (pid 72)
+      3,338K: prng_seeder (pid 52)
+      3,279K: logd (pid 56)
+      3,197K: android.hardware.keymaster@4.1-service (pid 81)
+      3,168K: artd (pid 2135)
+      2,939K: rild (pid 252)
+      2,889K: media.metrics (pid 240)
+      2,620K: ueventd (pid 10)
+      2,537K: statsd (pid 158)
+      2,521K: init (pid 9)
+      2,157K: credstore (pid 182)
+      2,102K: servicemanager (pid 58)
+      2,090K: gpuservice (pid 184)
+      1,948K: wificond (pid 247)
+      1,861K: hwservicemanager (pid 59)
+      1,782K: installd (pid 233)
+      1,513K: android.hardware.gatekeeper@1.0-service.software (pid 174)
+      1,492K: storaged (pid 245)
+      1,471K: android.system.suspend-service (pid 79)
+      1,467K: incidentd (pid 231)
+      1,410K: gatekeeperd (pid 258)
+      1,402K: android.hardware.health-service.example (pid 177)
+      1,376K: traced (pid 212)
+      1,278K: lmkd (pid 57)
+      1,220K: traced_probes (pid 211)
+      1,208K: android.hardware.thermal@2.0-service.mock (pid 178)
+      1,134K: android.hardware.power-service.example (pid 179)
+      1,130K: mdnsd (pid 220)
+      1,114K: android.hardware.graphics.allocator@2.0-service (pid 175)
+        893K: android.hardware.cas-service.example (pid 180)
+        882K: tombstoned (pid 85)
+        879K: dumpsys (pid 2219)
+        822K: android.hidl.allocator@1.0-service (pid 169)
+
+Total PSS by OOM adjustment:
+    311,402K: Native
+         80,966K: surfaceflinger (pid 190)
+         38,164K: zygote64 (pid 159)
+         22,402K: media.swcodec (pid 255)
+         13,964K: audioserver (pid 181)
+         12,657K: webview_zygote (pid 673)
+         10,781K: android.hardware.bluetooth@1.1-service.sim (pid 2039)
+         10,291K: media.extractor (pid 236)
+         10,086K: cameraserver (pid 224)
+          9,086K: mediaserver (pid 242)
+          8,205K: netd (pid 157)
+          7,672K: keystore2 (pid 80)
+          7,401K: init (pid 1)
+          6,436K: adbd (pid 196)
+          6,221K: android.hardware.audio.service (pid 172)
+          4,518K: android.hardware.graphics.composer@2.1-service (pid 176)
+          3,433K: vold (pid 72)
+          3,338K: prng_seeder (pid 52)
+          3,279K: logd (pid 56)
+          3,197K: android.hardware.keymaster@4.1-service (pid 81)
+          3,168K: artd (pid 2135)
+          2,939K: rild (pid 252)
+          2,889K: media.metrics (pid 240)
+          2,620K: ueventd (pid 10)
+          2,537K: statsd (pid 158)
+          2,521K: init (pid 9)
+          2,157K: credstore (pid 182)
+          2,102K: servicemanager (pid 58)
+          2,090K: gpuservice (pid 184)
+          1,948K: wificond (pid 247)
+          1,861K: hwservicemanager (pid 59)
+          1,782K: installd (pid 233)
+          1,513K: android.hardware.gatekeeper@1.0-service.software (pid 174)
+          1,492K: storaged (pid 245)
+          1,471K: android.system.suspend-service (pid 79)
+          1,467K: incidentd (pid 231)
+          1,410K: gatekeeperd (pid 258)
+          1,402K: android.hardware.health-service.example (pid 177)
+          1,376K: traced (pid 212)
+          1,278K: lmkd (pid 57)
+          1,220K: traced_probes (pid 211)
+          1,208K: android.hardware.thermal@2.0-service.mock (pid 178)
+          1,134K: android.hardware.power-service.example (pid 179)
+          1,130K: mdnsd (pid 220)
+          1,114K: android.hardware.graphics.allocator@2.0-service (pid 175)
+            893K: android.hardware.cas-service.example (pid 180)
+            882K: tombstoned (pid 85)
+            879K: dumpsys (pid 2219)
+            822K: android.hidl.allocator@1.0-service (pid 169)
+    216,219K: System
+        216,219K: system (pid 337)
+    132,187K: Persistent
+        100,752K: com.android.systemui (pid 606)
+         13,027K: com.android.networkstack.process (pid 693)
+         12,196K: com.android.phone (pid 726)
+          6,212K: com.android.se (pid 707)
+     23,907K: Persistent Service
+         23,907K: com.android.providers.media.module (pid 1007)
+     68,613K: Foreground
+         68,613K: com.android.launcher3 (pid 893 / activities)
+      8,511K: Visible
+          8,511K: android.ext.services (pid 965)
+     15,859K: Perceptible
+         15,859K: com.android.inputmethod.latin (pid 962)
+     82,737K: Previous
+         82,737K: com.android.settings (pid 732 / activities)
+    651,305K: Cached
+        337,105K: com.tencent.mm (pid 1452)
+        108,517K: com.tencent.mm:push (pid 1698)
+         22,382K: com.android.permissioncontroller (pid 785)
+         12,940K: android.process.acore (pid 1041)
+         11,652K: android.process.media (pid 1059)
+         11,561K: com.android.healthconnect.controller (pid 1274)
+         11,192K: com.android.devicediagnostics (pid 1191)
+          9,891K: com.android.rkpdapp (pid 1369)
+          9,703K: com.android.statementservice (pid 1416)
+          9,557K: .adservices (pid 1150)
+          9,159K: com.android.photopicker (pid 1536)
+          9,057K: com.android.traceur (pid 1088)
+          8,716K: com.android.managedprovisioning (pid 1310)
+          8,108K: com.android.keychain (pid 1095)
+          7,725K: com.android.packageinstaller (pid 1339)
+          7,369K: com.android.ondevicepersonalization.services (pid 1327)
+          7,298K: com.android.providers.calendar (pid 1353)
+          6,622K: com.android.federatedcompute.services (pid 1231)
+          6,604K: com.android.printspooler (pid 1147)
+          6,227K: com.android.quicksearchbox (pid 1017)
+          6,192K: com.android.shell (pid 1387)
+          5,977K: com.android.externalstorage (pid 1552)
+          5,949K: com.android.dynsystem:dynsystem (pid 1238)
+          5,934K: com.android.localtransport (pid 1585)
+          5,868K: com.android.dynsystem (pid 1215)
+
+Total PSS by category:
+    360,576K: .so mmap
+    331,123K: Native
+    172,388K: .dex mmap
+    167,077K: .apk mmap
+     99,040K: .jar mmap
+     90,822K: Dalvik
+     71,402K: .art mmap
+     63,244K: Unknown
+     51,962K: Other mmap
+     42,173K: Dalvik Other
+     26,044K: Stack
+     13,298K: .oat mmap
+     10,767K: .ttf mmap
+      5,727K: Ashmem
+      5,097K: Other dev
+          0K: Cursor
+          0K: Gfx dev
+          0K: EGL mtrack
+          0K: GL mtrack
+          0K: Other mtrack
+
+Total RAM: 6,048,860K (status moderate)
+ Free RAM: 4,656,921K (  651,305K cached pss +   620,080K cached kernel + 3,385,536K free)
+      GPU:         0K
+ Used RAM: 1,156,891K (  859,435K used pss +   297,456K kernel)
+ Lost RAM:   266,980K
+   Tuning: 256 (large 512), oom   322,560K, restore limit   107,520K (high-end-gfx)
+
+STDERR
+

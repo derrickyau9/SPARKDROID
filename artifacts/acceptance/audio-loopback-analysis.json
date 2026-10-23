@@ -1,0 +1,423 @@
+{
+  "Passed": true,
+  "Scope": "Digital default Windows playback endpoint; no microphone opened; physical audibility untested",
+  "ProcessArchitecture": "Arm64",
+  "StartedUtc": "2026-10-23T00:10:12.3570378-07:00",
+  "CaptureWallSeconds": 10.1344091,
+  "RequestedCaptureSeconds": 10,
+  "Device": "Speakers (SoundWire Speakers)",
+  "DeviceId": "{0.0.0.00000000}.{e153e9cc-2efd-4a1d-9b15-6142531ace85}",
+  "DeviceMuted": true,
+  "DeviceVolumeScalar": 0,
+  "Format": "32 bit IEEFloat: 48000Hz 2 channels",
+  "Packets": 159,
+  "CapturedBytes": 3832320,
+  "Signal": {
+    "Passed": true,
+    "SampleSeconds": 9.98,
+    "SampleRate": 48000,
+    "Channels": 2,
+    "Windows440": 25,
+    "Windows880": 21,
+    "Alternations": 9,
+    "Criterion": "Both 440/880 Hz present in >=3 separate 200ms windows each, peak amplitude >0.0001 (-80dBFS), >4x other tone, >8x controls; >=3 alternations",
+    "Windows": [
+      {
+        "StartSeconds": 0,
+        "Rms": 0,
+        "Amplitude440": 0,
+        "Amplitude880": 0,
+        "ControlAmplitude": 0,
+        "DetectedFrequency": 0
+      },
+      {
+        "StartSeconds": 0.2,
+        "Rms": 0,
+        "Amplitude440": 0,
+        "Amplitude880": 0,
+        "ControlAmplitude": 0,
+        "DetectedFrequency": 0
+      },
+      {
+        "StartSeconds": 0.4,
+        "Rms": 0,
+        "Amplitude440": 0,
+        "Amplitude880": 0,
+        "ControlAmplitude": 0,
+        "DetectedFrequency": 0
+      },
+      {
+        "StartSeconds": 0.6,
+        "Rms": 0.0010759918405933509,
+        "Amplitude440": 0.0013007859796593047,
+        "Amplitude880": 4.4242472715699E-07,
+        "ControlAmplitude": 1.1947575698436263E-06,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 0.8,
+        "Rms": 0.0013824157629978267,
+        "Amplitude440": 0.0016037453829720336,
+        "Amplitude880": 9.722136250791755E-10,
+        "ControlAmplitude": 9.223251396284607E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 1,
+        "Rms": 0.001384786693549684,
+        "Amplitude440": 0.001606562367172156,
+        "Amplitude880": 3.5228699381738937E-09,
+        "ControlAmplitude": 9.574383449897179E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 1.2,
+        "Rms": 0.0013865402078500455,
+        "Amplitude440": 0.0016084438752064657,
+        "Amplitude880": 2.03362561499267E-09,
+        "ControlAmplitude": 9.623659549655797E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 1.4,
+        "Rms": 0.001387831602188683,
+        "Amplitude440": 0.001609715611579203,
+        "Amplitude880": 2.7279518275665075E-10,
+        "ControlAmplitude": 9.686530669561578E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 1.6,
+        "Rms": 0.002031781622072767,
+        "Amplitude440": 0.00017057132164737405,
+        "Amplitude880": 0.001953494656411022,
+        "ControlAmplitude": 5.650808155101294E-07,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 1.8,
+        "Rms": 0.002403202255194329,
+        "Amplitude440": 4.30889145344819E-09,
+        "Amplitude880": 0.0022114139303397494,
+        "ControlAmplitude": 7.694202583101363E-08,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 2,
+        "Rms": 0.002401398773558066,
+        "Amplitude440": 2.991421244586249E-09,
+        "Amplitude880": 0.0022115258194175137,
+        "ControlAmplitude": 7.91603871592839E-08,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 2.2,
+        "Rms": 0.0024028012115342515,
+        "Amplitude440": 4.895879871479321E-09,
+        "Amplitude880": 0.0022115979081270753,
+        "ControlAmplitude": 7.727958066596216E-08,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 2.4,
+        "Rms": 0.002402612694325174,
+        "Amplitude440": 8.391043175485116E-10,
+        "Amplitude880": 0.0022116505943103352,
+        "ControlAmplitude": 7.519762465936448E-08,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 2.6,
+        "Rms": 0.0015655330636159643,
+        "Amplitude440": 0.0015214330980806347,
+        "Amplitude880": 0.0002213520106295001,
+        "ControlAmplitude": 1.1719593823266396E-06,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 2.8,
+        "Rms": 0.0013876874112718326,
+        "Amplitude440": 0.0018551810730105547,
+        "Amplitude880": 1.29345213197028E-07,
+        "ControlAmplitude": 2.042505950198032E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 3,
+        "Rms": 0.00138518137293682,
+        "Amplitude440": 0.001865191572238958,
+        "Amplitude880": 1.9715650799214927E-08,
+        "ControlAmplitude": 2.314249782439858E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 3.2,
+        "Rms": 0.0013874908352376307,
+        "Amplitude440": 0.0018746363062038917,
+        "Amplitude880": 1.1634311742311863E-07,
+        "ControlAmplitude": 8.238896104378404E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 3.4,
+        "Rms": 0.0013849167394616925,
+        "Amplitude440": 0.0018836386898201743,
+        "Amplitude880": 2.2638162673423014E-07,
+        "ControlAmplitude": 1.3192679969881075E-06,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 3.6,
+        "Rms": 0.0020711620030066263,
+        "Amplitude440": 0.0001085171339920139,
+        "Amplitude880": 0.002633440803318505,
+        "ControlAmplitude": 5.773230382310514E-07,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 3.8,
+        "Rms": 0.0024082530841498316,
+        "Amplitude440": 4.132783412621611E-08,
+        "Amplitude880": 0.0032264966903546057,
+        "ControlAmplitude": 3.2495365535635394E-07,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 4,
+        "Rms": 0.0024064802732738882,
+        "Amplitude440": 1.1696797401234632E-07,
+        "Amplitude880": 0.003260860315686515,
+        "ControlAmplitude": 1.7660216142388542E-07,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 4.2,
+        "Rms": 0.002408735562549761,
+        "Amplitude440": 1.5348822969859356E-07,
+        "Amplitude880": 0.0032915957831761568,
+        "ControlAmplitude": 4.0710707701433384E-07,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 4.4,
+        "Rms": 0.0024069196941866413,
+        "Amplitude440": 7.147122660650091E-08,
+        "Amplitude880": 0.003318932759715901,
+        "ControlAmplitude": 1.7922344634909552E-07,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 4.6,
+        "Rms": 0.0015374491369454435,
+        "Amplitude440": 0.001660122067331915,
+        "Amplitude880": 0.00016854516900227713,
+        "ControlAmplitude": 7.135858185420945E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 4.8,
+        "Rms": 0.00138294674330681,
+        "Amplitude440": 0.0019556144429268493,
+        "Amplitude880": 1.4530823411071737E-07,
+        "ControlAmplitude": 2.3709196077937852E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 5,
+        "Rms": 0.0013828478649543135,
+        "Amplitude440": 0.001955495362777944,
+        "Amplitude880": 7.811227551244326E-08,
+        "ControlAmplitude": 1.6228577204164776E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 5.2,
+        "Rms": 0.0013827504364537428,
+        "Amplitude440": 0.001954778221339897,
+        "Amplitude880": 4.421306104993927E-08,
+        "ControlAmplitude": 4.0547202990913914E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 5.4,
+        "Rms": 0.0013823026844554962,
+        "Amplitude440": 0.0019530558120458845,
+        "Amplitude880": 4.5636369769063976E-08,
+        "ControlAmplitude": 8.122423519497749E-08,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 5.6,
+        "Rms": 0.002080282810311522,
+        "Amplitude440": 9.822552134390934E-05,
+        "Amplitude880": 0.002887608108108941,
+        "ControlAmplitude": 8.881149331466067E-07,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 5.8,
+        "Rms": 0.0024115321423563646,
+        "Amplitude440": 1.7436575591753917E-07,
+        "Amplitude880": 0.003319375231656045,
+        "ControlAmplitude": 9.834615678919948E-08,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 6,
+        "Rms": 0.0024106869082784156,
+        "Amplitude440": 8.053227660421338E-08,
+        "Amplitude880": 0.003292180680679551,
+        "ControlAmplitude": 2.559225974843987E-07,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 6.2,
+        "Rms": 0.0024123123209396687,
+        "Amplitude440": 1.44445758359048E-07,
+        "Amplitude880": 0.0032614843263565185,
+        "ControlAmplitude": 2.882686059359239E-07,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 6.4,
+        "Rms": 0.002411450288747617,
+        "Amplitude440": 5.353047954535981E-08,
+        "Amplitude880": 0.0032274308991684575,
+        "ControlAmplitude": 2.367925933376119E-07,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 6.6,
+        "Rms": 0.001543118542637845,
+        "Amplitude440": 0.0016252145613651744,
+        "Amplitude880": 0.00018404943309070527,
+        "ControlAmplitude": 1.1781717778252206E-06,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 6.8,
+        "Rms": 0.0013810450600648038,
+        "Amplitude440": 0.001896891021435776,
+        "Amplitude880": 1.2588717144101364E-07,
+        "ControlAmplitude": 5.1885325611907E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 7,
+        "Rms": 0.0013791802908077215,
+        "Amplitude440": 0.001888903103689898,
+        "Amplitude880": 1.6071629225080523E-07,
+        "ControlAmplitude": 1.75915177101379E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 7.2,
+        "Rms": 0.0013801011793965353,
+        "Amplitude440": 0.001880224262660047,
+        "Amplitude880": 5.468619169690334E-07,
+        "ControlAmplitude": 2.327665652121833E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 7.4,
+        "Rms": 0.001379079470468812,
+        "Amplitude440": 0.001871261759919421,
+        "Amplitude880": 4.362458444611612E-08,
+        "ControlAmplitude": 4.841188053219906E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 7.6,
+        "Rms": 0.002064575618205197,
+        "Amplitude440": 0.00012565960896877062,
+        "Amplitude880": 0.0024878253350189418,
+        "ControlAmplitude": 1.5998326045443095E-06,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 7.8,
+        "Rms": 0.0024136348988742944,
+        "Amplitude440": 4.609500495168461E-08,
+        "Amplitude880": 0.0026607991424990596,
+        "ControlAmplitude": 7.424000174280991E-07,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 8,
+        "Rms": 0.002414882862577905,
+        "Amplitude440": 1.572069356348506E-07,
+        "Amplitude880": 0.0025951798535741566,
+        "ControlAmplitude": 1.6477750188636949E-07,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 8.2,
+        "Rms": 0.002415192261114392,
+        "Amplitude440": 1.2399020738124098E-07,
+        "Amplitude880": 0.0025280936785831926,
+        "ControlAmplitude": 2.971819965991856E-07,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 8.4,
+        "Rms": 0.0024138130033559855,
+        "Amplitude440": 2.3367126551237138E-08,
+        "Amplitude880": 0.002459463846819468,
+        "ControlAmplitude": 4.3260065906552446E-07,
+        "DetectedFrequency": 880
+      },
+      {
+        "StartSeconds": 8.6,
+        "Rms": 0.0015827518663403242,
+        "Amplitude440": 0.0014751620183203812,
+        "Amplitude880": 0.0002636621236611163,
+        "ControlAmplitude": 1.0744996454222473E-06,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 8.8,
+        "Rms": 0.0013780807657934012,
+        "Amplitude440": 0.0017596675504269997,
+        "Amplitude880": 1.1156709318704462E-07,
+        "ControlAmplitude": 1.762625823083938E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 9,
+        "Rms": 0.0013770355833447863,
+        "Amplitude440": 0.0017457680908964498,
+        "Amplitude880": 6.967447756216941E-07,
+        "ControlAmplitude": 1.1363076716560878E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 9.2,
+        "Rms": 0.0013765793611727065,
+        "Amplitude440": 0.0017315639925856122,
+        "Amplitude880": 1.3264274018772355E-08,
+        "ControlAmplitude": 3.958060778823197E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 9.4,
+        "Rms": 0.0013765984757078528,
+        "Amplitude440": 0.0017169219313078697,
+        "Amplitude880": 2.101199180718106E-07,
+        "ControlAmplitude": 1.9022123092812495E-07,
+        "DetectedFrequency": 440
+      },
+      {
+        "StartSeconds": 9.6,
+        "Rms": 0.0020251573065622358,
+        "Amplitude440": 0.00019943991184534978,
+        "Amplitude880": 0.0018954625228459817,
+        "ControlAmplitude": 8.418002768682247E-07,
+        "DetectedFrequency": 880
+      }
+    ]
+  },
+  "Dependencies": "NAudio.Core 2.4.0; NAudio.Wasapi 2.4.0",
+  "Reference": "https://github.com/naudio/NAudio/blob/release/2.x/Docs/WasapiLoopbackCapture.md",
+  "AnalysisRevision": "Same single recording reanalyzed with gain-tolerant spectral dominance and -80dBFS peak floor; quiet generated control passes and silence control fails. Initial report retained.",
+  "CaptureWallMeasurementNote": "Original 10.134s timer included post-capture spectral analysis; recorded sample duration is 9.98s; requested capture duration 10s."
+}

@@ -1,0 +1,13 @@
+{
+  "name": "android-boot-completed",
+  "arguments": [
+    "shell",
+    "getprop",
+    "sys.boot_completed"
+  ],
+  "exitCode": 0,
+  "timedOut": false,
+  "elapsedMilliseconds": 71.799,
+  "stdout": "1\r\n",
+  "stderr": ""
+}

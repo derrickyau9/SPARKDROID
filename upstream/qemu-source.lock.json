@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "timestampUtc": "2026-10-23T06:47:53.5669496Z",
+  "qemuVersion": "11.1.2",
+  "msys2PackageVersion": "11.1.2-1",
+  "upstreamSourceUrl": "https://download.qemu.org/qemu-11.1.2.tar.xz",
+  "upstreamSourceSha256": "731b5681e4bb18be313231579b8efd0296c5b015fa36dc533874b639ba838016",
+  "sourceDigestReference": "https://github.com/msys2/MINGW-packages/blob/master/mingw-w64-qemu/PKGBUILD",
+  "packageUrl": "https://mirror.msys2.org/mingw/clangarm64/mingw-w64-clang-aarch64-qemu-11.1.2-1-any.pkg.tar.zst",
+  "packageSha256": "79820aea7c733223f8f077b072df22e3add4ee540db7d0ade8692313db1e0aa6",
+  "executableSha256": "0479d85fbb1e730ebf491e373bd43bfaac9efb97817e0f213078f1c9e9720ba3",
+  "firmwareSha256": "47765fe344818cbc464b1c14ae658fb4b854f5c2ceffa982411731eb4865594d",
+  "sourceLicense": "GPL-2.0-or-later and additional component licenses",
+  "sourceAcquired": false,
+  "references": [
+    "https://www.qemu.org/docs/master/system/whpx.html",
+    "https://packages.msys2.org/packages/mingw-w64-clang-aarch64-qemu",
+    "https://www.msys2.org/docs/arm64/"
+  ]
+}

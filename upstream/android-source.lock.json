@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "status": "source metadata and Redroid patches acquired; full AOSP checkout/build not executed",
+  "aosp": {
+    "repository": "https://android.googlesource.com/platform/manifest",
+    "tag": "android-16.0.0_r2",
+    "manifest_commit": "6650f1e0458a5450156c0348fe0dc96acb958eb8",
+    "manifest_path": "upstream/aosp/android-16.0.0_r2-default.xml",
+    "sha256": "36998dfd29ad7577694930b2ee21bdd23f1e731b6ca119eeb4b7939a9d96d67f"
+  },
+  "local_manifest": "upstream/aosp/sparkdroid-redroid16.xml",
+  "patches": {
+    "repository": "https://github.com/remote-android/redroid-patches",
+    "revision": "a5c70c0dd89c12b5027c902ab4182f31d38f3bb7",
+    "archive_url": "https://codeload.github.com/remote-android/redroid-patches/tar.gz/a5c70c0dd89c12b5027c902ab4182f31d38f3bb7",
+    "archive_sha256": "eaad519f7b0a4b079523b4203b4ef929ffa1454c73b68e16f90f6f733c502684",
+    "directory": "upstream/redroid-patches/android-16.0.0_r2"
+  },
+  "lunch": "redroid_arm64_only-bp2a-userdebug",
+  "build_script": "guest/build-android.sh",
+  "supports_prebuilt_bitwise_reproduction": false
+}

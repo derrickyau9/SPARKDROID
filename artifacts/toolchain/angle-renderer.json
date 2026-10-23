@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "eglVersion": "1.5",
+  "eglVendor": "Google Inc. (NVIDIA)",
+  "eglExtensions": "EGL_EXT_create_context_robustness EGL_ANGLE_d3d_share_handle_client_buffer EGL_ANGLE_d3d_texture_client_buffer EGL_ANGLE_surface_d3d_texture_2d_share_handle EGL_ANGLE_query_surface_pointer EGL_ANGLE_window_fixed_size EGL_ANGLE_keyed_mutex EGL_ANGLE_surface_orientation EGL_ANGLE_direct_composition EGL_ANGLE_windows_ui_composition EGL_NV_post_sub_buffer EGL_KHR_create_context EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_get_all_proc_addresses EGL_KHR_stream EGL_KHR_stream_consumer_gltexture EGL_NV_stream_consumer_gltexture_yuv EGL_ANGLE_stream_producer_d3d_texture EGL_ANGLE_create_context_webgl_compatibility EGL_CHROMIUM_create_context_bind_generates_resource EGL_CHROMIUM_sync_control EGL_EXT_pixel_format_float EGL_KHR_surfaceless_context EGL_ANGLE_display_texture_share_group EGL_ANGLE_display_semaphore_share_group EGL_ANGLE_create_context_client_arrays EGL_ANGLE_program_cache_control EGL_ANGLE_robust_resource_initialization EGL_ANGLE_create_context_extensions_enabled EGL_ANDROID_blob_cache EGL_ANDROID_recordable EGL_ANGLE_image_d3d11_texture EGL_ANGLE_create_context_backwards_compatible EGL_KHR_no_config_context EGL_KHR_create_context_no_error EGL_KHR_reusable_sync EGL_ANGLE_memory_usage_report ",
+  "glVendor": "Google Inc. (NVIDIA)",
+  "glRenderer": "ANGLE (NVIDIA, NVIDIA RTX Spark N1X (6144-core Blackwell RTX GPU) (0x00002E03) Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.16.1721)",
+  "glVersion": "OpenGL ES 3.0.0 (ANGLE 2.1.25748 git hash: 890b5d8fa298)",
+  "renderReadback": "336699FF",
+  "glError": 0,
+  "note": "Host ANGLE clear and pixel readback only; guest GPU rendering and Android compatibility are not established.",
+  "timestampUtc": "2026-10-23T06:56:06.5543391Z"
+}

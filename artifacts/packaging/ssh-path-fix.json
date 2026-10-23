@@ -1,0 +1,5 @@
+{
+  "scope": "Only the single task-created SSH host-key file was removed after matching its content and creation time.",
+  "createdTruncatedFileRemoved": true,
+  "correctQuotedKnownHostsPathVerified": true
+}

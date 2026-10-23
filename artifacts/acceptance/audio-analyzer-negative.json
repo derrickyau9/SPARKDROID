@@ -1,0 +1,52 @@
+{
+  "Passed": false,
+  "SampleSeconds": 1,
+  "SampleRate": 48000,
+  "Channels": 1,
+  "Windows440": 0,
+  "Windows880": 0,
+  "Alternations": 0,
+  "Criterion": "Both 440/880 Hz present in \u003E=3 separate 200ms windows each, peak amplitude \u003E0.0001 (-80dBFS), \u003E4x other tone, \u003E8x controls; \u003E=3 alternations",
+  "Windows": [
+    {
+      "StartSeconds": 0,
+      "Rms": 0,
+      "Amplitude440": 0,
+      "Amplitude880": 0,
+      "ControlAmplitude": 0,
+      "DetectedFrequency": 0
+    },
+    {
+      "StartSeconds": 0.2,
+      "Rms": 0,
+      "Amplitude440": 0,
+      "Amplitude880": 0,
+      "ControlAmplitude": 0,
+      "DetectedFrequency": 0
+    },
+    {
+      "StartSeconds": 0.4,
+      "Rms": 0,
+      "Amplitude440": 0,
+      "Amplitude880": 0,
+      "ControlAmplitude": 0,
+      "DetectedFrequency": 0
+    },
+    {
+      "StartSeconds": 0.6,
+      "Rms": 0,
+      "Amplitude440": 0,
+      "Amplitude880": 0,
+      "ControlAmplitude": 0,
+      "DetectedFrequency": 0
+    },
+    {
+      "StartSeconds": 0.8,
+      "Rms": 0,
+      "Amplitude440": 0,
+      "Amplitude880": 0,
+      "ControlAmplitude": 0,
+      "DetectedFrequency": 0
+    }
+  ]
+}

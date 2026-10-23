@@ -1,0 +1,7 @@
+{
+  "sharedFileRoundTrip": true,
+  "hostSource": "shared/SPARKDROID-transfer-test.txt",
+  "sha256": "48AD494548132636F5D997DB4138F34EF1AE16C9D670662B8E87327496B79504",
+  "hostReturn": "shared/from-android/SPARKDROID-transfer-test.txt",
+  "guestPath": "/sdcard/Download/SPARKDROID/SPARKDROID-transfer-test.txt"
+}

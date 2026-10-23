@@ -1,0 +1,66 @@
+COMMAND: C:\Windows\System32\OpenSSH\ssh.exe
+ARGUMENTS: ["-p","22222","-i","C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\state\\ssh_key","-o","BatchMode=yes","-o","ConnectTimeout=5","-o","StrictHostKeyChecking=accept-new","-o","UserKnownHostsFile=C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\state\\known_hosts","spark@127.0.0.1","uname -a; cat /proc/meminfo; cat /proc/loadavg"]
+EXIT: 0
+TIMED OUT: False
+ELAPSED MS: 712.925
+
+STDOUT
+Linux sparkdroid 6.8.0-147-generic #147-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep 24 11:39:52 UTC 2026 aarch64 aarch64 aarch64 GNU/Linux
+MemTotal:        6048860 kB
+MemFree:         3349260 kB
+MemAvailable:    4696232 kB
+Buffers:           32596 kB
+Cached:          1524728 kB
+SwapCached:            0 kB
+Active:          2045316 kB
+Inactive:         246312 kB
+Active(anon):     802396 kB
+Inactive(anon):        0 kB
+Active(file):    1242920 kB
+Inactive(file):   246312 kB
+Unevictable:       63136 kB
+Mlocked:           63136 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Zswap:                 0 kB
+Zswapped:              0 kB
+Dirty:              7416 kB
+Writeback:             0 kB
+AnonPages:        797656 kB
+Mapped:           971220 kB
+Shmem:             28368 kB
+KReclaimable:      49204 kB
+Slab:             187320 kB
+SReclaimable:      49204 kB
+SUnreclaim:       138116 kB
+KernelStack:       23528 kB
+ShadowCallStack:    5928 kB
+PageTables:        58716 kB
+SecPageTables:         0 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     3024428 kB
+Committed_AS:   121407500 kB
+VmallocTotal:   133141626880 kB
+VmallocUsed:       45868 kB
+VmallocChunk:          0 kB
+Percpu:             4896 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:          32768 kB
+CmaFree:           29696 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+0.21 0.14 0.05 1/1467 3759
+
+STDERR
+

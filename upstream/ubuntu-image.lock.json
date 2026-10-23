@@ -1,0 +1,8 @@
+{
+  "Url": "https://cloud-images.ubuntu.com/noble/20261017/noble-server-cloudimg-arm64.img",
+  "Sha256": "50e24e1fb79e89116e939d90aa7738f7af48c442fa1bc2510131e0b39c50348e",
+  "Size": 616522752,
+  "Format": "qcow2",
+  "Source": "Canonical Ubuntu 24.04 LTS cloud image",
+  "AcquiredUtc": "2026-10-23T06:40:27.9725433Z"
+}

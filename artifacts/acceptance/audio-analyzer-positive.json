@@ -1,0 +1,732 @@
+{
+  "Passed": true,
+  "SampleSeconds": 18,
+  "SampleRate": 48000,
+  "Channels": 1,
+  "Windows440": 45,
+  "Windows880": 45,
+  "Alternations": 17,
+  "Criterion": "Both 440/880 Hz present in \u003E=3 separate 200ms windows each, amplitude \u003E0.002, \u003E4x other tone, \u003E8x controls; \u003E=3 alternations",
+  "Windows": [
+    {
+      "StartSeconds": 0,
+      "Rms": 0.08197388181759335,
+      "Amplitude440": 0.11980192631974812,
+      "Amplitude880": 8.043491624696521E-07,
+      "ControlAmplitude": 2.8564895293562783E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 0.2,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 0.4,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 0.6,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 0.8,
+      "Rms": 0.08196924549518096,
+      "Amplitude440": 0.11980191264881893,
+      "Amplitude880": 7.9423274384628E-07,
+      "ControlAmplitude": 2.839668657546662E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 1,
+      "Rms": 0.08197316763396034,
+      "Amplitude440": 7.118059747685985E-07,
+      "Amplitude880": 0.11980164612956654,
+      "ControlAmplitude": 1.8149096894653513E-06,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 1.2,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 1.4,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 1.6,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 1.8,
+      "Rms": 0.0819686418844211,
+      "Amplitude440": 7.312658359663397E-07,
+      "Amplitude880": 0.11980165810739712,
+      "ControlAmplitude": 1.8218572611777288E-06,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 2,
+      "Rms": 0.08197388181759335,
+      "Amplitude440": 0.11980192631974812,
+      "Amplitude880": 8.043491624696521E-07,
+      "ControlAmplitude": 2.8564895293562783E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 2.2,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 2.4,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 2.6,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 2.8,
+      "Rms": 0.08196924549518096,
+      "Amplitude440": 0.11980191264881893,
+      "Amplitude880": 7.9423274384628E-07,
+      "ControlAmplitude": 2.839668657546662E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 3,
+      "Rms": 0.08197316763396034,
+      "Amplitude440": 7.118059747685985E-07,
+      "Amplitude880": 0.11980164612956654,
+      "ControlAmplitude": 1.8149096894653513E-06,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 3.2,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 3.4,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 3.6,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 3.8,
+      "Rms": 0.0819686418844211,
+      "Amplitude440": 7.312658359663397E-07,
+      "Amplitude880": 0.11980165810739712,
+      "ControlAmplitude": 1.8218572611777288E-06,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 4,
+      "Rms": 0.08197388181759335,
+      "Amplitude440": 0.11980192631974812,
+      "Amplitude880": 8.043491624696521E-07,
+      "ControlAmplitude": 2.8564895293562783E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 4.2,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 4.4,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 4.6,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 4.8,
+      "Rms": 0.08196924549518096,
+      "Amplitude440": 0.11980191264881893,
+      "Amplitude880": 7.9423274384628E-07,
+      "ControlAmplitude": 2.839668657546662E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 5,
+      "Rms": 0.08197316763396034,
+      "Amplitude440": 7.118059747685985E-07,
+      "Amplitude880": 0.11980164612956654,
+      "ControlAmplitude": 1.8149096894653513E-06,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 5.2,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 5.4,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 5.6,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 5.8,
+      "Rms": 0.0819686418844211,
+      "Amplitude440": 7.312658359663397E-07,
+      "Amplitude880": 0.11980165810739712,
+      "ControlAmplitude": 1.8218572611777288E-06,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 6,
+      "Rms": 0.08197388181759335,
+      "Amplitude440": 0.11980192631974812,
+      "Amplitude880": 8.043491624696521E-07,
+      "ControlAmplitude": 2.8564895293562783E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 6.2,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 6.4,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 6.6,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 6.8,
+      "Rms": 0.08196924549518096,
+      "Amplitude440": 0.11980191264881893,
+      "Amplitude880": 7.9423274384628E-07,
+      "ControlAmplitude": 2.839668657546662E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 7,
+      "Rms": 0.08197316763396034,
+      "Amplitude440": 7.118059747685985E-07,
+      "Amplitude880": 0.11980164612956654,
+      "ControlAmplitude": 1.8149096894653513E-06,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 7.2,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 7.4,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 7.6,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 7.8,
+      "Rms": 0.0819686418844211,
+      "Amplitude440": 7.312658359663397E-07,
+      "Amplitude880": 0.11980165810739712,
+      "ControlAmplitude": 1.8218572611777288E-06,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 8,
+      "Rms": 0.08197388181759335,
+      "Amplitude440": 0.11980192631974812,
+      "Amplitude880": 8.043491624696521E-07,
+      "ControlAmplitude": 2.8564895293562783E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 8.2,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 8.4,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 8.6,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 8.8,
+      "Rms": 0.08196924549518096,
+      "Amplitude440": 0.11980191264881893,
+      "Amplitude880": 7.9423274384628E-07,
+      "ControlAmplitude": 2.839668657546662E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 9,
+      "Rms": 0.08197316763396034,
+      "Amplitude440": 7.118059747685985E-07,
+      "Amplitude880": 0.11980164612956654,
+      "ControlAmplitude": 1.8149096894653513E-06,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 9.2,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 9.4,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 9.6,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 9.8,
+      "Rms": 0.0819686418844211,
+      "Amplitude440": 7.312658359663397E-07,
+      "Amplitude880": 0.11980165810739712,
+      "ControlAmplitude": 1.8218572611777288E-06,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 10,
+      "Rms": 0.08197388181759335,
+      "Amplitude440": 0.11980192631974812,
+      "Amplitude880": 8.043491624696521E-07,
+      "ControlAmplitude": 2.8564895293562783E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 10.2,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 10.4,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 10.6,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 10.8,
+      "Rms": 0.08196924549518096,
+      "Amplitude440": 0.11980191264881893,
+      "Amplitude880": 7.9423274384628E-07,
+      "ControlAmplitude": 2.839668657546662E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 11,
+      "Rms": 0.08197316763396034,
+      "Amplitude440": 7.118059747685985E-07,
+      "Amplitude880": 0.11980164612956654,
+      "ControlAmplitude": 1.8149096894653513E-06,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 11.2,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 11.4,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 11.6,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 11.8,
+      "Rms": 0.0819686418844211,
+      "Amplitude440": 7.312658359663397E-07,
+      "Amplitude880": 0.11980165810739712,
+      "ControlAmplitude": 1.8218572611777288E-06,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 12,
+      "Rms": 0.08197388181759335,
+      "Amplitude440": 0.11980192631974812,
+      "Amplitude880": 8.043491624696521E-07,
+      "ControlAmplitude": 2.8564895293562783E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 12.2,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 12.4,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 12.6,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 12.8,
+      "Rms": 0.08196924549518096,
+      "Amplitude440": 0.11980191264881893,
+      "Amplitude880": 7.9423274384628E-07,
+      "ControlAmplitude": 2.839668657546662E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 13,
+      "Rms": 0.08197316763396034,
+      "Amplitude440": 7.118059747685985E-07,
+      "Amplitude880": 0.11980164612956654,
+      "ControlAmplitude": 1.8149096894653513E-06,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 13.2,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 13.4,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 13.6,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 13.8,
+      "Rms": 0.0819686418844211,
+      "Amplitude440": 7.312658359663397E-07,
+      "Amplitude880": 0.11980165810739712,
+      "ControlAmplitude": 1.8218572611777288E-06,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 14,
+      "Rms": 0.08197388181759335,
+      "Amplitude440": 0.11980192631974812,
+      "Amplitude880": 8.043491624696521E-07,
+      "ControlAmplitude": 2.8564895293562783E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 14.2,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 14.4,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 14.6,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 14.8,
+      "Rms": 0.08196924549518096,
+      "Amplitude440": 0.11980191264881893,
+      "Amplitude880": 7.9423274384628E-07,
+      "ControlAmplitude": 2.839668657546662E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 15,
+      "Rms": 0.08197316763396034,
+      "Amplitude440": 7.118059747685985E-07,
+      "Amplitude880": 0.11980164612956654,
+      "ControlAmplitude": 1.8149096894653513E-06,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 15.2,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 15.4,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 15.6,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 15.8,
+      "Rms": 0.0819686418844211,
+      "Amplitude440": 7.312658359663397E-07,
+      "Amplitude880": 0.11980165810739712,
+      "ControlAmplitude": 1.8218572611777288E-06,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 16,
+      "Rms": 0.08197388181759335,
+      "Amplitude440": 0.11980192631974812,
+      "Amplitude880": 8.043491624696521E-07,
+      "ControlAmplitude": 2.8564895293562783E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 16.2,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 16.4,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 16.6,
+      "Rms": 0.08485044562280226,
+      "Amplitude440": 0.1199966498771265,
+      "Amplitude880": 1.4344997477611526E-09,
+      "ControlAmplitude": 5.280611023163366E-07,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 16.8,
+      "Rms": 0.08196924549518096,
+      "Amplitude440": 0.11980191264881893,
+      "Amplitude880": 7.9423274384628E-07,
+      "ControlAmplitude": 2.839668657546662E-06,
+      "DetectedFrequency": 440
+    },
+    {
+      "StartSeconds": 17,
+      "Rms": 0.08197316763396034,
+      "Amplitude440": 7.118059747685985E-07,
+      "Amplitude880": 0.11980164612956654,
+      "ControlAmplitude": 1.8149096894653513E-06,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 17.2,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 17.4,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 17.6,
+      "Rms": 0.084850359387607,
+      "Amplitude440": 1.4359847581410641E-09,
+      "Amplitude880": 0.11999652829534438,
+      "ControlAmplitude": 4.2758164888169376E-07,
+      "DetectedFrequency": 880
+    },
+    {
+      "StartSeconds": 17.8,
+      "Rms": 0.0819686418844211,
+      "Amplitude440": 7.312658359663397E-07,
+      "Amplitude880": 0.11980165810739712,
+      "ControlAmplitude": 1.8218572611777288E-06,
+      "DetectedFrequency": 880
+    }
+  ]
+}

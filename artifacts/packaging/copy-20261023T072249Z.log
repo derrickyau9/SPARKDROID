@@ -1,0 +1,658 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:22:49 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\artifacts\launcher\win-arm64\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\
+
+    Files : *.*
+	    
+Exc Files : *.pyc
+	    *.base64
+	    
+ Exc Dirs : .git
+	    obj
+	    __pycache__
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\upstream\redroid-doc
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.AudioProbe\bin
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.Launcher\bin
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DAT /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        14        13         1         0         0         0
+   Files :       273       273         0         0         0         0
+   Bytes :  130.67 m  130.67 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           545,889,270 Bytes/sec.
+   Speed :            31,236.035 MegaBytes/min.
+   Ended : Friday, October 23, 2026 12:22:50 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:22:50 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\scripts\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\scripts\
+
+    Files : *.*
+	    
+Exc Files : *.pyc
+	    *.base64
+	    
+ Exc Dirs : .git
+	    obj
+	    __pycache__
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\upstream\redroid-doc
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.AudioProbe\bin
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.Launcher\bin
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DAT /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         3         2         1         0         0         0
+   Files :        22        22         0         0         0         0
+   Bytes :   125.0 k   125.0 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           10,668,166 Bytes/sec.
+   Speed :              610.437 MegaBytes/min.
+   Ended : Friday, October 23, 2026 12:22:50 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:22:50 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\config\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\config\
+
+    Files : *.*
+	    
+Exc Files : *.pyc
+	    *.base64
+	    
+ Exc Dirs : .git
+	    obj
+	    __pycache__
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\upstream\redroid-doc
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.AudioProbe\bin
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.Launcher\bin
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DAT /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         1         0         0         0         0
+   Files :         1         1         0         0         0         0
+   Bytes :       907       907         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Friday, October 23, 2026 12:22:50 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:22:50 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\guest\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\guest\
+
+    Files : *.*
+	    
+Exc Files : *.pyc
+	    *.base64
+	    
+ Exc Dirs : .git
+	    obj
+	    __pycache__
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\upstream\redroid-doc
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.AudioProbe\bin
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.Launcher\bin
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DAT /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         1         0         0         0         0
+   Files :         3         3         0         0         0         0
+   Bytes :    14.3 k    14.3 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           7,339,500 Bytes/sec.
+   Speed :             419.970 MegaBytes/min.
+   Ended : Friday, October 23, 2026 12:22:50 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:22:50 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\docs\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\docs\
+
+    Files : *.*
+	    
+Exc Files : *.pyc
+	    *.base64
+	    
+ Exc Dirs : .git
+	    obj
+	    __pycache__
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\upstream\redroid-doc
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.AudioProbe\bin
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.Launcher\bin
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DAT /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         1         0         0         0         0
+   Files :         6         6         0         0         0         0
+   Bytes :    48.3 k    48.3 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           24,772,000 Bytes/sec.
+   Speed :            1,417.465 MegaBytes/min.
+   Ended : Friday, October 23, 2026 12:22:50 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:22:50 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\src\
+
+    Files : *.*
+	    
+Exc Files : *.pyc
+	    *.base64
+	    
+ Exc Dirs : .git
+	    obj
+	    __pycache__
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\upstream\redroid-doc
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.AudioProbe\bin
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.Launcher\bin
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DAT /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         8         4         4         0         0         0
+   Files :       205       205         0         0         0         0
+   Bytes :   86.78 m   86.78 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           526,000,017 Bytes/sec.
+   Speed :            30,097.963 MegaBytes/min.
+   Ended : Friday, October 23, 2026 12:22:50 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:22:50 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\upstream\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\upstream\
+
+    Files : *.*
+	    
+Exc Files : *.pyc
+	    *.base64
+	    
+ Exc Dirs : .git
+	    obj
+	    __pycache__
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\upstream\redroid-doc
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.AudioProbe\bin
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.Launcher\bin
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DAT /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :       233       232         1         0         0         0
+   Files :       332       332         0         0         0         0
+   Bytes :    4.39 m    4.39 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           31,326,204 Bytes/sec.
+   Speed :            1,792.500 MegaBytes/min.
+   Ended : Friday, October 23, 2026 12:22:50 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:22:50 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\tools\qemu-arm64\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\tools\qemu-arm64\
+
+    Files : *.*
+	    
+Exc Files : *.pyc
+	    *.base64
+	    
+ Exc Dirs : .git
+	    obj
+	    __pycache__
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\upstream\redroid-doc
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.AudioProbe\bin
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.Launcher\bin
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DAT /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :      2152      2003       149         0         0         0
+   Files :     18753     18753         0         0         0         0
+   Bytes :  917.24 m  917.24 m         0         0         0         0
+   Times :   0:00:11   0:00:10                       0:00:00   0:00:01
+
+
+   Speed :           94,008,723 Bytes/sec.
+   Speed :            5,379.222 MegaBytes/min.
+   Ended : Friday, October 23, 2026 12:23:02 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:23:02 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\tools\android\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\tools\android\
+
+    Files : *.*
+	    
+Exc Files : *.pyc
+	    *.base64
+	    
+ Exc Dirs : .git
+	    obj
+	    __pycache__
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\upstream\redroid-doc
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.AudioProbe\bin
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.Launcher\bin
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DAT /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         2         0         0         0         0
+   Files :        14        14         0         0         0         0
+   Bytes :   16.71 m   16.71 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           922,599,894 Bytes/sec.
+   Speed :            52,791.590 MegaBytes/min.
+   Ended : Friday, October 23, 2026 12:23:02 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:23:02 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\tools\scrcpy\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\tools\scrcpy\
+
+    Files : *.*
+	    
+Exc Files : *.pyc
+	    *.base64
+	    
+ Exc Dirs : .git
+	    obj
+	    __pycache__
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\upstream\redroid-doc
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.AudioProbe\bin
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.Launcher\bin
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DAT /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         1         0         0         0         0
+   Files :        16        16         0         0         0         0
+   Bytes :   19.02 m   19.02 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           906,969,636 Bytes/sec.
+   Speed :            51,897.219 MegaBytes/min.
+   Ended : Friday, October 23, 2026 12:23:02 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:23:02 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\tools\powershell\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\tools\powershell\
+
+    Files : *.*
+	    
+Exc Files : *.pyc
+	    *.base64
+	    
+ Exc Dirs : .git
+	    obj
+	    __pycache__
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\upstream\redroid-doc
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.AudioProbe\bin
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.Launcher\bin
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DAT /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        41        41         0         0         0         0
+   Files :       657       657         0         0         0         0
+   Bytes :  269.42 m  269.42 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           537,091,393 Bytes/sec.
+   Speed :            30,732.615 MegaBytes/min.
+   Ended : Friday, October 23, 2026 12:23:03 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:23:03 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\tools\python\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\tools\python\
+
+    Files : *.*
+	    
+Exc Files : *.pyc
+	    *.base64
+	    
+ Exc Dirs : .git
+	    obj
+	    __pycache__
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\upstream\redroid-doc
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.AudioProbe\bin
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.Launcher\bin
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DAT /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         1         0         0         0         0
+   Files :        36        36         0         0         0         0
+   Bytes :   22.81 m   22.81 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           703,619,294 Bytes/sec.
+   Speed :            40,261.418 MegaBytes/min.
+   Ended : Friday, October 23, 2026 12:23:03 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:23:03 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\tools\python-libs\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\tools\python-libs\
+
+    Files : *.*
+	    
+Exc Files : *.pyc
+	    *.base64
+	    
+ Exc Dirs : .git
+	    obj
+	    __pycache__
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\upstream\redroid-doc
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.AudioProbe\bin
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.Launcher\bin
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DAT /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         9         8         1         0         0         0
+   Files :        29        29         0         0         0         0
+   Bytes :    1.04 m    1.04 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           57,708,473 Bytes/sec.
+   Speed :            3,302.105 MegaBytes/min.
+   Ended : Friday, October 23, 2026 12:23:03 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:23:03 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\artifacts\toolchain\sources\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\artifacts\toolchain\sources\
+
+    Files : *.*
+	    
+Exc Files : *.pyc
+	    *.base64
+	    
+ Exc Dirs : .git
+	    obj
+	    __pycache__
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\upstream\redroid-doc
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.AudioProbe\bin
+	    C:\Users\RTX-SPARK\Documents\RTX ANDROID\src\SparkDroid.Launcher\bin
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DAT /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         1         0         0         0         0
+   Files :        13        12         1         0         0         0
+   Bytes :    1.38 m   837.5 k   580.9 k         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           122,521,000 Bytes/sec.
+   Speed :             7,010.708 MegaBytes/min.
+   Ended : Friday, October 23, 2026 12:23:03 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:23:03 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\artifacts\acceptance\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\artifacts\acceptance\
+
+    Files : *.*
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DA /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         1         0         0         0         0
+   Files :        41        41         0         0         0         0
+   Bytes :    9.02 m    9.02 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           430,287,000 Bytes/sec.
+   Speed :            24,621.219 MegaBytes/min.
+   Ended : Friday, October 23, 2026 12:23:03 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:23:03 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\artifacts\benchmarks\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\artifacts\benchmarks\
+
+    Files : *.*
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DA /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        11        11         0         0         0         0
+   Files :       112       112         0         0         0         0
+   Bytes :   665.2 k   665.2 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           13,623,680 Bytes/sec.
+   Speed :              779.553 MegaBytes/min.
+   Ended : Friday, October 23, 2026 12:23:03 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:23:03 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\artifacts\host\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\artifacts\host\
+
+    Files : *.*
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DA /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         1         0         0         0         0
+   Files :         3         3         0         0         0         0
+   Bytes :     5.2 k     5.2 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           1,353,750 Bytes/sec.
+   Speed :              77.462 MegaBytes/min.
+   Ended : Friday, October 23, 2026 12:23:03 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Friday, October 23, 2026 12:23:03 AM
+   Source : C:\Users\RTX-SPARK\Documents\RTX ANDROID\artifacts\compatibility\
+     Dest : C:\Users\RTX-SPARK\Documents\RTX ANDROID\dist\.SPARKDROID-0.1.0-win-arm64-assembling-6f5246c3ad534dcfad14c5946bf100a3\artifacts\compatibility\
+
+    Files : *.*
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DA /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         2         0         0         0         0
+   Files :        17        17         0         0         0         0
+   Bytes :   768.5 k   768.5 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           87,447,333 Bytes/sec.
+   Speed :            5,003.776 MegaBytes/min.
+   Ended : Friday, October 23, 2026 12:23:03 AM
+

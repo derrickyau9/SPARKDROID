@@ -1,0 +1,159 @@
+{
+  "updatedUtc": "2026-10-23T16:00:26.0700442Z",
+  "hostPrimaryScreenHz": 120,
+  "currentDisplay": {
+    "refreshHz": 60,
+    "matchWindows": false,
+    "server": "tools/scrcpy/scrcpy-server-sparkdroid",
+    "width": 540,
+    "height": 960,
+    "dpi": 180,
+    "videoCodec": "h264",
+    "lowComplexity": true
+  },
+  "profile": "Performance",
+  "independentAppWindowsImplemented": true,
+  "stable120FpsAcceptance": false,
+  "stable120FpsBlocker": "Android SwiftShader rendering and software encoding; concurrent-window tests stuttered. Windows D3D11VA decoding does not accelerate Android rendering.",
+  "smooth60AnimationMeanFps": 59.33,
+  "smooth60AnimationRange": [
+    55,
+    61
+  ],
+  "measurements": [
+    {
+      "directory": "20261023T154358387Z-h264-720x1280",
+      "requestedHz": 120,
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "audioEnabled": null,
+      "lowComplexity": false,
+      "meanFps": 59.92,
+      "minimumFps": 59.0,
+      "maximumFps": 60.0
+    },
+    {
+      "directory": "20261023T154423939Z-h264-720x1280",
+      "requestedHz": 120,
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "audioEnabled": null,
+      "lowComplexity": true,
+      "meanFps": 59.92,
+      "minimumFps": 59.0,
+      "maximumFps": 61.0
+    },
+    {
+      "directory": "20261023T154511089Z-vp8-720x1280",
+      "requestedHz": 120,
+      "codec": "vp8",
+      "width": 720,
+      "height": 1280,
+      "audioEnabled": null,
+      "lowComplexity": false,
+      "meanFps": 119.08,
+      "minimumFps": 104.0,
+      "maximumFps": 131.0
+    },
+    {
+      "directory": "20261023T154529368Z-h264-720x1280",
+      "requestedHz": 120,
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "audioEnabled": null,
+      "lowComplexity": false,
+      "meanFps": 112.31,
+      "minimumFps": 91.0,
+      "maximumFps": 121.0
+    },
+    {
+      "directory": "20261023T154612905Z-h264-720x1280",
+      "requestedHz": 120,
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "audioEnabled": null,
+      "lowComplexity": true,
+      "meanFps": 115.88,
+      "minimumFps": 100.0,
+      "maximumFps": 121.0
+    },
+    {
+      "directory": "20261023T154723265Z-vp8-720x1280",
+      "requestedHz": 120,
+      "codec": "vp8",
+      "width": 720,
+      "height": 1280,
+      "audioEnabled": true,
+      "lowComplexity": false,
+      "meanFps": 82.48,
+      "minimumFps": 3.0,
+      "maximumFps": 120.0
+    },
+    {
+      "directory": "20261023T154817165Z-vp8-540x960",
+      "requestedHz": 120,
+      "codec": "vp8",
+      "width": 540,
+      "height": 960,
+      "audioEnabled": true,
+      "lowComplexity": false,
+      "meanFps": 96.12,
+      "minimumFps": 84.0,
+      "maximumFps": 113.0
+    },
+    {
+      "directory": "20261023T154912597Z-h264-720x1280",
+      "requestedHz": 120,
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "audioEnabled": true,
+      "lowComplexity": true,
+      "meanFps": 81.56,
+      "minimumFps": 58.0,
+      "maximumFps": 116.0
+    },
+    {
+      "directory": "20261023T155009670Z-vp8-720x1280",
+      "requestedHz": 120,
+      "codec": "vp8",
+      "width": 720,
+      "height": 1280,
+      "audioEnabled": true,
+      "lowComplexity": false,
+      "meanFps": 75.65,
+      "minimumFps": 59.0,
+      "maximumFps": 88.0
+    },
+    {
+      "directory": "20261023T155129376Z-h264-720x1280",
+      "requestedHz": 120,
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "audioEnabled": true,
+      "lowComplexity": true,
+      "meanFps": 40.24,
+      "minimumFps": 0.0,
+      "maximumFps": 75.0
+    },
+    {
+      "directory": "20261023T155726757Z-h264-540x960",
+      "requestedHz": 60,
+      "codec": "h264",
+      "width": 540,
+      "height": 960,
+      "audioEnabled": true,
+      "lowComplexity": true,
+      "meanFps": 59.33,
+      "minimumFps": 55.0,
+      "maximumFps": 61.0
+    }
+  ],
+  "displayEvidence": "displays-three-windows.txt",
+  "report": "../../docs/INDEPENDENT-APPS-120HZ.md"
+}

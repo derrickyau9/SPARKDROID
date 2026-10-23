@@ -1,0 +1,16 @@
+{
+  "name": "start-activity",
+  "arguments": [
+    "shell",
+    "am",
+    "start",
+    "-W",
+    "-n",
+    "com.tencent.mm/.ui.LauncherUI"
+  ],
+  "exitCode": 0,
+  "timedOut": false,
+  "elapsedMilliseconds": 509.868,
+  "stdout": "Starting: Intent { cmp=com.tencent.mm/.ui.LauncherUI }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: com.tencent.mm/.app.WeChatSplashActivity\r\nTotalTime: 430\r\nWaitTime: 434\r\nComplete\r\n",
+  "stderr": ""
+}

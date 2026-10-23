@@ -1,0 +1,16 @@
+{
+  "name": "resolve-activity",
+  "arguments": [
+    "shell",
+    "cmd",
+    "package",
+    "resolve-activity",
+    "--brief",
+    "com.tencent.mm"
+  ],
+  "exitCode": 0,
+  "timedOut": false,
+  "elapsedMilliseconds": 76.057,
+  "stdout": "priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false\r\ncom.tencent.mm/.ui.LauncherUI\r\n",
+  "stderr": ""
+}

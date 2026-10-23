@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "measuredUtc": "2026-10-23T07:08:06.044618Z",
+  "package": "com.tencent.mm",
+  "versionName": "8.0.79",
+  "versionCode": 3200,
+  "apkSha256": "f2a725bc04302ad218a563533ae79356e66b64aa711b275bc919a8d432f7e15d",
+  "backend": "whpx-linux-redroid",
+  "configuredGraphics": "software-explicit",
+  "installationPerformed": true,
+  "installationAcceptedByPackageManager": true,
+  "component": "com.tencent.mm/.ui.LauncherUI",
+  "launchExitCode": 0,
+  "launchStatus": "ok",
+  "launchState": "COLD",
+  "totalTimeMillisecondsRaw": "430",
+  "waitTimeMillisecondsRaw": "434",
+  "adbWallMilliseconds": 509.868,
+  "mainProcessAliveAfterWait": true,
+  "processIdsRaw": "1890",
+  "uiReview": "Screenshot visually reviewed: WeChat welcome globe, Log In and Sign Up buttons, and Chinese language control. No input events sent. UIAutomator reported could not get idle state; no XML was captured.",
+  "noInputEventsSent": true,
+  "accountLoginAttempted": false,
+  "accountRegistrationAttempted": false,
+  "legalTermsAcceptedByTest": false,
+  "permissionsGrantedByTest": false,
+  "limitations": "Initial launch only. No account features, messages, payments, calls, push delivery, camera, microphone, location, integrity or vendor framework compatibility tested. A successful install is not independent signer-identity pinning.",
+  "commands": [
+    {
+      "name": "android-boot-completed",
+      "arguments": [
+        "shell",
+        "getprop",
+        "sys.boot_completed"
+      ],
+      "exitCode": 0,
+      "timedOut": false,
+      "elapsedMilliseconds": 71.799
+    },
+    {
+      "name": "install",
+      "arguments": [
+        "install",
+        "-r",
+        "C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\artifacts\\apks\\WeChat-arm64.apk"
+      ],
+      "exitCode": 0,
+      "timedOut": false,
+      "elapsedMilliseconds": 9091.404
+    },
+    {
+      "name": "package-details",
+      "arguments": [
+        "shell",
+        "dumpsys",
+        "package",
+        "com.tencent.mm"
+      ],
+      "exitCode": 0,
+      "timedOut": false,
+      "elapsedMilliseconds": 78.32
+    },
+    {
+      "name": "resolve-activity",
+      "arguments": [
+        "shell",
+        "cmd",
+        "package",
+        "resolve-activity",
+        "--brief",
+        "com.tencent.mm"
+      ],
+      "exitCode": 0,
+      "timedOut": false,
+      "elapsedMilliseconds": 76.057
+    },
+    {
+      "name": "force-stop-before",
+      "arguments": [
+        "shell",
+        "am",
+        "force-stop",
+        "com.tencent.mm"
+      ],
+      "exitCode": 0,
+      "timedOut": false,
+      "elapsedMilliseconds": 79.213
+    },
+    {
+      "name": "start-activity",
+      "arguments": [
+        "shell",
+        "am",
+        "start",
+        "-W",
+        "-n",
+        "com.tencent.mm/.ui.LauncherUI"
+      ],
+      "exitCode": 0,
+      "timedOut": false,
+      "elapsedMilliseconds": 509.868
+    },
+    {
+      "name": "process-id",
+      "arguments": [
+        "shell",
+        "pidof",
+        "com.tencent.mm"
+      ],
+      "exitCode": 0,
+      "timedOut": false,
+      "elapsedMilliseconds": 77.774
+    },
+    {
+      "name": "activity-state",
+      "arguments": [
+        "shell",
+        "dumpsys",
+        "activity",
+        "activities"
+      ],
+      "exitCode": 0,
+      "timedOut": false,
+      "elapsedMilliseconds": 72.026
+    },
+    {
+      "name": "window-state",
+      "arguments": [
+        "shell",
+        "dumpsys",
+        "window",
+        "windows"
+      ],
+      "exitCode": 0,
+      "timedOut": false,
+      "elapsedMilliseconds": 74.365
+    },
+    {
+      "name": "recent-logcat",
+      "arguments": [
+        "logcat",
+        "-d",
+        "-t",
+        "600"
+      ],
+      "exitCode": 0,
+      "timedOut": false,
+      "elapsedMilliseconds": 79.943
+    },
+    {
+      "name": "screenshot-capture",
+      "arguments": [
+        "shell",
+        "screencap",
+        "-p",
+        "/sdcard/sparkdroid-wechat-20261023T070739171Z.png"
+      ],
+      "exitCode": 0,
+      "timedOut": false,
+      "elapsedMilliseconds": 309.487
+    },
+    {
+      "name": "screenshot-pull",
+      "arguments": [
+        "pull",
+        "/sdcard/sparkdroid-wechat-20261023T070739171Z.png",
+        "C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\artifacts\\compatibility\\wechat-20261023T070739171Z\\screen.png"
+      ],
+      "exitCode": 0,
+      "timedOut": false,
+      "elapsedMilliseconds": 67.348
+    },
+    {
+      "name": "ui-dump",
+      "arguments": [
+        "shell",
+        "uiautomator",
+        "dump",
+        "/sdcard/sparkdroid-wechat-20261023T070739171Z.xml"
+      ],
+      "exitCode": 0,
+      "timedOut": false,
+      "elapsedMilliseconds": 11049.956
+    },
+    {
+      "name": "ui-pull",
+      "arguments": [
+        "pull",
+        "/sdcard/sparkdroid-wechat-20261023T070739171Z.xml",
+        "C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\artifacts\\compatibility\\wechat-20261023T070739171Z\\ui.xml"
+      ],
+      "exitCode": 1,
+      "timedOut": false,
+      "elapsedMilliseconds": 60.249
+    },
+    {
+      "name": "remove-own-guest-captures",
+      "arguments": [
+        "shell",
+        "rm",
+        "-f",
+        "/sdcard/sparkdroid-wechat-20261023T070739171Z.png",
+        "/sdcard/sparkdroid-wechat-20261023T070739171Z.xml"
+      ],
+      "exitCode": 0,
+      "timedOut": false,
+      "elapsedMilliseconds": 76.331
+    }
+  ],
+  "screenshotWelcomeScreenObserved": true,
+  "accessibilityTreeCaptured": false
+}

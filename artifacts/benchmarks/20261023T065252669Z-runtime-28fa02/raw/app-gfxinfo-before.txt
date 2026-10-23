@@ -1,0 +1,120 @@
+COMMAND: C:\Users\RTX-SPARK\Documents\RTX ANDROID\tools\android\platform-tools\adb.exe
+ARGUMENTS: ["-s","127.0.0.1:15555","shell","dumpsys","gfxinfo","org.videolan.vlc","framestats"]
+EXIT: 0
+TIMED OUT: False
+ELAPSED MS: 77.248
+
+STDOUT
+Applications Graphics Acceleration Info:
+Uptime: 466409 Realtime: 466409
+
+** Graphics info for pid 5446 [org.videolan.vlc] **
+
+Stats since: 439240571118ns
+Total frames rendered: 10
+Janky frames: 2 (20.00%)
+Janky frames (legacy): 2 (20.00%)
+50th percentile: 5ms
+90th percentile: 250ms
+95th percentile: 250ms
+99th percentile: 250ms
+Number Missed Vsync: 1
+Number High input latency: 4
+Number Slow UI thread: 1
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 1
+Number Frame deadline missed: 2
+Number Frame deadline missed (legacy): 1
+HISTOGRAM: 5ms=6 6ms=1 7ms=0 8ms=0 9ms=0 10ms=0 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=1 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=1 250ms=1 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+50th gpu percentile: 1ms
+90th gpu percentile: 1ms
+95th gpu percentile: 1ms
+99th gpu percentile: 1ms
+GPU HISTOGRAM: 1ms=10 2ms=0 3ms=0 4ms=0 5ms=0 6ms=0 7ms=0 8ms=0 9ms=0 10ms=0 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 4950ms=0
+
+Pipeline=Skia (OpenGL)
+Memory policy:
+  Max surface area: 2073600
+  Max resource usage: 99.53MB (x48)
+  Background retention: 50% (altUiHidden = true)
+  GPU Context timeout: 10
+Contexts: 1 (stopped = 0)
+CPU Caches:
+  Glyph Cache: 14.66 KB (1 entry)
+  Glyph Count: 7 
+Total CPU memory usage:
+  15010 bytes, 14.66 KB (0.00 bytes is purgeable)
+GPU Caches:
+  Other:
+    Other: 2.77 KB (1 entry)
+  Image:
+    Texture: 25.63 KB (1 entry)
+  Scratch:
+    Buffer Object: 112.00 KB (3 entries)
+    Texture: 2.00 MB (2 entries)
+Total GPU memory usage:
+  2241044 bytes, 2.14 MB (89.63 KB is purgeable)
+
+GraphicBufferAllocator buffers:
+            Handle |         Size |     W (Stride) x H | Layers |   Format |      Usage | Requestor
+0xb400fd0fb884b2d0 |  3600.00 KiB |  720 ( 720) x 1280 |      1 |        1 | 0x     b00 | VRI[OnboardingActivity]#0(BLAST Consumer)0
+0xb400fd0fb884b950 |  3600.00 KiB |  720 ( 720) x 1280 |      1 |        1 | 0x     b00 | VRI[OnboardingActivity]#0(BLAST Consumer)0
+0xb400fd0fb884ba10 |  3600.00 KiB |  720 ( 720) x 1280 |      1 |        1 | 0x     b00 | VRI[OnboardingActivity]#0(BLAST Consumer)0
+Total allocated by GraphicBufferAllocator (estimate): 10800.00 KB
+
+Profile data in ms:
+
+	org.videolan.vlc/org.videolan.vlc.gui.onboarding.OnboardingActivity/android.view.ViewRootImpl@630849d (visibility=0)
+Window: org.videolan.vlc/org.videolan.vlc.gui.onboarding.OnboardingActivity
+Stats since: 439337757466ns
+Total frames rendered: 10
+Janky frames: 2 (20.00%)
+Janky frames (legacy): 2 (20.00%)
+50th percentile: 5ms
+90th percentile: 250ms
+95th percentile: 250ms
+99th percentile: 250ms
+Number Missed Vsync: 1
+Number High input latency: 4
+Number Slow UI thread: 1
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 1
+Number Frame deadline missed: 2
+Number Frame deadline missed (legacy): 1
+HISTOGRAM: 5ms=6 6ms=1 7ms=0 8ms=0 9ms=0 10ms=0 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=1 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=1 250ms=1 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+50th gpu percentile: 1ms
+90th gpu percentile: 1ms
+95th gpu percentile: 1ms
+99th gpu percentile: 1ms
+GPU HISTOGRAM: 1ms=10 2ms=0 3ms=0 4ms=0 5ms=0 6ms=0 7ms=0 8ms=0 9ms=0 10ms=0 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 4950ms=0
+
+
+
+---PROFILEDATA---
+Flags,FrameTimelineVsyncId,IntendedVsync,Vsync,InputEventId,HandleInputStart,AnimationStart,PerformTraversalsStart,DrawStart,FrameDeadline,FrameStartTime,FrameInterval,WorkloadTarget,SyncQueued,SyncStart,IssueDrawCommandsStart,SwapBuffers,FrameCompleted,DequeueBufferDuration,QueueBufferDuration,GpuCompleted,SwapBuffersCompleted,DisplayPresentTime,CommandSubmissionCompleted,
+1,2544,439365407412,439365407412,0,439366601207,439366601575,439366601847,439376906613,439398740745,439366599527,33333333,33333333,439377972254,439378065456,439378147074,439432749795,439628179908,4096,283703,439432749795,439628179908,0,439432749795,
+0,2553,439398740745,439598740743,0,439629175451,439629175803,439629261501,439629284494,439498740744,439628933429,33333333,33333333,439629518931,439629584084,439629641158,439630093024,439638148459,4304,205717,439630093024,439638148459,0,439630093024,
+0,2573,439632074076,439632074076,0,439632862449,439632862689,439633227417,439633248537,439665407409,439632860864,33333333,33333333,439633361996,439638161387,439638206700,439638504371,439663785261,2384,353112,439638504371,439663785261,0,439638504371,
+0,2590,439665407409,439665407409,0,439665739210,439665739866,439666023857,439666049249,439698740742,439665735130,33333333,33333333,439666214789,439666324824,439666382105,439667670471,439670297636,788258,78561,439667670471,439670297636,0,439667670471,
+0,2603,439698740742,439698740742,0,439699137681,439699138337,439699676685,439699725902,439732074075,439699133312,33333333,33333333,439699882402,439699927299,439699975332,439700505328,439704800884,4176,100898,439700505328,439704800884,0,439700505328,
+0,2625,439765407408,439765407408,0,439765993213,439765993373,439765993597,439766039311,439798740741,439765991373,33333333,33333333,439766945395,439766983252,439767032326,439767358941,439768994291,8992,92243,439767358941,439768994291,0,439767358941,
+0,2638,439798740741,439798740741,0,439799571175,439799571479,439799680218,439799709131,439832074074,439799568919,33333333,33333333,439800061059,439800115380,439800215734,439800561694,439802965286,5680,111843,439800561694,439802965286,0,439800561694,
+0,2647,439832074074,439832074074,0,439832493763,439832494563,439832765337,439832835851,439865407407,439832490003,33333333,33333333,439833071632,439833098785,439833145218,439833515642,439835495848,7168,77266,439833515642,439835495848,0,439833515642,
+0,2656,439865407407,439865407407,0,439866087724,439866087964,439866313442,439866339426,439898740740,439866085644,33333333,33333333,439866510822,439866630873,439866686186,439867339961,439869220853,6976,72530,439867339961,439869220853,0,439867339961,
+0,2665,439898740740,439898740740,0,439900154321,439900154513,439900568187,439900590060,439932074073,439900152513,33333333,33333333,439900840433,439900911603,439900948068,439901283964,439903165927,4497,62226,439901283964,439903165927,0,439901283964,
+---PROFILEDATA---
+
+
+View hierarchy:
+
+  org.videolan.vlc/org.videolan.vlc.gui.onboarding.OnboardingActivity/android.view.ViewRootImpl@630849d
+  17 views, 33.80 kB of render nodes
+
+
+Total ViewRootImpl   : 1
+Total attached Views : 17
+Total RenderNode     : 33.80 kB (used) / 107.73 kB (capacity)
+
+
+STDERR
+

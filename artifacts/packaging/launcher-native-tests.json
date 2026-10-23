@@ -1,0 +1,14 @@
+[
+  {
+    "probe": "smoke-test",
+    "exitCode": 0,
+    "stdout": "{\"application\":\"SPARKDROID Launcher\",\"version\":\"0.1.0\",\"architecture\":\"Arm64\",\"framework\":\".NET 10.0.13\",\"windows\":true,\"uiConstructed\":true,\"screenshotFile\":null,\"runtimeBootValidated\":false,\"gpuValidated\":false,\"note\":\"Launcher process smoke test only; no Android runtime is started.\"}\r\n",
+    "stderr": ""
+  },
+  {
+    "probe": "probe-runtime",
+    "exitCode": 0,
+    "stdout": "{\r\n  \"backend\": \"whpx-linux-redroid\",\r\n  \"vmRunning\": false,\r\n  \"profile\": \"Balanced\",\r\n  \"graphics\": \"software-explicit\",\r\n  \"graphicsAccelerationValidated\": false,\r\n  \"androidBootCompleted\": false,\r\n  \"adb\": \"127.0.0.1:15555\",\r\n  \"logDirectory\": \"C:\\\\Users\\\\RTX-SPARK\\\\Documents\\\\RTX ANDROID\\\\dist\\\\SPARKDROID-0.1.0-win-arm64\\\\artifacts\\\\logs\"\r\n}\r\n",
+    "stderr": ""
+  }
+]

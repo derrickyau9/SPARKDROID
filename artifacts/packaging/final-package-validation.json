@@ -1,0 +1,17 @@
+{
+  "timestampUtc": "2026-10-23T07:35:23.0592965Z",
+  "package": "C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\dist\\SPARKDROID-0.1.0-win-arm64",
+  "manifestedFiles": 20555,
+  "actualFiles": 20557,
+  "manifestedBytes": 8344016045.0,
+  "totalBytesIncludingManifests": 8350927727.0,
+  "freshSeedEvidenceBytes": 1602,
+  "freshSeedEvidenceSha256": "86e4b0b9fe3f9f3c80acd7943ffa82f4d5b97ae8ce2ef14600ac92625002e470",
+  "guestImageSha256": "ef236695d511e4a6618a7cca1fafb10999432eb6a33d68353aa47941f87a4e0e",
+  "hostPrivateKeysIncluded": false,
+  "pristineStateContainsOnlyFlattenedDisk": true,
+  "allVmsStopped": true,
+  "freshSeedEvidenceEntryVerified": true,
+  "previousFullScanPassed": true,
+  "note": "Only the finalized fresh-seed validation report was added after full verification; all other file entries were preserved."
+}

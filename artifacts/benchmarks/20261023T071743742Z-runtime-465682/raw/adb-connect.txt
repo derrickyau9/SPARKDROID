@@ -1,0 +1,11 @@
+COMMAND: C:\Users\RTX-SPARK\Documents\RTX ANDROID\tools\android\platform-tools\adb.exe
+ARGUMENTS: ["connect","127.0.0.1:15555"]
+EXIT: 0
+TIMED OUT: False
+ELAPSED MS: 65.615
+
+STDOUT
+already connected to 127.0.0.1:15555
+
+STDERR
+

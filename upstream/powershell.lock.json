@@ -1,0 +1,6 @@
+{
+  "Url": "https://github.com/PowerShell/PowerShell/releases/download/v7.6.8/PowerShell-7.6.8-win-arm64.zip",
+  "Sha256": "e889c9bfa6c3a9796bd6268cbeeb389e3968f77c6db46cb282178274d71c160b",
+  "Version": "7.6.8",
+  "Architecture": "arm64"
+}

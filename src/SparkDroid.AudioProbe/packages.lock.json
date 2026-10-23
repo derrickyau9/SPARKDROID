@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net10.0-windows7.0": {
+      "NAudio.Core": {
+        "type": "Direct",
+        "requested": "[2.4.0, )",
+        "resolved": "2.4.0",
+        "contentHash": "VDXi1Wp1CUFgMxYyyajaG8sM9c9v5Mf2AdJkYUnksqwENSqVlrXsPe9l/mG55pNIv9eMYXGHiIxVuhS7+a3BQg=="
+      },
+      "NAudio.Wasapi": {
+        "type": "Direct",
+        "requested": "[2.4.0, )",
+        "resolved": "2.4.0",
+        "contentHash": "DKwpFzgJkUkge4sR+5t/DND1SbuHOJXQX3BBqnmd0n/zjM/CqBqbKA1wMXKIKdN2R1PtETVDu5C9ODPif37hhw==",
+        "dependencies": {
+          "NAudio.Core": "2.4.0"
+        }
+      }
+    },
+    "net10.0-windows7.0/win-arm64": {}
+  }
+}

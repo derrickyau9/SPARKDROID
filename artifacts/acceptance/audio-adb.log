@@ -1,0 +1,37 @@
+shell getprop sys.boot_completed
+1
+
+push C:\Users\RTX-SPARK\Documents\RTX ANDROID\artifacts\acceptance\audio-test-tone.wav /sdcard/Download/sparkdroid-audio-test.wav
+C:\Users\RTX-SPARK\Documents\RTX ANDROID\artifacts\acceptance\audio-test-tone.wav: 1 file pushed, 0 skipped. 195.1 MB/s (1728044 bytes in 0.008s)
+
+shell pm grant org.videolan.vlc android.permission.READ_MEDIA_AUDIO
+
+shell am start -W -n org.videolan.vlc/org.videolan.vlc.StartActivity
+Starting: Intent { cmp=org.videolan.vlc/.StartActivity }
+Status: ok
+LaunchState: WARM
+Activity: org.videolan.vlc/.gui.onboarding.OnboardingActivity
+TotalTime: 305
+WaitTime: 315
+Complete
+
+shell uiautomator dump /data/local/tmp/sparkdroid-audio-ui.xml
+UI hierchary dumped to: /data/local/tmp/sparkdroid-audio-ui.xml
+
+shell cat /data/local/tmp/sparkdroid-audio-ui.xml
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?><hierarchy rotation="0"><node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="org.videolan.vlc" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][720,1280]" drawing-order="0" hint=""><node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="org.videolan.vlc" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][720,1280]" drawing-order="1" hint=""><node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="org.videolan.vlc" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][720,1280]" drawing-order="2" hint=""><node index="0" text="" resource-id="org.videolan.vlc:id/action_bar_root" class="android.widget.FrameLayout" package="org.videolan.vlc" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][720,1280]" drawing-order="1" hint=""><node index="0" text="" resource-id="android:id/content" class="android.widget.FrameLayout" package="org.videolan.vlc" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][720,1280]" drawing-order="1" hint=""><node index="0" text="" resource-id="org.videolan.vlc:id/container" class="android.view.ViewGroup" package="org.videolan.vlc" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][720,1280]" drawing-order="1" hint=""><node index="0" text="" resource-id="org.videolan.vlc:id/fragment_onboarding_placeholder" class="android.widget.FrameLayout" package="org.videolan.vlc" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,36][720,1112]" drawing-order="1" hint=""><node index="0" text="" resource-id="" class="android.view.ViewGroup" package="org.videolan.vlc" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,36][720,1112]" drawing-order="1" hint=""><node index="0" text="" resource-id="org.videolan.vlc:id/imageView" class="android.widget.ImageView" package="org.videolan.vlc" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[320,305][401,386]" drawing-order="1" hint="" /><node index="1" text="Welcome to VLC!" resource-id="org.videolan.vlc:id/welcome_title" class="android.widget.TextView" package="org.videolan.vlc" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[24,422][696,466]" drawing-order="2" hint="" /><node index="2" text="The free and open source multimedia player" resource-id="org.videolan.vlc:id/textView" class="android.widget.TextView" package="org.videolan.vlc" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[36,478][684,511]" drawing-order="3" hint="" /></node></node><node index="1" text="SKIP" resource-id="org.videolan.vlc:id/skip_button" class="android.widget.Button" package="org.videolan.vlc" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[408,1112][540,1184]" drawing-order="2" hint="" /><node index="2" text="NEXT" resource-id="org.videolan.vlc:id/next_button" class="android.widget.Button" package="org.videolan.vlc" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[564,1112][696,1184]" drawing-order="3" hint="" /></node></node></node></node></node><node index="1" text="" resource-id="android:id/navigationBarBackground" class="android.view.View" package="org.videolan.vlc" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1208][720,1280]" drawing-order="2" hint="" /></node></hierarchy>
+
+shell input tap 474 1148
+
+shell am force-stop org.videolan.vlc
+
+shell am start -W -a android.intent.action.VIEW -d file:///sdcard/Download/sparkdroid-audio-test.wav -t audio/wav -p org.videolan.vlc --grant-read-uri-permission
+Starting: Intent { act=android.intent.action.VIEW dat=file:///... typ=audio/wav flg=0x1 pkg=org.videolan.vlc }
+Status: ok
+LaunchState: UNKNOWN (0)
+Activity: org.videolan.vlc/.StartActivity
+WaitTime: 123
+Complete
+
+shell am force-stop org.videolan.vlc
+

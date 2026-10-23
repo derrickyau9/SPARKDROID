@@ -1,0 +1,9 @@
+filename:       /lib/modules/6.8.0-147-generic/updates/sparkdroid/ashmem_linux.ko
+license:        GPL v2
+srcversion:     0D506C255FBF6E2FF7E8028
+depends:        
+name:           ashmem_linux
+vermagic:       6.8.0-147-generic SMP preempt mod_unload modversions aarch64
+{"status":"complete","phase":"android-framework-booted","kernel":"6.8.0-147-generic","updated_utc":"2026-10-23T06:51:44Z"}
+1
+arm64-v8a

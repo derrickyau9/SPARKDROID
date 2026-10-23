@@ -1,0 +1,11 @@
+COMMAND: C:\Users\RTX-SPARK\Documents\RTX ANDROID\tools\android\platform-tools\adb.exe
+ARGUMENTS: ["-s","127.0.0.1:15555","shell","getprop","sys.boot_completed"]
+EXIT: 0
+TIMED OUT: False
+ELAPSED MS: 79.313
+
+STDOUT
+1
+
+STDERR
+

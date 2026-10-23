@@ -1,0 +1,4 @@
+# Preserve upstream checksums and captured evidence byte for byte.
+* -text
+# Linux build and provisioning entry points must retain Unix line endings.
+*.sh text eol=lf

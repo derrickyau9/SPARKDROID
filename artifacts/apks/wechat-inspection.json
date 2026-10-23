@@ -1,0 +1,1905 @@
+{
+  "file": "artifacts/apks/WeChat-arm64.apk",
+  "bytes": 285284760,
+  "sha256": "f2a725bc04302ad218a563533ae79356e66b64aa711b275bc919a8d432f7e15d",
+  "package": "com.tencent.mm",
+  "version_name": "8.0.79",
+  "version_code": 3200,
+  "min_sdk": 24,
+  "target_sdk": 34,
+  "library_payload_count": 209,
+  "elf_library_count": 194,
+  "opaque_library_payload_count": 15,
+  "all_inspected_elf_libraries_aarch64": true,
+  "library_payloads": [
+    {
+      "path": "lib/arm64-v8a/libwechatcrash.so",
+      "bytes": 573808,
+      "sha256": "27f6d1504c71015ce07fa3ea21ffe56ba240bfe4c972778fdd1d3d99330351db",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libvoipComm.so",
+      "bytes": 149656,
+      "sha256": "5a0a7ce2f7607e013ccac1cdd2cde73a53e06b300b09fe9e09791eff7ca52c6c",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libvoipCodec.so",
+      "bytes": 6368800,
+      "sha256": "7d1793f8ba877b4bc1de787310127d927e42526e06e531fa9641ac1acdf2e574",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatnormsg.so",
+      "bytes": 11754304,
+      "sha256": "ce5dfd6565bdb9f5a21374ce6432abd25d9b435df82e1431f36b9b8e6ad5592d",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libMMProtocalJni.so",
+      "bytes": 920936,
+      "sha256": "2f89db54af1ab73fa5a5de3cb9abdb09bc3570fb9b159333f088115d34ce6bb6",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatbase.so",
+      "bytes": 225640,
+      "sha256": "11146168fd9906ae84ec67a50916f656b2866274ea69cc81cc3473996d9e7ac6",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libandromeda.so",
+      "bytes": 433480,
+      "sha256": "62dd9042056fe57b6b9ad27abe59b7c1c26df41cab46086ea518939d625dccff",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatmm.so",
+      "bytes": 4871712,
+      "sha256": "1ae58f29b6ace5782d801fae12d011d8fe7bd9dbe400fdec359321198500cc1a",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libcommonimgdec.so",
+      "bytes": 395360,
+      "sha256": "8fd1a0b082fc20cee8ab7c51afbd1a4b316dcf3bf9f46c9fc31109c43bee494c",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatcommon.so",
+      "bytes": 1149312,
+      "sha256": "537e8554e02f6a17b11533b1702f8ea24ad6fa1284be0ddc333408f868b99c81",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatpack.so",
+      "bytes": 1116896,
+      "sha256": "3b45cbade0918f0b96ff31da5bcb94eb41964adf0cc3a0dd85b29a4e26325f3c",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libtencentlocsapp.so",
+      "bytes": 980416,
+      "sha256": "d8f8c70b5871ae0fccd40b0fec4b117f7cc97ed4be41c615a412f89c0a55b16e",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatvoicereco.so",
+      "bytes": 338152,
+      "sha256": "2b31bca68d3501429d61bbc716cb02a9f90342ac0fe1ff85eecbc72d1cb286e3",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatsight_v7a.so",
+      "bytes": 346336,
+      "sha256": "bdf656cac619740c64e7112ef381008cd0588e235f16da9837d20b85a5c53137",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libliteapphelper.so",
+      "bytes": 85768,
+      "sha256": "decb368afb2ebc23c0656f9fad45b4fd9a12ef06ccd961099fd252694e615bc9",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatlv.so",
+      "bytes": 6129008,
+      "sha256": "03377ce4dd0a6b534067438ae80592429ca33c855324dc2f0c83c9f1ef872ab9",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libkinda_android.so",
+      "bytes": 17850848,
+      "sha256": "9223f2adcbb59b01b8cc3dfe0bcdfb35532166641fbef0ec2c21303894b8d29f",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatnetwork.so",
+      "bytes": 3881448,
+      "sha256": "56fab4b4bc415df726f2a3e5f4015ec46643eb93c6e286431d73cf2b44e013e9",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libxeffect_xlog.so",
+      "bytes": 5272,
+      "sha256": "fcdc7384b29ffa320d636567d81a217644ebec0b914ce39725ffe8d44adffaa3",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libxlabeffect.so",
+      "bytes": 202480,
+      "sha256": "d35b16237fb7dc4facd10e0aee021e4319608b05f2f6ef8d3b8f9c0a9d47ce19",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmediaplus.so",
+      "bytes": 116928,
+      "sha256": "5ffec97e812394b6add96b009ea435618c7b2291384cf4002046ada0a63a4068",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libtenpay_utils.so",
+      "bytes": 334320,
+      "sha256": "bff87d1cdb14e3f8be08ca5785e9d00adce634603fd6117c638c09fb58411785",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libvoipChannel.so",
+      "bytes": 927632,
+      "sha256": "49dd208c6b01579c572d2747f9d268a00141cd6df7a8e7b02996578a67bf69cf",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libvoipMain.so",
+      "bytes": 345520,
+      "sha256": "01de6fd3c1f9cd1a0a0b8002dc2814d9ba9c6416fb3a9868dd25471f2e7a0383",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libGPUDetector.so",
+      "bytes": 44872,
+      "sha256": "570ddc09cc8d4a5baf0ebf5248057d41cd57a7d606f8335edd94228197639a79",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libNLog.so",
+      "bytes": 116304,
+      "sha256": "22b4eddec952d36b53e91de623d198d082451879458cae7796c7e3c1942a19ac",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libaudio_common.so",
+      "bytes": 116304,
+      "sha256": "0bc144f30b312a7f0d207c08e95194d8547ada20d7038b137bd23c513a66b73a",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwxa-runtime-binding.so",
+      "bytes": 714064,
+      "sha256": "9b9257b9d57c5ebed49b24d7802f6d15de8c2bc896d723f8c994aabad7b0b87c",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmmv8.so",
+      "bytes": 27199480,
+      "sha256": "9d92dd54bb7befa9f95aaf25073a605396df10a1cb80d5d1b6d6228d66f64fb0",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmmnode.so",
+      "bytes": 175344,
+      "sha256": "33c4dedf758aaf248214d221e46cdc2e164037fe3cb221f41e714d4034ea7c91",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmmj2v8.so",
+      "bytes": 488600,
+      "sha256": "f057ce9c8ae95f1a49893ee5acf3e8395d67932136879b50aece0ebcd26bbcf9",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmmskia.so",
+      "bytes": 7212800,
+      "sha256": "b9dc90449e159cba81a1134617be5c96ed1790ee46040a8c2daf470edb60b130",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libnative-iv.so",
+      "bytes": 88696,
+      "sha256": "33391f66a554a281dded90fb2a7f1c15953a654fb43d44d73dd16a4efce80e23",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmmudp.so",
+      "bytes": 272960,
+      "sha256": "12d50ba288d4ca876eda0dac45ed795efee7f488f5f55ff54ae491f590219827",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmmtcp.so",
+      "bytes": 304576,
+      "sha256": "057f36d70c1a0dbdecb29ee27a54b83009c3b96cfe0d2718904c6c89290f2d4b",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmmlockstep.so",
+      "bytes": 554960,
+      "sha256": "cb71b5f3c35ce9fdcc2ac5c042db4291a39fcdf813b9ae04e4d63c66bfe67895",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libowl.so",
+      "bytes": 1397184,
+      "sha256": "7a095bfc6e411b03873976b98b7e64ec5dab7e838e6088780f59a05dde55224a",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatvoicesilk.so",
+      "bytes": 1162896,
+      "sha256": "6f80103b9de6c9f783241054c46ef03c5a06e19d710ad20cd156f832922edcc5",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libpag.so",
+      "bytes": 2981256,
+      "sha256": "6020be9c5a95a9102bf3c4935df37c54e84b54e511ab3c3f761239d2a18a98fd",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libadaptivebrres.so",
+      "bytes": 100408,
+      "sha256": "c2a6dd4de1461558843cad540f1a986db42182715b2aa12b691b08add8a0014f",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libadframework.so",
+      "bytes": 734392,
+      "sha256": "8a3e332f64d85c5378f5217ded0f9068e676fca99cf12014710069657efbbe49",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libAdvanceP2P.so",
+      "bytes": 1699256,
+      "sha256": "204ac5ad56827797b3317476ed8fe1f17d1f6afc009a428ab0c85ecc82639eff",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libaff_biz.so",
+      "bytes": 44229568,
+      "sha256": "608ace5fcd7a0c6d7af699ec5e8d05cb89de02d0f4c55a0fb8ae0c9b5ca4786a",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libaff_feat_udr.so",
+      "bytes": 1063264,
+      "sha256": "158a4be7ca21b3230aacff2c01d3998aca6594d702301b1fe29162d5c4b38c85",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libandroid_desensitization.so",
+      "bytes": 932504,
+      "sha256": "38cd84622ca11eb1103bf637b9ab5fcab77ce464e732ffaf695018562a71b703",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libapp.$cso.so",
+      "bytes": 22202661,
+      "sha256": "ef58ff60e51e68bc4ece9b90ef3792337f41924497760ad492fae83178f2e04e",
+      "is_elf": false,
+      "elf_class": null,
+      "elf_machine": null,
+      "inspection": "Opaque non-ELF payload; architecture and runtime behavior unverified"
+    },
+    {
+      "path": "lib/arm64-v8a/libapp.so",
+      "bytes": 21,
+      "sha256": "b837bba03fc5802cbb7e1ebbc4f02d1d676ca33dd682f2d2458d445c6fa7ed93",
+      "is_elf": false,
+      "elf_class": null,
+      "elf_machine": null,
+      "inspection": "Opaque non-ELF payload; architecture and runtime behavior unverified"
+    },
+    {
+      "path": "lib/arm64-v8a/libAudioFFmpegDecode.so",
+      "bytes": 182216,
+      "sha256": "47de87fef5c5678821665b8fc9f5e314d042402541190cd159c9ddeb8e5aa06d",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libbspatch_utils.so",
+      "bytes": 72584,
+      "sha256": "d7dc16fda524a5fe8b021ef27ec85d6c78338c683e3d06c75cf81ad2e6a96528",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libc++_shared.so",
+      "bytes": 1292904,
+      "sha256": "d6de2a4c96d604e5f337b252e254ca02f4e5ab4fdc10e7a6b77e4490736b9297",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libcdnadapter.so",
+      "bytes": 270016,
+      "sha256": "20dc409c2e8ab41582f9d236ac4d925dfd1b98734fa8393b8284a921f257ccaf",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libcodec_factory.so",
+      "bytes": 99920,
+      "sha256": "fed921906fe32fcab8b8a2c714193b989503c683132b2143db905301af763369",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libconfService.so",
+      "bytes": 1142976,
+      "sha256": "e13f947fc81616bf431ea70f58a2e19a49a371b2aefc7574e72a4bbd898803c5",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libcronet.119.0.6045.214.so",
+      "bytes": 4457488,
+      "sha256": "1df39ceba3c70b112f48b20e48647aef1e13d7a5bd5a55b1263768eba668ccfb",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libcronet_wrapper.so",
+      "bytes": 282168,
+      "sha256": "7868a9fdfb74579f70642f7ab58732747be1b0e4df8746386adb4c2d9d020820",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libcrypto.so",
+      "bytes": 2222848,
+      "sha256": "543e0043abceda45786659e627609d71936c073d5b16c4898af8062668fbce63",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libcso.log.so",
+      "bytes": 45128,
+      "sha256": "0ef94e9eed978754ccd359ee8b2090bdaf5be4cadf3ce71b8be21052b4f66f90",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libcso.meta.so",
+      "bytes": 25375,
+      "sha256": "1ed43539b969723cf559fe17df8938da66392da281c782b2ee6ff71d872cf602",
+      "is_elf": false,
+      "elf_class": null,
+      "elf_machine": null,
+      "inspection": "Opaque non-ELF payload; architecture and runtime behavior unverified"
+    },
+    {
+      "path": "lib/arm64-v8a/libcso.so",
+      "bytes": 728360,
+      "sha256": "1fe3c82473522c609b20c548e16ddbc1af0203bc416b70933c05d043ebdf55a7",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libcxxstl.200.so",
+      "bytes": 936368,
+      "sha256": "d68d302262d0c76300b91a46dc9c66a0da67d90a8b0c79b4acd47117cff9e442",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libdart2cpp.so",
+      "bytes": 153984,
+      "sha256": "7fd8d28d2638ac05876d430161e6c5aa67c420b158c33541336008191fab81aa",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libdesdecrypt.so",
+      "bytes": 10672,
+      "sha256": "6c4672ce403c41c211447fef877536e5223d0c56c010e6559c194b96d0f75459",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libDownloadProxy.so",
+      "bytes": 2165368,
+      "sha256": "bde6ec6036e5986c0db9a175f0fe40b42344c3e0f0048aebeed0d47c702d0076",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libdynamicBg.so",
+      "bytes": 920024,
+      "sha256": "46995356ef67cd34ef7d447a967b8f2c10eeb4c7a9b735e3e5e8440a2d34f04e",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libekeydecryptor.so",
+      "bytes": 232808,
+      "sha256": "c9091eaf7c4833e798fbd88604558b4f659ee4ba3f1a65dc4f487205e7948d4c",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libentryexpro.so",
+      "bytes": 181720,
+      "sha256": "250afc713686b442544f9b6cd137018f77bc2f33ee67533fc95edd352ec4fa6e",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libFacePro.so",
+      "bytes": 215456,
+      "sha256": "ab45e53d30d16755da97dc8f241ccb67110b47f174fabdc850c39250e3ae17ea",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libfbjni.so",
+      "bytes": 157312,
+      "sha256": "cd6d9573fa4c2b3b5432087b97fc94f09caa01754282bcd14bbcff883f38a89f",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libffengine.so",
+      "bytes": 410464,
+      "sha256": "a67d6d0da73c5b737d93d08f0eb3692666fc578646fc5cdce4f7174342f7f362",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libflutter.so",
+      "bytes": 6103816,
+      "sha256": "917be275d612f380f2a57a11ecea93acb94298b5975516efd0f67dc752ba6f9f",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libfocusEngineJni.so",
+      "bytes": 75184,
+      "sha256": "bd0bc45ac89ac843ee3aa84bff6b849a95d2cfe49c4284834e61fe8191ba2524",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libfontdecode.so",
+      "bytes": 34768,
+      "sha256": "aca70c67b8f2c0f036952af6e974781058e04143b3482a4fa920067ba830157d",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libFormatDetector.so",
+      "bytes": 100024,
+      "sha256": "6d3e4a93b4b5ffa9950877e32a39efeb594d074d775df5cbd1492803bc25a10c",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libgameaccelerate.so",
+      "bytes": 1716888,
+      "sha256": "80a5262ae6da82a4ecd09069c7d6efb4277e9fc42a92baced920e5de45dd4335",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libgwinfo.so",
+      "bytes": 647704,
+      "sha256": "721e9c8c04ed0e1c67610486faac3ab22a26d4c43854f32fd978a813f346ea5f",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libhardcoder.so",
+      "bytes": 412312,
+      "sha256": "f854297bfbd7886a211d1a56fe01a2a492d29d7fa2328a46c500486e0c0b4076",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libhpatchz.so",
+      "bytes": 44520,
+      "sha256": "ce21114ebb0909cdb143bf4c1d9aeedc6a25aa894dd6d717db40ca10bc47dada",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libhttpdns.so",
+      "bytes": 261560,
+      "sha256": "82103e6673e8423cf51dc536f64b6756f66071dc4fd7ed44593daa012d24d9be",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libhuiyanandroidsdk.so",
+      "bytes": 3219112,
+      "sha256": "250791aab201938be7a695b16e7bab559371b8710d17b1d1cc3503a397daa279",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libiam_dynamic_info.so",
+      "bytes": 18704,
+      "sha256": "48f2dabd45dca9467666237c3dcc8c6c92da8310622ba6af44d5f480787d6ed7",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libIDCardRecog.so",
+      "bytes": 293304,
+      "sha256": "662ad1054b865617a66ea02399fe768edbcf20b8084dec310f38e9fb89307eaf",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libilink2.so",
+      "bytes": 1682512,
+      "sha256": "ff538112f16cb4eb873cbf3c443129b3acab274a6e77d89c5390e5e08d2110b1",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libilink_asr.so",
+      "bytes": 273344,
+      "sha256": "0543f488df53d0814ab38e266cd1e8c159b528fa5acab89f0731a7c4d8f87426",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libilink_network.so",
+      "bytes": 1579488,
+      "sha256": "e32b706de01ecc1d0f4b04d71b984759cfd13671c601294a4a51293bebee544c",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libilink_protobuf.so",
+      "bytes": 192480,
+      "sha256": "e64d05e467f9d625fec3e54372dc4d0054f494a557454867eed0c447de80e2fe",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libilink_stream.so",
+      "bytes": 1154264,
+      "sha256": "3aeecf501e305d58a1380399c8527fcdeb8f7b4bb5c2cd1f07911486a12496e4",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libimage_processing_util_jni.so",
+      "bytes": 29008,
+      "sha256": "2087b241ccaea9eb5672102bd8840a1ab8f34818383fd619fbd62b32a6f7fe4b",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libjs_inspector.so",
+      "bytes": 471840,
+      "sha256": "f05794469ee7748726e87e0b52f155fcc8a165b6090a74dda7054bb5aae0e6c1",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libKJVM.so",
+      "bytes": 39800,
+      "sha256": "bc53d504c32d9dae47e707ea247dc703804aa28834df99cc8fdceb134ebccd6c",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/liblinebreak.so",
+      "bytes": 226608,
+      "sha256": "e61ebfabbcc6f190897d260e13fee5aa746eca1b9cfd99a9eb67f20366aee7d9",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/liblinkid.so",
+      "bytes": 994768,
+      "sha256": "3931166611630004a3357c098fd4f2203f2340746c16b8a8903249622d0d7f78",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libliteavsdk.so",
+      "bytes": 10940048,
+      "sha256": "f3a840a3ba3e3c71a8ccf1a1d16e59f63c4319d34c35b876cd16b007f6fa645b",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmagicbrush-nano.so",
+      "bytes": 3320184,
+      "sha256": "44a771a7d34338bd8026b3d0e634fb696ca8c712daa435c77b15e338f5f42718",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmagicbrush_v2.so",
+      "bytes": 592040,
+      "sha256": "d8fe2ddab58426ae86036c15e3bb05b5a7d7f2bfac174033cbba84cb145b5cbc",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmagic_brush_zidl.so",
+      "bytes": 409904,
+      "sha256": "845ee0bb3296930371b41a5836a35ddbbd8506d0bc1019c3e2387dbff6372c63",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmarscomm.so",
+      "bytes": 629600,
+      "sha256": "324526f9ae53628a19d1d137a4830eec91d1e7ed56429012bc9d95677a165577",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmarsquic.so",
+      "bytes": 2596152,
+      "sha256": "9920ed8cd3fde7d1f56567a70aba4aa8d7a63208791fb4cbb5aee291e46443b6",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmatrix-artmisc.so",
+      "bytes": 5840,
+      "sha256": "656bf353be84a43f01ba5ad0c3fa8611da2960a20f60b4e17eff04756414f45d",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmatrix-fd.so",
+      "bytes": 5904,
+      "sha256": "7f64f8c7a1d0b19db6224a85c750a28524371ed8a426d71818afde3daee5f8fb",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmatrix-hookcommon.so",
+      "bytes": 60392,
+      "sha256": "846697b6affad32c2df5240f7b30a43093a53965da4280562e894fa4d029b737",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmatrix-jnihook.so",
+      "bytes": 60960,
+      "sha256": "0809df88b3d65d7aae7c48ea32280b8c2af46dba52d76049cbb65731ee59dc8a",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmatrix-junwind.so",
+      "bytes": 23488,
+      "sha256": "1209ae7d024d2a1708ad9a7d6480716c8dd2d3d09572b4f876b812ad15a2baa3",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmatrix-mallctl.so",
+      "bytes": 57656,
+      "sha256": "aeab52a4c7b6ee7b4eb86756ab8e3a0ea4734d4764582974eec5b1068bca6822",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmatrix-memguard.so",
+      "bytes": 85336,
+      "sha256": "723bd28c967ae940732bcdfdbe13c62b79ffa5fe9ae35ef1f398838dc64d2775",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmatrix-memoryhook.so",
+      "bytes": 129504,
+      "sha256": "450acccb300950c4f4dab1bcc2dad0a5513697092f46812ff4385d6a27edae4d",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmatrix-opengl-leak.so",
+      "bytes": 134448,
+      "sha256": "a8e0cb34a180d0ff456f61b797ff55ac97941554f06d0c32f21528b58ee5b69d",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmatrix-pthreadhook.so",
+      "bytes": 54256,
+      "sha256": "1cfdf7611638252b32477730026a07a7acc2e0d3b51192aa61c37a001860c153",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmatrix-signaledhook.so",
+      "bytes": 41624,
+      "sha256": "0743ea1b5a83fd62e8aac469b2a6eab24f06f7226e790e57a015dbef29eef6a2",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmatrix-stack-tracer.so",
+      "bytes": 90064,
+      "sha256": "109ab3593fffaeca8f2f6db921754cd465cd7aee67f6b669c53bf15c07cbf6b8",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmatrix-traffic.so",
+      "bytes": 103624,
+      "sha256": "1b181eac259ff15f962f34ac5466e8738af9cf37ad39ef2fb650daabcbb8be8d",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmatrix_mem_util.so",
+      "bytes": 317736,
+      "sha256": "1e66c2af5b497768a6b06676f316fb6b2ee7e30f6395a1b0a961f3440adce4ab",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libminizip.so",
+      "bytes": 44040,
+      "sha256": "6147a87b759b87e146603497a073531fea4bf680fc8e2016603f507f8544a2fb",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmis.so",
+      "bytes": 579144,
+      "sha256": "c6b3cc13ae6712b759ea4546fc2372652da963268d62d258b4cec8c68a82a602",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libMM7Zip.$cso.so",
+      "bytes": 436977,
+      "sha256": "5a0c8143987f22d431c39560e8655d6328ddcf023189aa167ab53c1d5206c6a4",
+      "is_elf": false,
+      "elf_class": null,
+      "elf_machine": null,
+      "inspection": "Opaque non-ELF payload; architecture and runtime behavior unverified"
+    },
+    {
+      "path": "lib/arm64-v8a/libMM7Zip.so",
+      "bytes": 21,
+      "sha256": "4bd8730a336c3e60b2933d37d274418f6d1f7946d2f0f969daf9d7b052de4569",
+      "is_elf": false,
+      "elf_class": null,
+      "elf_machine": null,
+      "inspection": "Opaque non-ELF payload; architecture and runtime behavior unverified"
+    },
+    {
+      "path": "lib/arm64-v8a/libMMFG.$cso.so",
+      "bytes": 603130,
+      "sha256": "1239b8ff356293a9ef982727a3a19ff1b2f3c5d4cb2c44bc91bcd666c41944f1",
+      "is_elf": false,
+      "elf_class": null,
+      "elf_machine": null,
+      "inspection": "Opaque non-ELF payload; architecture and runtime behavior unverified"
+    },
+    {
+      "path": "lib/arm64-v8a/libMMFG.so",
+      "bytes": 21,
+      "sha256": "349457f40a5bb3c026b19aefda81c0d3561fcafd95e916ae70b3535b508d47e7",
+      "is_elf": false,
+      "elf_class": null,
+      "elf_machine": null,
+      "inspection": "Opaque non-ELF payload; architecture and runtime behavior unverified"
+    },
+    {
+      "path": "lib/arm64-v8a/libMMFGJNI.$cso.so",
+      "bytes": 15211,
+      "sha256": "07f5b7d3f5ac5763bb02301d97866b5cf9c77da27eab9b1be580d9015f21abc7",
+      "is_elf": false,
+      "elf_class": null,
+      "elf_machine": null,
+      "inspection": "Opaque non-ELF payload; architecture and runtime behavior unverified"
+    },
+    {
+      "path": "lib/arm64-v8a/libMMFGJNI.so",
+      "bytes": 21,
+      "sha256": "aebc724978c625123ee3d95f39a9ec84237a66991f143b21844cc5553002c25e",
+      "is_elf": false,
+      "elf_class": null,
+      "elf_machine": null,
+      "inspection": "Opaque non-ELF payload; architecture and runtime behavior unverified"
+    },
+    {
+      "path": "lib/arm64-v8a/libmmimgcodec.so",
+      "bytes": 117616,
+      "sha256": "308980ecfe901d38bb8ad9bb422d4c242ba48c9483dd4fb932c2bb27ae3a9680",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmmkv.so",
+      "bytes": 358848,
+      "sha256": "466e7c16600df4cb94024a5cf264db485dabbf4473d8103dbe2af3a267d78617",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmmmedia.so",
+      "bytes": 2237400,
+      "sha256": "a0bd75efc1acae1b6eb6209b88b7b2ff124d889bf104fdf4e1fa2bdb051557d1",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmmmediasdk.so",
+      "bytes": 2618024,
+      "sha256": "8b5ba5ffa173fd2691396025632b2de48fcccf16a7bb76c5ea2f3834a47beb6a",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libMMPostProcessingJNI.so",
+      "bytes": 502016,
+      "sha256": "f92179c645ea43ad14d6bb3569d25e26d3c538ce436c8c01f309b9d3a92d3e92",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmmuv.so",
+      "bytes": 180264,
+      "sha256": "0978f1f0bb8c94edd8164b708429a660f679c756bb40143abb211d0dd468aaf1",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmm_foundation_lib.so",
+      "bytes": 4520,
+      "sha256": "022f9739f6a1b61cf72aefcf76f74e459515801eb88548e42b3d137e527a9b4a",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmm_gl_disp.so",
+      "bytes": 23024,
+      "sha256": "a59da698e7715b412f062856c6b058bcc274f6335a6e0555f7f7ed892981b971",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libmp3lame.so",
+      "bytes": 264336,
+      "sha256": "668257bc3664c815b1b689da5b73df8b798fe6aaf774d33dbf59a268fc174362",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/liboboe.so",
+      "bytes": 162808,
+      "sha256": "5fb456a104985c3f2a9f776fea67ec09d98526807976ff032b1521c81e8224a1",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libogg.so",
+      "bytes": 34656,
+      "sha256": "216836bb2e3391c2f515d4c1c79cacb9666c6e894d7df798ca1dd3176fba9691",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libopencv_world.so",
+      "bytes": 7584240,
+      "sha256": "ba702482560b966eb7238ec1963edd9da82026cc89bc6d8db9249ac41deb13ff",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libpaymarshelper.so",
+      "bytes": 172648,
+      "sha256": "ee973f91814e53cce07870e6ae1b25a5f52efff5e811c19bbf13fef8de00e70c",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libproto.$cso.so",
+      "bytes": 59281,
+      "sha256": "dd70ccea9231d76fbbe5fa7f523a9b70b980859ec46704a18ce703092f38fa79",
+      "is_elf": false,
+      "elf_class": null,
+      "elf_machine": null,
+      "inspection": "Opaque non-ELF payload; architecture and runtime behavior unverified"
+    },
+    {
+      "path": "lib/arm64-v8a/libproto.so",
+      "bytes": 21,
+      "sha256": "bcc6998b0872486263fdc6432822436e279b2ce4e72db2a43a6d3cdef9de29fe",
+      "is_elf": false,
+      "elf_class": null,
+      "elf_machine": null,
+      "inspection": "Opaque non-ELF payload; architecture and runtime behavior unverified"
+    },
+    {
+      "path": "lib/arm64-v8a/libprotobuf-lite.$cso.so",
+      "bytes": 325427,
+      "sha256": "0de7355b13f3b53e2f89379136f779f193868d3aeb5892848cbd9513e0b5989d",
+      "is_elf": false,
+      "elf_class": null,
+      "elf_machine": null,
+      "inspection": "Opaque non-ELF payload; architecture and runtime behavior unverified"
+    },
+    {
+      "path": "lib/arm64-v8a/libprotobuf-lite.so",
+      "bytes": 21,
+      "sha256": "9a8bcf57f7eb44d00863640a2d6be4b5c48afcfd06634e91b9191b8ebe806df6",
+      "is_elf": false,
+      "elf_class": null,
+      "elf_machine": null,
+      "inspection": "Opaque non-ELF payload; architecture and runtime behavior unverified"
+    },
+    {
+      "path": "lib/arm64-v8a/libProtobufLite.so",
+      "bytes": 244224,
+      "sha256": "7b0aa0233e87fce11cde91fbc9844251f40c380e40c23c3b0af6210c5aa98995",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libQBar.so",
+      "bytes": 1970576,
+      "sha256": "209e3514a6641038ee0b91f8f48fa694d103f0fc04d1d6be7536a00fbe117ed0",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libQmNativeDataSource.so",
+      "bytes": 67152,
+      "sha256": "f69fd5d837351a9deffc4d9fbf99a9db44ca951a4bffe5a4f1fd57e06bf628d8",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libqm_native_decoder_ape.so",
+      "bytes": 264960,
+      "sha256": "925349357b12a84990eaf765727bded34ab99ed36fc3a2cb8717b4731bbe627c",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libqm_native_decoder_ffmpeg.so",
+      "bytes": 132688,
+      "sha256": "08e918c0959fc3e2b28f33614b7bd60378e22291c9c923c02083d601c4ecd224",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libqm_native_decoder_flac.so",
+      "bytes": 198240,
+      "sha256": "f4494886d4601a197eb863aa8d4f06bab4c7a5142d157d9c9d96f9422758e1b0",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libqm_native_decoder_mp3.so",
+      "bytes": 314216,
+      "sha256": "171fcf67eb9747ad85d97090404f4c7d02005f8def2cbd4fa458f0300997f473",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libqm_native_decoder_ogg.so",
+      "bytes": 968360,
+      "sha256": "df68cebc5909dd9bba6237cfc45dd271563a82b57250fd433deb50924a6879fc",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libqqmusic_decoder_jni.so",
+      "bytes": 99920,
+      "sha256": "ff17b058eb36bfe6dc86996c48f4f0588a14bbec67775fc6f5e56827141a1b26",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libreadMoney.so",
+      "bytes": 931136,
+      "sha256": "8be33fbd650e02afaf78abbc83444cddd4306ec56d2acaeef1d2c3dddb8f4334",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/librosseta.so",
+      "bytes": 95784,
+      "sha256": "c5d0738764e55eedbdc8f54ddf80a21646db770955981b90c3fcbc364d842df3",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libsingdecrypt.so",
+      "bytes": 4616,
+      "sha256": "cfa6f73e054a082c3c19a338b7b87d9aa2b5c0a6a95c8907cfc9966523ad3fca",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libskyline.so",
+      "bytes": 4267896,
+      "sha256": "9730d65bfad8e3b6975271bfaca8c7d97326bb619a600320df1edb3adef58650",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libssl.so",
+      "bytes": 467608,
+      "sha256": "350c066235f15797f2a5288e4d9b0ef60d2e410258d39e770020e711f81df0d7",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libstlport_shared.so",
+      "bytes": 592000,
+      "sha256": "7939a4af1dc20f1c13fb5d527f113ba35e3946e1e2c38abdd0d2c54120968994",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libsurface_util_jni.so",
+      "bytes": 4832,
+      "sha256": "2924cc560343be637d4b2297e05e8d180b14d344051e163c4a145544a6eac8a1",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libsystemcrashprotect.so",
+      "bytes": 51456,
+      "sha256": "c906bb484d4b2c6ef5f3851e8d0a7ef18b85e453e08d5da17e8d58be99b71588",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libtav.so",
+      "bytes": 1709824,
+      "sha256": "1a585016f99aad60b081d05ba30d9c195c4666415229b605c4586556af7ba293",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libtimeline-editor.$cso.so",
+      "bytes": 77787,
+      "sha256": "9e6a91303a24cda25ea744e8a5b103d077a28436e3baac424d09cd94fe0f4a49",
+      "is_elf": false,
+      "elf_class": null,
+      "elf_machine": null,
+      "inspection": "Opaque non-ELF payload; architecture and runtime behavior unverified"
+    },
+    {
+      "path": "lib/arm64-v8a/libtimeline-editor.so",
+      "bytes": 21,
+      "sha256": "d26b2482490ea67dd291ced188c2522b006e33c5699abd4624ea21b110bf9701",
+      "is_elf": false,
+      "elf_class": null,
+      "elf_machine": null,
+      "inspection": "Opaque non-ELF payload; architecture and runtime behavior unverified"
+    },
+    {
+      "path": "lib/arm64-v8a/libTPCore-master.so",
+      "bytes": 2648192,
+      "sha256": "0badac4669a2535c75b37cbfde44763520b439a10c869d95af83577cccf77f44",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libtpcs.so",
+      "bytes": 48048,
+      "sha256": "58521835702e07ad105815da74ca79236a61b511442acd021e3ce30e339dbd3e",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libTPThirdParties-master.so",
+      "bytes": 583920,
+      "sha256": "f17a6e82f2039a9ccf8fd49501aaac31a72dea3ad7d9920e8a47bf799f4393d8",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libtrace-canary.so",
+      "bytes": 106152,
+      "sha256": "e57d30c931bf3f4c080d95d58f30e2eef2384f864e97b6f31052b863f7290c13",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libtsmsc.so",
+      "bytes": 805464,
+      "sha256": "071f3f42a2c06081eebbf2f236cb66fb7f1cd3bca495580583bb8f9e49baaefb",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libtxmapengine.so",
+      "bytes": 3744968,
+      "sha256": "b1a70893cd12c8e8661a1d6864cd333585ed9d4b724522986a494db176913c20",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libtxmapvis.so",
+      "bytes": 1001656,
+      "sha256": "a6c47772fcc763b63abd3e232afd6575e31f2c6fc67dca7dfa3d552ec89b5281",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libtxsoundtouch.so",
+      "bytes": 233824,
+      "sha256": "a48e62a55266f585099ccbb324917b19098c5da11df880468133c7bbd867c290",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libunit_rc.so",
+      "bytes": 342280,
+      "sha256": "cc5aaf89dbf52f761b119bfb8d1308e570bc35691666f0640c66ee21400fdda3",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libvfs.so",
+      "bytes": 598408,
+      "sha256": "34471a87d142b7ce06e866f6f47690a09a53139999d685514e1352f96bd4bb08",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libvoiceopus.so",
+      "bytes": 56512,
+      "sha256": "978a3c4508f87b1d5986bcf7ca87f9ea1f8bd43bb76301ea20871c9c94bdf783",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libWCDB.so",
+      "bytes": 4263312,
+      "sha256": "fa5af30e73a9a5ee9de5a27ed679d9539fb46a272a52c09265fa03d0c7c10f36",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwcmark.so",
+      "bytes": 342080,
+      "sha256": "5e5ead74952f897210eba7de7e8dfb08e89be361d0648d3ab47663b0278e34e3",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libweapp_core.so",
+      "bytes": 2580464,
+      "sha256": "539d4267113c5e9b2fb0151f34206457bc332bcb1415f6a3bfc20f17c1766870",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechataudiooggmuxer.so",
+      "bytes": 34936,
+      "sha256": "26513d81a29abcd3d90e5517e64826e3679074b3c464ebbeba2a27ee2d879f04",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechataudiosilk.so",
+      "bytes": 346104,
+      "sha256": "93e6ab86634272b3c94ae013885854c40c3689cb6a0d5b95ac805b6b044d18b9",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatbacktrace.so",
+      "bytes": 629104,
+      "sha256": "af87fed74b6c1c903e129e0851908a934a43d6887032c501671ed265cee326f3",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatboost.so",
+      "bytes": 43152,
+      "sha256": "ba69bcb495065071d0654c766c7536910a8d3ca8a6058dc41de4d3ea4eaf2248",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatnativeutils.so",
+      "bytes": 39304,
+      "sha256": "a89c564698af8dbdb45d9fbcd866a93e7ee55591addca1793e72028beaa34f16",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatnormsgext.so",
+      "bytes": 236952,
+      "sha256": "36677a9ade214dab149ccc0aea13bccbce285d88189e84cf505a5b947e31e6e1",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatpaybase.so",
+      "bytes": 150864,
+      "sha256": "47537f341a3636e32a3650999889f9feade21683e7bfc05eb8ada149f88f9fbc",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatpaymm.so",
+      "bytes": 371040,
+      "sha256": "6861329c03860d098ae1ebcf353a29e81e21a0a51e789de4f7da14f686b08764",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatpaynetwork.so",
+      "bytes": 2080208,
+      "sha256": "305b3a74036fff72fba7a9aa960dd2d04c086a16255c73d22deb6bfdbc4852f7",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatQAFP.so",
+      "bytes": 116696,
+      "sha256": "beecfad6f1088ebc2970a197a5bf70710aecb877892ec6e88cc35350d59281f3",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatxlog.so",
+      "bytes": 570840,
+      "sha256": "691053c6b8e120d989f4f3d03bff62f3e32113b2508b4fd3acdbbadcda077cec",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwechatzstd.so",
+      "bytes": 526488,
+      "sha256": "0cc257e4d37431a9d138f71027b57b3e5f7e06e44b44e388e804713712b0ddc8",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libWeEffect.so",
+      "bytes": 18172976,
+      "sha256": "e9cc399d1c1552a59045eb246fedecf4f9c6beae3d9f3f980f24db4b20539871",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwemagic_common.so",
+      "bytes": 2216640,
+      "sha256": "865ed8ed885f3ed182cab3ceed8bf59c805b0d790821e493c728df145f5348bc",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwemedia.so",
+      "bytes": 651872,
+      "sha256": "bd507ad94a787b398e7c6497184c18dfa5df52010aaf97882c879da2ccef804a",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libweplayable.so",
+      "bytes": 158720,
+      "sha256": "2f1d343e8c27d088f5383528783489692a5d45f9f62880b1c6d87cd7dff99598",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libWeVision.so",
+      "bytes": 3579280,
+      "sha256": "95cbd8a4c1780280c6a32620d4b0e533f241c991ae7a1441942f559fcad95f3a",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwevision2.so",
+      "bytes": 1216184,
+      "sha256": "41f3d315345ebb712cebf211dfc2cde8f942b55cef01b2c94a512c4d9f86b38f",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwevision2_jni.so",
+      "bytes": 92064,
+      "sha256": "f69057a7fd89ba48071ae452a41c999da1662ae64249573820aaf3d8bd940921",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwva_linker.so",
+      "bytes": 103584,
+      "sha256": "b40c409178c8210cbb6efbfb0c2f082cd4148c78923699af81d68674aaf80867",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwva_xlog_bridge.so",
+      "bytes": 4320,
+      "sha256": "96b08d5d4cff5acba68de81db1ce9813da5b55a64237740c54656f05073be808",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwxaudio.so",
+      "bytes": 1518128,
+      "sha256": "0712c8f3cd48e3b83bf582c1b0d7baa048d6d226797c8f04e762f7518d0c8c80",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwxImageProcess.so",
+      "bytes": 624504,
+      "sha256": "ccfd42b8aada107c1687d66a2d3c97cc6a94db27987785ebf6976cee1c7f1db6",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwxpay_wechatlv.so",
+      "bytes": 8067304,
+      "sha256": "adf6fcd833a224c275d69c1388c1bed78b8379b62db0416a3b242dc5fe1c4453",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwxperf-tkill.so",
+      "bytes": 51352,
+      "sha256": "a0192d71b5c3f4182e46354a09fb64892373eea5682d83b2a7620fb369fa5796",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwxPhotoSdk.so",
+      "bytes": 830976,
+      "sha256": "37e8a9a819c21a5ae8dacd5ab919de904ed6343e51b7be8fd89db431af751cd0",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwxVcodec1.so",
+      "bytes": 494640,
+      "sha256": "186598578c6c291826bf85cd807356ec66e329523672ade02f8dcbd4ee1fa5b9",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwxVcodec2.so",
+      "bytes": 5102424,
+      "sha256": "ab5547e02450ead0e9d2c835bccc0341158210be5f57dabfb8405df4d6e47699",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libwxVcodec3.so",
+      "bytes": 3859792,
+      "sha256": "8fbc9f61d48cf57cdfd9ebaf85a355445b35f82d5ec485cd24119a6b14dba00e",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libxffmpeg.so",
+      "bytes": 8463192,
+      "sha256": "8663d844bdea2bbf20591a507c56242d3d7716a821a82fd08d4e18db2f4311ff",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libxml2.so",
+      "bytes": 887600,
+      "sha256": "ad8793a9105e840927b223d144e6d85382e43276822c441a7c0ee22b979ee73a",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libXNet.so",
+      "bytes": 26968200,
+      "sha256": "ecc75b2e8023439f411cfc269587586723935d017586c8e89ef8b984297387fa",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libxweb_hpatchz.so",
+      "bytes": 34432,
+      "sha256": "ef014e5d8095561a7e9897bf5b8e44b3b9425e436d5404986ffd157f01b86f05",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libxweb_linker.so",
+      "bytes": 65048,
+      "sha256": "561d8fcfc30cce8372bbaed59bf1ce474352a44e319f0af3e0c58aea66885c65",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libYTAGReflectLiveCheck.so",
+      "bytes": 5601744,
+      "sha256": "e21243d05fe03aee55de2870c7b9e5b0014c6e4c00229a876e740c6bcc3e7653",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libYTCommon.so",
+      "bytes": 903336,
+      "sha256": "f7daae5d60210a0374410222a6bcdf883368c65844ce5caba063a745dc7e4588",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libzidl2.so",
+      "bytes": 530352,
+      "sha256": "6f8bb524738ffd62a6a5095ac585c331662dee70620b25136166b0b8f2c7527f",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libzlog_binding.so",
+      "bytes": 68424,
+      "sha256": "ace68a09f3c9bf00709c078cfe949763cd35d2041d2b8c5d81f517684080abb3",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    },
+    {
+      "path": "lib/arm64-v8a/libzstd.so",
+      "bytes": 617368,
+      "sha256": "5868771bda59cf113e7f25e5bcf62d5956ed664f87b0fe7279dad7181456bf38",
+      "is_elf": true,
+      "elf_class": 2,
+      "elf_machine": 183,
+      "inspection": "ELF header only"
+    }
+  ],
+  "signature_blocks": [
+    {
+      "id": "0x7109871a",
+      "type": "APK Signature Scheme v2"
+    }
+  ],
+  "signature_verification": "Signature block presence inspected; Android package-manager verification pending installation",
+  "limitations": "No protected payloads decrypted or executed. ELF architecture evidence does not establish whole-app compatibility."
+}

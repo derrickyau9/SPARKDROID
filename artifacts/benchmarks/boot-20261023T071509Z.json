@@ -1,0 +1,7 @@
+{
+  "pollIntervalSeconds": 3,
+  "vmStartToAndroidReadySeconds": 38.5101886,
+  "measuredUtc": "2026-10-23T07:15:47.9244503Z",
+  "note": "Readiness includes provisioning when first boot. Poll quantization is up to 3 seconds plus ADB command time.",
+  "bootWaitSeconds": 37.2015221
+}

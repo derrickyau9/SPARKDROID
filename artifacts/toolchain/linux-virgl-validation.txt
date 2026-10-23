@@ -1,0 +1,94 @@
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+GBM platform:
+EGL API version: 1.5
+EGL vendor string: Mesa Project
+EGL version string: 1.5
+EGL client APIs: OpenGL OpenGL_ES 
+OpenGL compatibility profile vendor: Mesa
+OpenGL compatibility profile renderer: virgl (ANGLE (NVIDIA, NVIDIA RTX Spark N1X (6144-core Black...)
+OpenGL compatibility profile version: 2.1 Mesa 25.2.8-0ubuntu0.24.04.4
+OpenGL compatibility profile shading language version: 1.20
+OpenGL ES profile vendor: Mesa
+OpenGL ES profile renderer: virgl (ANGLE (NVIDIA, NVIDIA RTX Spark N1X (6144-core Black...)
+OpenGL ES profile version: OpenGL ES 2.0 Mesa 25.2.8-0ubuntu0.24.04.4
+OpenGL ES profile shading language version: OpenGL ES GLSL ES 1.0.16
+
+Wayland platform:
+eglinfo: eglInitialize failed
+
+X11 platform:
+eglinfo: eglInitialize failed
+
+Surfaceless platform:
+EGL API version: 1.5
+EGL vendor string: Mesa Project
+EGL version string: 1.5
+EGL client APIs: OpenGL OpenGL_ES 
+OpenGL compatibility profile vendor: Mesa
+OpenGL compatibility profile renderer: virgl (ANGLE (NVIDIA, NVIDIA RTX Spark N1X (6144-core Black...)
+OpenGL compatibility profile version: 2.1 Mesa 25.2.8-0ubuntu0.24.04.4
+OpenGL compatibility profile shading language version: 1.20
+OpenGL ES profile vendor: Mesa
+OpenGL ES profile renderer: virgl (ANGLE (NVIDIA, NVIDIA RTX Spark N1X (6144-core Black...)
+OpenGL ES profile version: OpenGL ES 2.0 Mesa 25.2.8-0ubuntu0.24.04.4
+OpenGL ES profile shading language version: OpenGL ES GLSL ES 1.0.16
+
+Device platform:
+Device #0:
+
+Platform Device platform:
+EGL API version: 1.5
+EGL vendor string: Mesa Project
+EGL version string: 1.5
+EGL client APIs: OpenGL OpenGL_ES 
+OpenGL compatibility profile vendor: Mesa
+OpenGL compatibility profile renderer: virgl (ANGLE (NVIDIA, NVIDIA RTX Spark N1X (6144-core Black...)
+OpenGL compatibility profile version: 2.1 Mesa 25.2.8-0ubuntu0.24.04.4
+OpenGL compatibility profile shading language version: 1.20
+OpenGL ES profile vendor: Mesa
+OpenGL ES profile renderer: virgl (ANGLE (NVIDIA, NVIDIA RTX Spark N1X (6144-core Black...)
+OpenGL ES profile version: OpenGL ES 2.0 Mesa 25.2.8-0ubuntu0.24.04.4
+OpenGL ES profile shading language version: OpenGL ES GLSL ES 1.0.16
+
+Device #1:
+
+Platform Device platform:
+EGL API version: 1.5
+EGL vendor string: Mesa Project
+EGL version string: 1.5
+EGL client APIs: OpenGL OpenGL_ES 
+OpenGL core profile vendor: Mesa
+OpenGL core profile renderer: llvmpipe (LLVM 20.1.2, 128 bits)
+OpenGL core profile version: 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.4
+OpenGL core profile shading language version: 4.50
+OpenGL compatibility profile vendor: Mesa
+OpenGL compatibility profile renderer: llvmpipe (LLVM 20.1.2, 128 bits)
+OpenGL compatibility profile version: 4.5 (Compatibility Profile) Mesa 25.2.8-0ubuntu0.24.04.4
+OpenGL compatibility profile shading language version: 4.50
+OpenGL ES profile vendor: Mesa
+OpenGL ES profile renderer: llvmpipe (LLVM 20.1.2, 128 bits)
+OpenGL ES profile version: OpenGL ES 3.2 Mesa 25.2.8-0ubuntu0.24.04.4
+OpenGL ES profile shading language version: OpenGL ES GLSL ES 3.20
+
+KERNEL_GPU
+[    1.108874] ACPI: bus type drm_connector registered
+[    1.516091] [drm] pci: virtio-gpu-pci detected at 0000:00:01.0
+[    1.520351] [drm] features: +virgl +edid -resource_blob -host_visible
+[    1.520356] [drm] features: +context_init
+[    1.528561] [drm] number of scanouts: 1
+[    1.531301] [drm] number of cap sets: 2
+[    1.542366] [drm] cap set 0: id 1, max-version 1, max-size 308
+[    1.552681] [drm] cap set 1: id 2, max-version 2, max-size 1408
+[    1.560843] [drm] Initialized virtio_gpu 0.1.0 0 for 0000:00:01.0 on minor 0
+[    1.608381] [drm:virtio_gpu_dequeue_ctrl_func [virtio_gpu]] *ERROR* response 0x1203 (command 0x103)
+[    1.608396] [drm:virtio_gpu_dequeue_ctrl_func [virtio_gpu]] *ERROR* response 0x1203 (command 0x103)
+[    1.623523] virtio-pci 0000:00:01.0: [drm] fb0: virtio_gpudrmfb frame buffer device
+[    3.114934] systemd[1]: Starting modprobe@drm.service - Load Kernel Module drm...
+CLOUD_STATUS
+status: done
+Linux sparkdroid-gpu-probe 6.8.0-147-generic #147-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep 24 11:39:52 UTC 2026 aarch64 aarch64 aarch64 GNU/Linux
+libegl-mesa0:arm64	25.2.8-0ubuntu0.24.04.4
+libgl1-mesa-dri:arm64	25.2.8-0ubuntu0.24.04.4
+mesa-utils	9.0.0-2

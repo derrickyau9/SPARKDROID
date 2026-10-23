@@ -1,0 +1,33 @@
+{
+  "measuredUtc": "2026-10-23T07:18:09.3070597Z",
+  "launcherSmoke": {
+    "application": "SPARKDROID Launcher",
+    "version": "0.1.0",
+    "architecture": "Arm64",
+    "framework": ".NET 10.0.13",
+    "windows": true,
+    "uiConstructed": true,
+    "screenshotFile": null,
+    "runtimeBootValidated": false,
+    "gpuValidated": false,
+    "note": "Launcher process smoke test only; no Android runtime is started."
+  },
+  "runtimeProbe": {
+    "backend": "whpx-linux-redroid",
+    "vmRunning": true,
+    "profile": "Balanced",
+    "graphics": "software-explicit",
+    "graphicsAccelerationValidated": false,
+    "androidBootCompleted": true,
+    "adb": "127.0.0.1:15555",
+    "logDirectory": "C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\artifacts\\logs",
+    "pid": 10828,
+    "qmp": {
+      "status": "running",
+      "running": true
+    },
+    "actualRenderer": "GLES: Google Inc. (Google), ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 16.0.0) (0x0000C0DE)), SwiftShader driver-5.0.0), OpenGL ES 3.1.0 (ANGLE 2.1 git hash: 1166eec4c0b125e9e945196acfc549983ef72b18)",
+    "hardwareRendererReported": false
+  },
+  "note": "Read-only launcher/control integration tests. No VM or Android app is started, stopped, installed or launched."
+}

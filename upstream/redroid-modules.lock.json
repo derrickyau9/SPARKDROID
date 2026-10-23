@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/remote-android/redroid-modules",
+  "revision": "f55e1e7515a6dd5f8e0f9569ea79148c08f60816",
+  "upstream_change": "https://github.com/remote-android/redroid-modules/pull/23",
+  "upstream_change_status": "open proposed fixes as of 2026-10-22",
+  "archive_url": "https://codeload.github.com/remote-android/redroid-modules/tar.gz/f55e1e7515a6dd5f8e0f9569ea79148c08f60816",
+  "archive_sha256": "3bcc9c4084ddb8422e0865f648541f398569411c95f6de99b251f02e73b1776b",
+  "module": "ashmem_linux",
+  "build_kernel": "6.8.0-147-generic",
+  "build_architecture": "aarch64",
+  "build_command": "make -C ashmem -j4",
+  "built_artifact": "artifacts/guest/ashmem_linux-6.8.0-147-generic-aarch64.ko",
+  "built_sha256": "b4fe1f7a18b1ba8fde4f7edfa74c9afd82efede2cd4a32b9aeaf2e64a7f8d9d2",
+  "reason": "Android16 Redroid gralloc requires /dev/ashmem even with androidboot.use_memfd=1; missing device caused SurfaceFlinger shader priming abort",
+  "license": "GPL-2.0"
+}

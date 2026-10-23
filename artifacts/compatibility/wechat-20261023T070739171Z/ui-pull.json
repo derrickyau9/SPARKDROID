@@ -1,0 +1,13 @@
+{
+  "name": "ui-pull",
+  "arguments": [
+    "pull",
+    "/sdcard/sparkdroid-wechat-20261023T070739171Z.xml",
+    "C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\artifacts\\compatibility\\wechat-20261023T070739171Z\\ui.xml"
+  ],
+  "exitCode": 1,
+  "timedOut": false,
+  "elapsedMilliseconds": 60.249,
+  "stdout": "",
+  "stderr": "adb: error: failed to stat remote object '/sdcard/sparkdroid-wechat-20261023T070739171Z.xml': No such file or directory\r\n"
+}

@@ -1,0 +1,11 @@
+{
+  "timestampUtc": "2026-10-23T07:33:01.4820475Z",
+  "package": "C:\\Users\\RTX-SPARK\\Documents\\RTX ANDROID\\dist\\SPARKDROID-0.1.0-win-arm64",
+  "verifiedFiles": 20554,
+  "expectedFiles": 20554,
+  "failures": [],
+  "forbiddenHostState": [],
+  "elapsedSeconds": 15.3956833,
+  "success": true,
+  "note": "Full verification after refreshing only corrected SSH script entries; pristine guest image was not booted."
+}

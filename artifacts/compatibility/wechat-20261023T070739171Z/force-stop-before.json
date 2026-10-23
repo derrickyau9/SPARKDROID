@@ -1,0 +1,14 @@
+{
+  "name": "force-stop-before",
+  "arguments": [
+    "shell",
+    "am",
+    "force-stop",
+    "com.tencent.mm"
+  ],
+  "exitCode": 0,
+  "timedOut": false,
+  "elapsedMilliseconds": 79.213,
+  "stdout": "",
+  "stderr": ""
+}
