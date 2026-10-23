@@ -8,6 +8,8 @@ This is a functional prototype with incomplete acceptance. A custom AOSP system 
 
 ## Run the existing build
 
+An experimental **WSL2 ARM64 backend** is being developed separately. WSL and the verified Ubuntu image are prepared, but this host must restart before WSL can boot; Android Binder/ashmem integration and GPU validation remain unfinished. See [WSL2 setup and current status](docs/WSL2.md). The control panel below continues to operate the existing QEMU backend.
+
 Open `Start-SPARKDROID.cmd`, then choose **Start**. Select **Refresh status** when Android has booted, and **Refresh apps** to list installed applications. Choose an app and **Launch app window**. The launcher uses explicit refresh and has no resident polling loop.
 
 The compiled executable is `artifacts/launcher/win-arm64/SparkDroid.exe`. Its startup root is discovered from the project or supplied with `--project`. For a ready local kit see `dist/SPARKDROID-0.1.0-win-arm64/` after packaging; the packaging script creates this directory from the stopped guest.
@@ -65,7 +67,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\Setup-Tools.ps
 
 The guest modules were actually compiled and loaded, and the Windows launcher was actually compiled and executed. The prebuilt Android image is pinned by OCI digest. `guest/build-android.sh` and the source locks describe a full AOSP/Redroid source build on a suitable x86-64 Linux builder. That full build was not executed on this 32 GB Windows ARM64 host; see `docs/upstream-feasibility.md` for the supported build requirements and acquired sources.
 
-The host bootloader, Windows partitions, optional features, global development tools and power plan were not changed.
+The original QEMU setup did not change the host bootloader, Windows partitions, optional features, global development tools or power plan. The subsequent WSL2 experiment installs Microsoft's WSL package and enables Virtual Machine Platform; Windows requires a restart to complete that setup. It does not change the power plan or global WSL kernel configuration.
 
 ## Evidence and remaining work
 

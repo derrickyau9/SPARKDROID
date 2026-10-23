@@ -1,0 +1,9 @@
+{
+  "distribution": "Ubuntu-24.04",
+  "architecture": "arm64",
+  "url": "https://cdimages.ubuntu.com/releases/24.04.5/release/ubuntu-24.04.5-wsl-arm64.wsl",
+  "sha256": "74478b5024d9047397ba79d17c27f73caf85ada4988f88cffc2892d65e6a806b",
+  "catalogUrl": "https://raw.githubusercontent.com/microsoft/WSL/master/distributions/DistributionInfo.json",
+  "resolvedUtc": "2026-10-23T18:54:05.5169770Z",
+  "localPath": "tools/wsl/ubuntu-24.04.5-wsl-arm64.wsl"
+}

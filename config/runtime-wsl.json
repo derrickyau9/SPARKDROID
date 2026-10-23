@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "backend": "wsl2-redroid",
+  "distro": "SPARKDROID",
+  "container": "sparkdroid-android-wsl",
+  "adbPort": 15565,
+  "adb": "tools/android/platform-tools/adb.exe",
+  "scrcpy": "tools/scrcpy/scrcpy.exe",
+  "androidImage": "docker.io/redroid/redroid@sha256:e194edc99aa364358d1f8c214acb18b6d006c74fa0561f39259a20173ec30b66",
+  "graphics": "software-explicit",
+  "gpuNode": "/dev/dri/renderD128",
+  "display": {
+    "mode": "Smooth",
+    "refreshHz": 60,
+    "width": 540,
+    "height": 960,
+    "dpi": 180,
+    "videoCodec": "h264",
+    "lowComplexity": true,
+    "server": "tools/scrcpy/scrcpy-server-sparkdroid"
+  }
+}

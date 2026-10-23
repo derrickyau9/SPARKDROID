@@ -1,0 +1,6 @@
+{
+  "action": "Import",
+  "recordedUtc": "2026-10-23T19:01:01.0208221Z",
+  "completed": false,
+  "diagnostic": "Windows has not restarted since WSL/Virtual Machine Platform installation. Restart Windows, then run this command again. No distro or Android startup was attempted."
+}

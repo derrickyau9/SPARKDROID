@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "timestampUtc": "2026-10-23T18:56:37.106614+00:00",
+  "success": false,
+  "hardwareRenderingVerified": false,
+  "androidHardwareRenderingVerified": false,
+  "host": {
+    "system": "Windows",
+    "machine": "ARM64",
+    "kernel": "11",
+    "dxg": {
+      "present": false,
+      "characterDevice": false,
+      "readWriteAccessible": false,
+      "openedReadWrite": false,
+      "error": "[WinError 3] The system cannot find the path specified: '\\\\dev\\\\dxg'"
+    },
+    "libraries": {
+      "libd3d12.so": {
+        "path": "\\usr\\lib\\wsl\\lib\\libd3d12.so",
+        "exists": false,
+        "arm64": false,
+        "error": "[Errno 2] No such file or directory: '\\\\usr\\\\lib\\\\wsl\\\\lib\\\\libd3d12.so'"
+      },
+      "libd3d12core.so": {
+        "path": "\\usr\\lib\\wsl\\lib\\libd3d12core.so",
+        "exists": false,
+        "arm64": false,
+        "error": "[Errno 2] No such file or directory: '\\\\usr\\\\lib\\\\wsl\\\\lib\\\\libd3d12core.so'"
+      },
+      "libdxcore.so": {
+        "path": "\\usr\\lib\\wsl\\lib\\libdxcore.so",
+        "exists": false,
+        "arm64": false,
+        "error": "[Errno 2] No such file or directory: '\\\\usr\\\\lib\\\\wsl\\\\lib\\\\libdxcore.so'"
+      }
+    },
+    "environment": {
+      "DISPLAY": null,
+      "WAYLAND_DISPLAY": null,
+      "XDG_RUNTIME_DIR": null,
+      "EGL_PLATFORM": null,
+      "MESA_D3D12_DEFAULT_ADAPTER_NAME": "NVIDIA",
+      "GALLIUM_DRIVER": "d3d12",
+      "LIBGL_ALWAYS_SOFTWARE": null,
+      "MESA_LOADER_DRIVER_OVERRIDE": null
+    }
+  },
+  "attempts": [
+    {
+      "platform": "surfaceless",
+      "renderSucceeded": false,
+      "nvidiaD3D12Renderer": false,
+      "pixelsValidated": false,
+      "error": "FileNotFoundError: Could not find module 'libEGL.so.1' (or one of its dependencies). Try using the full path with constructor syntax.",
+      "exitCode": 0,
+      "stderr": ""
+    }
+  ],
+  "selectedPlatform": null,
+  "scope": "Linux GLES shader rendering and pixel readback on NVIDIA via WSL D3D12. Does not establish Android rendering, window presentation, encoding, FPS or power consumption.",
+  "sources": [
+    "https://github.com/microsoft/wslg/wiki/GPU-selection-in-WSLg",
+    "https://docs.mesa3d.org/drivers/d3d12.html"
+  ]
+}

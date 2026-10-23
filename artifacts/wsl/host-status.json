@@ -1,0 +1,9 @@
+{
+  "recordedUtc": "2026-10-23T18:58:13.9763275Z",
+  "imageVerified": true,
+  "distro": "SPARKDROID",
+  "wslVersion": "WSL version: 3.0.3.0\r\nKernel version: 6.18.54.1-1\r\nWSLg version: 1.0.79\r\nMSRDC version: 1.2.7391\r\nDirect3D version: 1.611.1-81528511\r\nDXCore version: 10.0.26100.1-240331-1435.ge-release\r\nWindows version: 10.0.28000.3231",
+  "wslStatus": "Default Version: 2\r\nWSL1 is not supported with your current machine configuration.\r\nPlease enable the \"Windows Subsystem for Linux\" optional component to use WSL1.\r\nWSL2 is unable to start since virtualization is not enabled on this machine.\r\nPlease ensure the \"Virtual Machine Platform\" optional component is enabled and virtualization is turned on in your computer's firmware settings.\r\n\r\nEnable \"Virtual Machine Platform\" by running: wsl.exe --install --no-distribution\r\n\r\nFor information please visit https://aka.ms/enablevirtualization",
+  "wslStatusExitCode": 0,
+  "androidHardwareRenderingVerified": false
+}
