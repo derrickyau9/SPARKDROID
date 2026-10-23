@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "mode": "dry-run",
+  "sourcePackage": "WSA_2407.40000.4.0_arm64",
+  "images": [
+    {
+      "image": "system.vhdx",
+      "sourceSha256": "049f3b18364cd10210185fb28362e6ea5685beaf150bd79c2384a063f09709a4",
+      "sourceBytes": 897581056,
+      "ownershipAudit": {
+        "allocatedInodesScanned": 2794,
+        "targetBlocksProvenExclusive": [
+          79242,
+          79243
+        ],
+        "filesystemHasSharedBlocksFeature": true,
+        "metadataIntersections": 0
+      }
+    },
+    {
+      "image": "vendor.vhdx",
+      "sourceSha256": "9b52110b952a81d2e7d6c7f39a8f00aa2331c7a454584cd9052275e7d62a1831",
+      "sourceBytes": 75497472,
+      "ownershipAudit": {
+        "allocatedInodesScanned": 565,
+        "targetBlocksProvenExclusive": [
+          1583,
+          15080
+        ],
+        "filesystemHasSharedBlocksFeature": true,
+        "metadataIntersections": 0
+      }
+    }
+  ],
+  "cryptoSelfTestServicesUnchanged": true,
+  "headerPolicy": "Before payload writes, update FileWriteGuid/DataWriteGuid and both headers sequence/CRC, older slot first with flush; all ext4 metadata and all VHDX BAT/region/metadata/log bytes remain unchanged.",
+  "specification": "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-vhdx/39d641c2-093c-4d4a-8c9d-bd4b9fc2ff31",
+  "runtimeInstalledOrStarted": false,
+  "sourceHashesVerifiedAfterOperation": true,
+  "_publication": {
+    "sourceReport": "artifacts/wsa/arm64-only-ownership-audit-with-xattrs.json",
+    "sourceReportSha256": "8de10cc9c9202f76afafcbfba7b6bbebf1291aa13b5b38c84d61409e11c13e69",
+    "scope": "Sanitized historical evidence; not an installation or apply receipt.",
+    "transformations": [
+      "Workspace paths normalized to repository-relative paths; user-profile and Windows paths use environment placeholders.",
+      "Omitted duplicated property-change and AVB descriptions; complete patch facts remain in arm64-only-patch-result.json."
+    ]
+  }
+}

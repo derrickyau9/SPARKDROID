@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "analysis": "Read-only static ARM64 binary inspection; no logging sessions started or configuration changed",
+  "sourceBinary": "WsaService/WsaService.exe",
+  "sourceSha256": "5878066df9c307133b0994abd343786ffef34ce47d1f8ec042c70c8ab160b0fa",
+  "dmesgEtwProviderGuid": "a322581f-bff3-5bf6-6bfc-6a067db5f8d8",
+  "providerGuidRva": "0x305d0",
+  "providerGuidBytes": "1f5822a3f3bff65b6bfc6a067db5f8d8",
+  "enableTraceEx2CallRva": "0x1f784",
+  "providerPointerSetupRvas": [
+    "0x1f758",
+    "0x1f75c"
+  ],
+  "traceSessionName": "WSA dmesg",
+  "traceSessionStringRva": "0x31090",
+  "parsedPayloadFields": [
+    "text",
+    "vmId"
+  ],
+  "payloadStringRvas": [
+    "0x310f8",
+    "0x31108"
+  ],
+  "runtimeLogcatFilesObserved": 12,
+  "runtimeLogcatFilesAllEmpty": true,
+  "additionalStaticHooks": {
+    "wslcoreStrings": [
+      "wsl2.debugConsole",
+      "wsl2.debugConsoleLogFile",
+      "wsl2.kernelCommandLine",
+      "console=ttyAMA0 debug"
+    ],
+    "applicabilityToWsaNotVerified": true
+  },
+  "limits": [
+    "Static provider and callback identification; availability of runtime events requires capture during startup",
+    "Logcat files can remain empty when failure occurs before Android userspace logging",
+    "No Android boot or hardware-rendering success is inferred"
+  ],
+  "_publication": {
+    "sourceReport": "artifacts/wsa/diagnostic-hooks.json",
+    "sourceReportSha256": "55bac11fd4d0954223c8b2d4fef0d1b8be4a54dcce078e5d47585f2622a1f597",
+    "scope": "Sanitized historical evidence; not an installation or apply receipt.",
+    "transformations": [
+      "Workspace paths normalized to repository-relative paths; user-profile and Windows paths use environment placeholders."
+    ]
+  }
+}

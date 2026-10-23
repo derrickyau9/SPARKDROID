@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 1,
+  "recordedUtc": "2026-10-23T20:00:38.587411+00:00",
+  "scope": "Read-only isolated candidate analysis; no guest execution, installation, registration or replacement",
+  "provenance": {
+    "releaseUrl": "https://github.com/snickler/WSA-Patched/releases/tag/0.0.2",
+    "releasePublishedUtc": "2024-08-01T03:29:25Z",
+    "downloadUrl": "https://github.com/snickler/WSA-Patched/releases/download/0.0.2/wsa-patched-0.0.2.7z",
+    "archiveBytes": 578898572,
+    "archiveSha256": "b1582feef760fdd7cd9897de767a37d5d476a91187f1fb7b50e86786e56e265a",
+    "publisherDigest": null,
+    "publisherDigestVerified": false,
+    "extractedFiles": [
+      "vendor.vhdx",
+      "system.vhdx",
+      "system_ext.vhdx",
+      "product.vhdx"
+    ],
+    "vendorBytes": 225443840,
+    "vendorSha256": "d7604cb53721650592798f0a0b354b234ee502daebda999868de5f5132bb87ae",
+    "sourceRepositoryTree": "Only README.md; no published rebuild recipe found",
+    "audioClaimUrl": "https://github.com/snickler/WSA-Patched/issues/2#issuecomment-2260775330"
+  },
+  "files": [
+    {
+      "path": "/bin/hw/android.hardware.audio.service",
+      "lts8": {
+        "present": true,
+        "bytes": 10804,
+        "sha256": "192af147e754b0ad9908f511bf3b56777e7eba01a583b1dbb6fc8da99e5579a0",
+        "elf": true,
+        "bits": 32,
+        "machine": 40,
+        "needed": [
+          "libcutils.so",
+          "libbinder.so",
+          "libbinder_ndk.so",
+          "libhidlbase.so",
+          "liblog.so",
+          "libutils.so",
+          "libhardware.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ]
+      },
+      "candidate": {
+        "present": true,
+        "bytes": 19472,
+        "sha256": "c7a830d4f62c5643c3a7303d442892dcf4d1899741261fa775eeabeb86805e22",
+        "elf": true,
+        "bits": 64,
+        "machine": 183,
+        "needed": [
+          "libcutils.so",
+          "libbinder.so",
+          "libbinder_ndk.so",
+          "libhidlbase.so",
+          "liblog.so",
+          "libutils.so",
+          "libhardware.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ]
+      }
+    },
+    {
+      "path": "/etc/init/android.hardware.audio.service.rc",
+      "lts8": {
+        "present": true,
+        "bytes": 517,
+        "sha256": "f64c588de8808a8f8af3b6e72f1a563a8a861ed11d421afaeaee157ea3ae0698",
+        "elf": false
+      },
+      "candidate": {
+        "present": true,
+        "bytes": 517,
+        "sha256": "f64c588de8808a8f8af3b6e72f1a563a8a861ed11d421afaeaee157ea3ae0698",
+        "elf": false
+      }
+    },
+    {
+      "path": "/lib64/hw/android.hardware.audio@6.0-impl.so",
+      "lts8": {
+        "present": true,
+        "bytes": 221056,
+        "sha256": "5df100674dfd072e3112515137e39640e6235d22173e283c8ab706c30ac04b40",
+        "elf": true,
+        "bits": 64,
+        "machine": 183,
+        "needed": [
+          "libbase.so",
+          "libcutils.so",
+          "libfmq.so",
+          "libhardware.so",
+          "libhidlbase.so",
+          "liblog.so",
+          "libmedia_helper.so",
+          "libmediautils_vendor.so",
+          "libmemunreachable.so",
+          "libutils.so",
+          "android.hardware.audio.common-util.so",
+          "android.hardware.audio@6.0.so",
+          "android.hardware.audio@6.0-util.so",
+          "android.hardware.audio.common@6.0.so",
+          "android.hardware.audio.common@6.0-util.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ]
+      },
+      "candidate": {
+        "present": true,
+        "bytes": 221056,
+        "sha256": "5df100674dfd072e3112515137e39640e6235d22173e283c8ab706c30ac04b40",
+        "elf": true,
+        "bits": 64,
+        "machine": 183,
+        "needed": [
+          "libbase.so",
+          "libcutils.so",
+          "libfmq.so",
+          "libhardware.so",
+          "libhidlbase.so",
+          "liblog.so",
+          "libmedia_helper.so",
+          "libmediautils_vendor.so",
+          "libmemunreachable.so",
+          "libutils.so",
+          "android.hardware.audio.common-util.so",
+          "android.hardware.audio@6.0.so",
+          "android.hardware.audio@6.0-util.so",
+          "android.hardware.audio.common@6.0.so",
+          "android.hardware.audio.common@6.0-util.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ]
+      }
+    },
+    {
+      "path": "/lib64/hw/android.hardware.audio.effect@6.0-impl.so",
+      "lts8": {
+        "present": true,
+        "bytes": 320240,
+        "sha256": "971d709b8ef4afe6b66332c9038a276ec1d6ad5732e7de92459b33576d034fc7",
+        "elf": true,
+        "bits": 64,
+        "machine": 183,
+        "needed": [
+          "libaudioutils.so",
+          "libbase.so",
+          "libcutils.so",
+          "libeffects.so",
+          "libfmq.so",
+          "libhidlbase.so",
+          "libhidlmemory.so",
+          "liblog.so",
+          "libutils.so",
+          "android.hardware.audio.common-util.so",
+          "android.hidl.memory@1.0.so",
+          "android.hardware.audio.common@6.0.so",
+          "android.hardware.audio.common@6.0-util.so",
+          "android.hardware.audio.effect@6.0.so",
+          "android.hardware.audio.effect@6.0-util.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ]
+      },
+      "candidate": {
+        "present": true,
+        "bytes": 320240,
+        "sha256": "971d709b8ef4afe6b66332c9038a276ec1d6ad5732e7de92459b33576d034fc7",
+        "elf": true,
+        "bits": 64,
+        "machine": 183,
+        "needed": [
+          "libaudioutils.so",
+          "libbase.so",
+          "libcutils.so",
+          "libeffects.so",
+          "libfmq.so",
+          "libhidlbase.so",
+          "libhidlmemory.so",
+          "liblog.so",
+          "libutils.so",
+          "android.hardware.audio.common-util.so",
+          "android.hidl.memory@1.0.so",
+          "android.hardware.audio.common@6.0.so",
+          "android.hardware.audio.common@6.0-util.so",
+          "android.hardware.audio.effect@6.0.so",
+          "android.hardware.audio.effect@6.0-util.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ]
+      }
+    },
+    {
+      "path": "/lib64/hw/audio.primary.windows.so",
+      "lts8": {
+        "present": true,
+        "bytes": 91648,
+        "sha256": "86f4acfad3a217019e1e74b34ca3bd886425a56b74b83a10376acedce3bcf2ec",
+        "elf": true,
+        "bits": 64,
+        "machine": 183,
+        "needed": [
+          "libbinder.so",
+          "libbase.so",
+          "libcutils.so",
+          "libutils.so",
+          "liblog.so",
+          "libbinder_ndk.so",
+          "libhardware.so",
+          "libsync.so",
+          "libapipipe.so",
+          "libhidlbase.so",
+          "libprotobuf-cpp-lite-3.9.1.so",
+          "librcm.so",
+          "windows.services.rcm-V1-ndk.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ]
+      },
+      "candidate": {
+        "present": true,
+        "bytes": 91648,
+        "sha256": "86f4acfad3a217019e1e74b34ca3bd886425a56b74b83a10376acedce3bcf2ec",
+        "elf": true,
+        "bits": 64,
+        "machine": 183,
+        "needed": [
+          "libbinder.so",
+          "libbase.so",
+          "libcutils.so",
+          "libutils.so",
+          "liblog.so",
+          "libbinder_ndk.so",
+          "libhardware.so",
+          "libsync.so",
+          "libapipipe.so",
+          "libhidlbase.so",
+          "libprotobuf-cpp-lite-3.9.1.so",
+          "librcm.so",
+          "windows.services.rcm-V1-ndk.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ]
+      }
+    },
+    {
+      "path": "/lib64/hw/audio.r_submix.default.so",
+      "lts8": {
+        "present": true,
+        "bytes": 32848,
+        "sha256": "00e3cdd1df298f94010d5c2b59f7946254d0921d4f826225134f6a96099c47bb",
+        "elf": true,
+        "bits": 64,
+        "machine": 183,
+        "needed": [
+          "liblog.so",
+          "libcutils.so",
+          "libmedia_helper.so",
+          "libnbaio_mono.so",
+          "libutils.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ]
+      },
+      "candidate": {
+        "present": true,
+        "bytes": 32848,
+        "sha256": "00e3cdd1df298f94010d5c2b59f7946254d0921d4f826225134f6a96099c47bb",
+        "elf": true,
+        "bits": 64,
+        "machine": 183,
+        "needed": [
+          "liblog.so",
+          "libcutils.so",
+          "libmedia_helper.so",
+          "libnbaio_mono.so",
+          "libutils.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ]
+      }
+    }
+  ],
+  "vendorLib64Comparison": {
+    "identicalFiles": 104,
+    "differentOrAddedOrRemovedCount": 21
+  },
+  "otherOriginally32BitHalExecutables": [
+    {
+      "path": "/bin/hw/android.hardware.cas@1.2-service",
+      "lts8": {
+        "present": true,
+        "bytes": 36384,
+        "sha256": "a24e6ea79a8ab83375de614ff4bb8bd875735a924e8ab8b9b6a7e401c14248e2",
+        "elfBits": 32
+      },
+      "candidate": {
+        "present": true,
+        "bytes": 57624,
+        "sha256": "6cf851d06ed274ac7371295ef197ec18aa1af64eeb1dde24bd8e8fb3b24eab47",
+        "elfBits": 64
+      }
+    },
+    {
+      "path": "/bin/hw/android.hardware.media.omx@1.0-service",
+      "lts8": {
+        "present": true,
+        "bytes": 15524,
+        "sha256": "714d0da6855dfc6c8a6b28077a6e961ac401ef59558cfc79fe8c37548939d513",
+        "elfBits": 32
+      },
+      "candidate": {
+        "present": false
+      }
+    }
+  ],
+  "audioServiceDefinitionIdentical": true,
+  "_publication": {
+    "sourceReport": "artifacts/wsa/snickler-audio-comparison.json",
+    "sourceReportSha256": "2d8a4ac688285a97c101c3726db339a7869f21028ff440e541cb9a97cacb355e",
+    "scope": "Sanitized historical evidence; not an installation or apply receipt.",
+    "transformations": [
+      "Workspace paths normalized to repository-relative paths; user-profile and Windows paths use environment placeholders.",
+      "Kept audio executable/library hashes and provenance; omitted symbol inventories, unrelated partition changes and service listings."
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "observedUtc": "2026-10-23T20:14:56.6324388Z",
+  "androidVersion": "13",
+  "sdk": "33",
+  "bootCompleted": "1",
+  "abi": "arm64-v8a",
+  "zygote": "zygote64",
+  "surfaceFlingerRenderer": [
+    "GLES: Microsoft, Subsystem OpenGL ES Translator, OpenGL ES 3.0"
+  ],
+  "displayModes": [
+    "      {id=0, hwcId=100, resolution=3440x1440, refreshRate=60.00 Hz, dpi=160.00x160.00, group=0}",
+    "      {id=0, hwcId=101, resolution=2880x1800, refreshRate=60.00 Hz, dpi=240.00x240.00, group=0}"
+  ],
+  "services": [
+    "[init.svc.audioserver]: [running]",
+    "[init.svc.drm]: [restarting]",
+    "[init.svc.media]: [restarting]",
+    "[init.svc.media.swcodec]: [running]",
+    "[init.svc.mediadrm]: [restarting]",
+    "[init.svc.mediaextractor]: [running]",
+    "[init.svc.mediametrics]: [running]",
+    "[init.svc.zygote]: [running]"
+  ],
+  "frameProbe": {
+    "metric": "Android View.onDraw callbacks per second, not Windows presented FPS",
+    "samples": [
+      {
+        "drawCallbacksPerSecond": 57.073273,
+        "displayHz": 60.000004
+      },
+      {
+        "drawCallbacksPerSecond": 58.585983,
+        "displayHz": 60.000004
+      },
+      {
+        "drawCallbacksPerSecond": 58.93388,
+        "displayHz": 60.000004
+      },
+      {
+        "drawCallbacksPerSecond": 56.711372,
+        "displayHz": 60.000004
+      },
+      {
+        "drawCallbacksPerSecond": 57.636738,
+        "displayHz": 60.000004
+      },
+      {
+        "drawCallbacksPerSecond": 60.751877,
+        "displayHz": 60.000004
+      },
+      {
+        "drawCallbacksPerSecond": 59.815216,
+        "displayHz": 60.000004
+      },
+      {
+        "drawCallbacksPerSecond": 59.49482,
+        "displayHz": 60.000004
+      },
+      {
+        "drawCallbacksPerSecond": 58.04246,
+        "displayHz": 60.000004
+      },
+      {
+        "drawCallbacksPerSecond": 56.0384,
+        "displayHz": 60.000004
+      },
+      {
+        "drawCallbacksPerSecond": 58.84168,
+        "displayHz": 60.000004
+      },
+      {
+        "drawCallbacksPerSecond": 51.32058,
+        "displayHz": 60.000004
+      },
+      {
+        "drawCallbacksPerSecond": 57.87556,
+        "displayHz": 60.000004
+      },
+      {
+        "drawCallbacksPerSecond": 50.75689,
+        "displayHz": 60.000004
+      }
+    ],
+    "average": 57.277052071428564,
+    "minimum": 50.75689,
+    "maximum": 60.751877,
+    "gfxinfo": [
+      "Total frames rendered: 4465",
+      "Janky frames: 59 (1.32%)",
+      "50th gpu percentile: 1ms",
+      "99th gpu percentile: 5ms",
+      "Pipeline=Skia (OpenGL)"
+    ]
+  },
+  "verifiedApps": [
+    "com.android.documentsui",
+    "dev.sparkdroid.frameprobe",
+    "org.videolan.vlc"
+  ],
+  "limits": [
+    "VLC onboarding launch verified; media playback not yet tested.",
+    "Original 32-bit media/DRM/CAS/OMX services remain incompatible.",
+    "Only 60 Hz modes exposed to Android; 120 Hz not achieved.",
+    "Modified vendor is an experimental filesystem without valid AVB metadata."
+  ],
+  "_publication": {
+    "sourceReport": "artifacts/wsa/android13-runtime-verification.json",
+    "sourceReportSha256": "5b8c973042e54ae220823dc9e08f8d660daeff494b8c529d1e6726bee59082ee",
+    "scope": "Sanitized historical evidence; not an installation or apply receipt.",
+    "transformations": [
+      "Workspace paths normalized to repository-relative paths; user-profile and Windows paths use environment placeholders."
+    ]
+  }
+}

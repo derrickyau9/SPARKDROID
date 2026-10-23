@@ -11,7 +11,7 @@ New-Item -ItemType Directory -Force "$out/classes","$out/dex","$root/artifacts/r
 & "$java/javac.exe" -encoding UTF-8 -source 1.8 -target 1.8 -bootclasspath $platform -d "$out/classes" "$source/FrameActivity.java"
 if($LASTEXITCODE){throw 'Frame probe Java build failed'}
 & "$java/jar.exe" --create --file "$out/classes.jar" -C "$out/classes" .
-& "$java/java.exe" -cp "$bt/lib/d8.jar" com.android.tools.r8.D8 --min-api 34 --lib $platform --output "$out/dex" "$out/classes.jar"
+& "$java/java.exe" -cp "$bt/lib/d8.jar" com.android.tools.r8.D8 --min-api 33 --lib $platform --output "$out/dex" "$out/classes.jar"
 if($LASTEXITCODE){throw 'Frame probe DEX build failed'}
 & "$bt/aapt2.exe" link -I $platform --manifest "$source/AndroidManifest.xml" -o "$out/unsigned.apk"
 if($LASTEXITCODE){throw 'Frame probe APK resource build failed'}

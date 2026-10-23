@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "dumpBasename": "WsaClient.exe.30432.dmp",
+  "analysisLocalOnly": true,
+  "binary": "WsaClient/WsaClient.exe",
+  "binarySha256": "9622862f08f8409569ad6e81b46f579ffe8ce0c9b029aee4f0d558d2d8b9b4ae",
+  "architecture": "ARM64",
+  "exceptionCode": "0xc0000409",
+  "fastFailCode": 7,
+  "fastFailMeaning": "FAST_FAIL_FATAL_APP_EXIT",
+  "exceptionParametersHex": [
+    "0x7",
+    "0xffffffff8007023f",
+    "0x10e"
+  ],
+  "hresult": "0x8007023f",
+  "win32Error": 575,
+  "win32ErrorName": "ERROR_APP_INIT_FAILURE",
+  "source": "WsaClient/Framework/InstanceManager.cpp",
+  "sourceLine": 270,
+  "diagnostic": "Unexpected session disconnect before boot completed.",
+  "framePointerChain": [
+    "WsaClient+0x1fb74",
+    "WsaClient+0x1fda8",
+    "WsaClient+0x83a8",
+    "WsaClient+0x26b2e4",
+    "WsaClient+0x26b384",
+    "kernel32+0x94d0",
+    "ntdll+0xd82a4"
+  ],
+  "evidence": {
+    "messageStringRva": "0x3b5050",
+    "sourceFileStringRva": "0x3b4c38",
+    "hresultLiteralRva": "0x83b8",
+    "hresultLiteralBytes": "3f020780",
+    "lineNumberInstructionRva": "0x1fb68",
+    "lineNumberInstruction": "mov w1, #0x10e",
+    "lineNumberInstructionBytes": "c1218052",
+    "failureReportCallRva": "0x1fb70",
+    "failureReportCallInstruction": "bl #0x46700",
+    "failureReportCallBytes": "e49a0094",
+    "exceptionRva": "0x1fb74",
+    "exceptionInstruction": "brk #0xf000",
+    "exceptionInstructionBytes": "00003ed4",
+    "disconnectReportCallRva": "0x83a4",
+    "disconnectReportCallInstruction": "bl #0x1fcf8",
+    "disconnectReportCallBytes": "555e0094"
+  },
+  "interpretation": "WsaClient intentionally fails fast after detecting an unexpected session disconnect before Android boot completion. This dump identifies the client reaction, not the earlier guest/session failure cause.",
+  "limits": [
+    "Frame-pointer chain, not symbolized full unwind",
+    "Microsoft symbol server returned HTTP404 for this exact WsaClient PDB GUID/age",
+    "No evidence here establishes a stack overflow or a GPU crash"
+  ],
+  "sourceImagesOrBinariesModified": false,
+  "dumpUploaded": false,
+  "_publication": {
+    "sourceReport": "artifacts/wsa/crash-summary.json",
+    "sourceReportSha256": "2ef7a3615d3e9245cb6b715888b578f54572c20c4a2c0273c5237f256132e80b",
+    "scope": "Sanitized historical evidence; not an installation or apply receipt.",
+    "transformations": [
+      "Workspace paths normalized to repository-relative paths; user-profile and Windows paths use environment placeholders."
+    ]
+  }
+}

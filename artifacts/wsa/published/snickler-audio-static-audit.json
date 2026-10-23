@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "recordedUtc": "2026-10-23T20:08:19.584426+00:00",
+  "scope": "Static byte parsing and disassembly only; candidate ELF was never executed or loaded",
+  "path": "tools/wsabuilds/snickler-inspection/candidates/android.hardware.audio.service",
+  "bytes": 19472,
+  "sha256": "c7a830d4f62c5643c3a7303d442892dcf4d1899741261fa775eeabeb86805e22",
+  "elf": {
+    "bits": 64,
+    "machine": 183,
+    "type": 3,
+    "entry": "0x2000"
+  },
+  "imports": [
+    "__libc_init",
+    "signal",
+    "_ZN7android12ProcessState14initWithDriverEPKc",
+    "_ZNK7android7RefBase9decStrongEPKv",
+    "_ZN7android12ProcessState4selfEv",
+    "_ZN7android12ProcessState15startThreadPoolEv",
+    "ABinderProcess_setThreadPoolMaxThreadCount",
+    "ABinderProcess_startThreadPool",
+    "property_get_int32",
+    "__android_log_print",
+    "_ZN7android8hardware12ProcessState16initWithMmapSizeEm",
+    "_ZN7android8hardware22configureRpcThreadpoolEmb",
+    "_Znwm",
+    "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_",
+    "_ZdlPv",
+    "_ZN7android8hardware40registerPassthroughServiceImplementationERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_S9_",
+    "__android_log_assert",
+    "dlerror",
+    "memcpy",
+    "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm",
+    "dlopen",
+    "dlsym",
+    "dlclose",
+    "_ZN7android8hardware17joinRpcThreadpoolEv",
+    "_ZNKSt3__121__basic_string_commonILb1EE20__throw_length_errorEv",
+    "__stack_chk_fail",
+    "strlen"
+  ],
+  "exports": [],
+  "dynamic": [
+    {
+      "tag": 1,
+      "value": 972,
+      "string": "libcutils.so"
+    },
+    {
+      "tag": 1,
+      "value": 879,
+      "string": "libbinder.so"
+    },
+    {
+      "tag": 1,
+      "value": 902,
+      "string": "libbinder_ndk.so"
+    },
+    {
+      "tag": 1,
+      "value": 985,
+      "string": "libhidlbase.so"
+    },
+    {
+      "tag": 1,
+      "value": 933,
+      "string": "liblog.so"
+    },
+    {
+      "tag": 1,
+      "value": 1000,
+      "string": "libutils.so"
+    },
+    {
+      "tag": 1,
+      "value": 1012,
+      "string": "libhardware.so"
+    },
+    {
+      "tag": 1,
+      "value": 1027,
+      "string": "libc++.so"
+    },
+    {
+      "tag": 1,
+      "value": 950,
+      "string": "libc.so"
+    },
+    {
+      "tag": 1,
+      "value": 1037,
+      "string": "libm.so"
+    },
+    {
+      "tag": 1,
+      "value": 963,
+      "string": "libdl.so"
+    },
+    {
+      "tag": 30,
+      "value": 8,
+      "string": null
+    },
+    {
+      "tag": 1879048187,
+      "value": 134217729,
+      "string": null
+    },
+    {
+      "tag": 21,
+      "value": 0,
+      "string": null
+    },
+    {
+      "tag": 36,
+      "value": 2728,
+      "string": null
+    },
+    {
+      "tag": 35,
+      "value": 8,
+      "string": null
+    },
+    {
+      "tag": 37,
+      "value": 8,
+      "string": null
+    },
+    {
+      "tag": 23,
+      "value": 2736,
+      "string": null
+    },
+    {
+      "tag": 2,
+      "value": 648,
+      "string": null
+    },
+    {
+      "tag": 3,
+      "value": 17016,
+      "string": null
+    },
+    {
+      "tag": 20,
+      "value": 7,
+      "string": null
+    },
+    {
+      "tag": 6,
+      "value": 760,
+      "string": null
+    },
+    {
+      "tag": 11,
+      "value": 24,
+      "string": null
+    },
+    {
+      "tag": 5,
+      "value": 1676,
+      "string": null
+    },
+    {
+      "tag": 10,
+      "value": 1045,
+      "string": null
+    },
+    {
+      "tag": 1879047925,
+      "value": 1648,
+      "string": null
+    },
+    {
+      "tag": 32,
+      "value": 16384,
+      "string": null
+    },
+    {
+      "tag": 33,
+      "value": 16,
+      "string": null
+    },
+    {
+      "tag": 25,
+      "value": 16400,
+      "string": null
+    },
+    {
+      "tag": 27,
+      "value": 16,
+      "string": null
+    },
+    {
+      "tag": 26,
+      "value": 16416,
+      "string": null
+    },
+    {
+      "tag": 28,
+      "value": 16,
+      "string": null
+    },
+    {
+      "tag": 1879048176,
+      "value": 1432,
+      "string": null
+    },
+    {
+      "tag": 1879048190,
+      "value": 1488,
+      "string": null
+    },
+    {
+      "tag": 1879048191,
+      "value": 5,
+      "string": null
+    }
+  ],
+  "aospReference": {
+    "tag": "android-13.0.0_r1",
+    "url": "https://android.googlesource.com/platform/hardware/interfaces/+/refs/tags/android-13.0.0_r1/audio/common/all-versions/default/service/service.cpp",
+    "localSourceSha256": "cf4e4f0fb62be11b423a1bec233ccb50f1ffbb4fc0a79753c8b3be81775c6752",
+    "sourceLiteralsMissing": [],
+    "androidBpSha256": "aaccacd1375b42a9c9991879b6005cf3d34e465791e0bb7109528dcb7b60e837",
+    "sourceLiteralsPresentCount": 36
+  },
+  "svcInstructions": [],
+  "writableExecutableLoadSegments": [],
+  "limitations": [
+    "This is not source-to-binary equivalence or a reproducible build verification.",
+    "Matching imports, strings and call patterns do not establish trust or runtime compatibility.",
+    "AOSP reference tag is a baseline for source logic, not proven source revision of this binary."
+  ],
+  "observations": [
+    "All non-comment AOSP13 source string literals of length >=4 are present.",
+    "No exported dynamic symbols, no RPATH/RUNPATH dynamic tags, no writable+executable PT_LOAD segment, and no direct SVC instruction found in .text.",
+    "Disassembled initialization matches AOSP: SIGPIPE ignore, vndbinder pool, AIDL max threads 1, hwbinder property default -1, optional KiB conversion, RPC pool 16."
+  ],
+  "_publication": {
+    "sourceReport": "artifacts/wsa/snickler-audio-static-audit.json",
+    "sourceReportSha256": "bfe7e097b52e9b26762cebb5094ad7bcf43a592f8fa998b9d233271a01644e7b",
+    "scope": "Sanitized historical evidence; not an installation or apply receipt.",
+    "transformations": [
+      "Workspace paths normalized to repository-relative paths; user-profile and Windows paths use environment placeholders.",
+      "Omitted ELF section inventory, disassembly, symbol table and literal listings; retained original analysis conclusions and limitations."
+    ]
+  }
+}

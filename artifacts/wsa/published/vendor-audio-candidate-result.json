@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "mode": "candidate",
+  "success": true,
+  "source": "arm64-only-candidate/vendor.vhdx",
+  "sourceSha256": "7300d4e7c6fe204210e99c0ea6d10da9103041ff112381d29e3e248badc0155a",
+  "replacement": "snickler-inspection/candidates/android.hardware.audio.service",
+  "replacementSha256": "c7a830d4f62c5643c3a7303d442892dcf4d1899741261fa775eeabeb86805e22",
+  "replacementBytes": 19472,
+  "target": "/vendor/bin/hw/android.hardware.audio.service",
+  "sourceProvenance": "artifacts/wsa/snickler-audio-comparison.json",
+  "workflow": [
+    "Convert source VHDX to a new raw copy.",
+    "Validate raw ext4; mount read-only, noexec, nodev, nosuid for full-tree content and metadata snapshot.",
+    "Grow the raw copy to 256MiB; resize2fs; e2fsck -E unshare_blocks; confirm shared-blocks flag cleared and filesystem clean.",
+    "Mount only the copy with noexec, nodev, nosuid; replace audio bytes via r+b preserving inode, uid, gid, mode and every xattr.",
+    "Compare all filesystem paths, contents and metadata, allowing only the approved audio content/size change; unmount and fsck.",
+    "Convert the candidate raw to new VHDX, convert it back to raw and require byte-identical roundtrip; preserve source SHA256."
+  ],
+  "inactiveAvbExperiment": true,
+  "avbNotice": "Filesystem growth can overwrite the former AVB/hash-tree trailer. Candidate does not retain valid AVB data. No runtime verification setting is changed; source VHDX stays intact.",
+  "replacementExecuted": false,
+  "runtimeInstalledOrStarted": false,
+  "distroOwnershipVerifiedByRegistry": true,
+  "filesystemBuild": {
+    "success": true,
+    "commands": [
+      {
+        "stage": "original-fsck",
+        "exitCode": 0
+      },
+      {
+        "stage": "loop-ro",
+        "exitCode": 0
+      },
+      {
+        "stage": "mount-ro",
+        "exitCode": 0
+      },
+      {
+        "stage": "unmount-original",
+        "exitCode": 0
+      },
+      {
+        "stage": "detach-original",
+        "exitCode": 0
+      },
+      {
+        "stage": "resize",
+        "exitCode": 0
+      },
+      {
+        "stage": "unshare",
+        "exitCode": 0
+      },
+      {
+        "stage": "unshared-fsck",
+        "exitCode": 0
+      },
+      {
+        "stage": "loop-rw",
+        "exitCode": 0
+      },
+      {
+        "stage": "mount-rw",
+        "exitCode": 0
+      },
+      {
+        "stage": "unmount-candidate",
+        "exitCode": 0
+      },
+      {
+        "stage": "detach-candidate",
+        "exitCode": 0
+      },
+      {
+        "stage": "candidate-fsck",
+        "exitCode": 0
+      }
+    ],
+    "replacementExecuted": false,
+    "runtimeInstalledOrStarted": false,
+    "originalFilesystemFeatures": [
+      "0x28",
+      "0x42",
+      "0x407b"
+    ],
+    "rawSha256": "bddeec4489079a4b1e18aa90137ba2eaba13cac012756be2597250971b69c572",
+    "filesystemBytes": 268435456,
+    "fileTreeEntriesChecked": 556,
+    "changedFiles": [
+      "bin/hw/android.hardware.audio.service"
+    ],
+    "targetMetadataPreserved": true,
+    "targetInodePreserved": true,
+    "finalFilesystemFeatures": [
+      "0x28",
+      "0x42",
+      "0x7b"
+    ],
+    "inactiveAvbExperiment": true,
+    "avbNotice": "Filesystem growth reuses the former AVB/hash-tree trailer area. Candidate is not AVB-valid. No runtime verification setting was changed; original input VHDX is preserved for rollback."
+  },
+  "candidateSha256": "dd3593f3a182a983aed1ca15a75de7c913eb010781865177ed07eb2ba82a382e",
+  "candidateBytes": 83886080,
+  "rawRoundtripSha256": "bddeec4489079a4b1e18aa90137ba2eaba13cac012756be2597250971b69c572",
+  "qemuInfo": {
+    "children": [
+      {
+        "name": "file",
+        "info": {
+          "children": [],
+          "virtual-size": 83886080,
+          "filename": "tools/wsabuilds/vendor-audio-candidate/vendor.vhdx",
+          "format": "file",
+          "actual-size": 65077248
+        }
+      }
+    ],
+    "virtual-size": 268435456,
+    "filename": "tools/wsabuilds/vendor-audio-candidate/vendor.vhdx",
+    "cluster-size": 8388608,
+    "format": "vhdx",
+    "actual-size": 65077248,
+    "dirty-flag": false
+  },
+  "sourceHashesUnchanged": true,
+  "_publication": {
+    "sourceReport": "artifacts/wsa/vendor-audio-candidate-result.json",
+    "sourceReportSha256": "ac85136589d6da32febf69cc19599e4ce52823ec5932fcabe31f70a573190bf2",
+    "scope": "Sanitized historical evidence; not an installation or apply receipt.",
+    "transformations": [
+      "Workspace paths normalized to repository-relative paths; user-profile and Windows paths use environment placeholders."
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "timestampUtc": "2026-10-23T19:59:56.7416739Z",
+  "success": true,
+  "tool": "Ubuntu ARM64 e2fsck 1.47.0 -fn via qemu-img VHDX-to-raw conversion",
+  "images": [
+    {
+      "image": "system.vhdx",
+      "sha256": "6a39a8636e364e45eca3fcb35b9d223c3e4fa3d0ca332ebafd5e85a954888b4b",
+      "filesystemCheckExitCode": 0,
+      "rawBytes": 946970624
+    },
+    {
+      "image": "vendor.vhdx",
+      "sha256": "7300d4e7c6fe204210e99c0ea6d10da9103041ff112381d29e3e248badc0155a",
+      "filesystemCheckExitCode": 0,
+      "rawBytes": 63356928
+    }
+  ],
+  "avbValidationClaimed": false,
+  "_publication": {
+    "sourceReport": "artifacts/wsa/arm64-only-fsck.json",
+    "sourceReportSha256": "6df0678841f3d6c2d122c614a5859f624cd608a3b32aa22a6bc915dd1eb24924",
+    "scope": "Sanitized historical evidence; not an installation or apply receipt.",
+    "transformations": [
+      "Workspace paths normalized to repository-relative paths; user-profile and Windows paths use environment placeholders."
+    ]
+  }
+}

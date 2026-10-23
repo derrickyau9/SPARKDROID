@@ -1,0 +1,144 @@
+{
+  "observedUtc": "2026-10-23T20:20:45.3722046Z",
+  "test": "Live Windows internal-display refresh change, without restarting WSA",
+  "windowsInternalHz": 120,
+  "windowsExternalHz": 60,
+  "guestDisplayModes": [
+    "      {id=0, hwcId=100, resolution=3440x1440, refreshRate=60.00 Hz, dpi=160.00x160.00, group=0}",
+    "      {id=0, hwcId=101, resolution=2880x1800, refreshRate=60.00 Hz, dpi=240.00x240.00, group=0}"
+  ],
+  "frameProbeDisplayId": 2,
+  "result": "Running WSA did not update its display mode to 120 Hz. Cold-start behavior at host 120 Hz was not tested.",
+  "windowsPresentedFpsMeasured": false,
+  "frameProbeSamples": [
+    {
+      "localLogTimestamp": "10-23 13:20:25.288",
+      "drawCallbacksPerSecond": 58.953373,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 1724
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:26.292",
+      "drawCallbacksPerSecond": 60.739887,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 1785
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:27.309",
+      "drawCallbacksPerSecond": 60.020035,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 1846
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:28.325",
+      "drawCallbacksPerSecond": 60.00195,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 1907
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:29.339",
+      "drawCallbacksPerSecond": 60.15935,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 1968
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:30.349",
+      "drawCallbacksPerSecond": 59.429176,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 2028
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:31.352",
+      "drawCallbacksPerSecond": 58.81028,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 2087
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:32.352",
+      "drawCallbacksPerSecond": 59.998466,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 2147
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:33.359",
+      "drawCallbacksPerSecond": 60.61281,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 2208
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:34.359",
+      "drawCallbacksPerSecond": 58.998375,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 2267
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:35.362",
+      "drawCallbacksPerSecond": 59.819557,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 2327
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:36.365",
+      "drawCallbacksPerSecond": 60.774715,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 2388
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:37.371",
+      "drawCallbacksPerSecond": 59.67694,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 2448
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:38.373",
+      "drawCallbacksPerSecond": 60.834328,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 2509
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:39.374",
+      "drawCallbacksPerSecond": 59.996536,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 2569
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:40.374",
+      "drawCallbacksPerSecond": 59.98711,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 2629
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:41.390",
+      "drawCallbacksPerSecond": 60.009716,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 2690
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:42.391",
+      "drawCallbacksPerSecond": 59.986103,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 2750
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:43.407",
+      "drawCallbacksPerSecond": 59.998466,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 2811
+    },
+    {
+      "localLogTimestamp": "10-23 13:20:44.407",
+      "drawCallbacksPerSecond": 59.992058,
+      "displayHz": 60.000004,
+      "totalDrawCallbacks": 2871
+    }
+  ],
+  "_publication": {
+    "sourceReport": "artifacts/wsa/live-display120-verification.json",
+    "sourceReportSha256": "d4c18e437e19172cdabd7757228e28702730f04cfc0b7722c5d53035392ff339",
+    "scope": "Sanitized historical evidence; not an installation or apply receipt.",
+    "transformations": [
+      "Workspace paths normalized to repository-relative paths; user-profile and Windows paths use environment placeholders.",
+      "Converted selected app-owned frame logs into numeric samples and omitted process/thread IDs."
+    ]
+  }
+}

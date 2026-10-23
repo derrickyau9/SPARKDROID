@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "capture": "audio-20261023-131124",
+  "sources": [
+    {
+      "file": "dmesg.xml",
+      "bytes": 1634630,
+      "sha256": "e56cb6af398bee0d907b6ef82a212c1c4d478b8c24b2d297fdeb2bd5e3da5607"
+    },
+    {
+      "file": "client.xml",
+      "bytes": 276432,
+      "sha256": "e57ad9f9429ddf8c371cfb6e2c3c0087a53f33655c50ca979e53d10a01d3239b"
+    },
+    {
+      "file": "20261023201133.log",
+      "bytes": 38908309,
+      "sha256": "7b16e0327c49da47e79c9177f14ce6fc9b88c350d9065c161e4a67549639dbcd"
+    }
+  ],
+  "execFormatFailures": [
+    {
+      "binary": "/vendor/bin/hw/android.hardware.cas@1.2-service",
+      "count": 9,
+      "first": {
+        "time": "2026-10-23T13:11:34.685939600-07:00",
+        "xmlLine": 26417,
+        "text": "[    2.725131] init: cannot execv('/vendor/bin/hw/android.hardware.cas@1.2-service'). See the 'Debugging init' section of init's README.md for tips: Exec format error"
+      },
+      "last": {
+        "time": "2026-10-23T13:12:14.732784800-07:00",
+        "xmlLine": 41137,
+        "text": "[   42.769244] init: cannot execv('/vendor/bin/hw/android.hardware.cas@1.2-service'). See the 'Debugging init' section of init's README.md for tips: Exec format error"
+      }
+    },
+    {
+      "binary": "/system/bin/drmserver",
+      "count": 10,
+      "first": {
+        "time": "2026-10-23T13:11:34.832928400-07:00",
+        "xmlLine": 27912,
+        "text": "[    2.872458] init: cannot execv('/system/bin/drmserver'). See the 'Debugging init' section of init's README.md for tips: Exec format error"
+      },
+      "last": {
+        "time": "2026-10-23T13:12:14.886808400-07:00",
+        "xmlLine": 41413,
+        "text": "[   42.921687] init: cannot execv('/system/bin/drmserver'). See the 'Debugging init' section of init's README.md for tips: Exec format error"
+      }
+    },
+    {
+      "binary": "/system/bin/mediaserver",
+      "count": 9,
+      "first": {
+        "time": "2026-10-23T13:11:34.876495900-07:00",
+        "xmlLine": 28763,
+        "text": "[    2.916133] init: cannot execv('/system/bin/mediaserver'). See the 'Debugging init' section of init's README.md for tips: Exec format error"
+      },
+      "last": {
+        "time": "2026-10-23T13:12:14.910639000-07:00",
+        "xmlLine": 41781,
+        "text": "[   42.948762] init: cannot execv('/system/bin/mediaserver'). See the 'Debugging init' section of init's README.md for tips: Exec format error"
+      }
+    },
+    {
+      "binary": "/vendor/bin/hw/android.hardware.media.omx@1.0-service",
+      "count": 9,
+      "first": {
+        "time": "2026-10-23T13:11:34.883552800-07:00",
+        "xmlLine": 28832,
+        "text": "[    2.923065] init: cannot execv('/vendor/bin/hw/android.hardware.media.omx@1.0-service'). See the 'Debugging init' section of init's README.md for tips: Exec format error"
+      },
+      "last": {
+        "time": "2026-10-23T13:12:14.909078800-07:00",
+        "xmlLine": 41735,
+        "text": "[   42.946784] init: cannot execv('/vendor/bin/hw/android.hardware.media.omx@1.0-service'). See the 'Debugging init' section of init's README.md for tips: Exec format error"
+      }
+    }
+  ],
+  "boringSslSelfTests": [
+    {
+      "time": "2026-10-23T13:11:33.648525500-07:00",
+      "xmlLine": 12870,
+      "text": "[    1.688032] init: Service 'boringssl_self_test64_vendor' (pid 35) exited with status 0 waiting took 0.024000 seconds"
+    },
+    {
+      "time": "2026-10-23T13:11:33.692014400-07:00",
+      "xmlLine": 13767,
+      "text": "[    1.731494] init: Service 'boringssl_self_test64' (pid 43) exited with status 0 waiting took 0.007000 seconds"
+    },
+    {
+      "time": "2026-10-23T13:11:34.754402200-07:00",
+      "xmlLine": 27406,
+      "text": "[    2.793670] init: Service 'boringssl_self_test_apex64' (pid 157) exited with status 0 waiting took 0.020000 seconds"
+    }
+  ],
+  "audioServerSigkill": {
+    "count": 0,
+    "first": null,
+    "last": null
+  },
+  "guestPhaseAndAdb": [
+    {
+      "time": "2026-10-23T13:11:34.322808600-07:00",
+      "xmlLine": 21817,
+      "text": "[    2.361577] init: Wait for property 'vendor.sysprep.start_phase=1' took 16ms"
+    },
+    {
+      "time": "2026-10-23T13:11:34.914579200-07:00",
+      "xmlLine": 29545,
+      "text": "[    2.953552] init: processing action (init.svc.adbd=stopped) from (/system/etc/init/hw/init.usb.configfs.rc:14)"
+    },
+    {
+      "time": "2026-10-23T13:11:40.213993800-07:00",
+      "xmlLine": 31454,
+      "text": "[    8.253454] init: processing action (init.svc.adbd=stopped) from (/system/etc/init/hw/init.usb.configfs.rc:14)"
+    },
+    {
+      "time": "2026-10-23T13:11:55.358517900-07:00",
+      "xmlLine": 36606,
+      "text": "[   23.397525] init: starting service 'adbd'..."
+    },
+    {
+      "time": "2026-10-23T13:11:55.381395100-07:00",
+      "xmlLine": 36767,
+      "text": "[   23.421008] init: processing action (init.svc.adbd=stopped) from (/system/etc/init/hw/init.usb.configfs.rc:14)"
+    },
+    {
+      "time": "2026-10-23T13:11:55.426531700-07:00",
+      "xmlLine": 36813,
+      "text": "[   23.465492] init: starting service 'adbd'..."
+    }
+  ],
+  "hostMilestones": [
+    {
+      "time": "2026-10-23T13:11:30.668034300-07:00",
+      "xmlLine": 1676,
+      "event": "WindowFirstPresent",
+      "windowName": "com.android.documentsui(splash)"
+    },
+    {
+      "time": "2026-10-23T13:11:33.909504100-07:00",
+      "xmlLine": 1917,
+      "event": "SessionConnected",
+      "windowName": null
+    },
+    {
+      "time": "2026-10-23T13:11:34.319215400-07:00",
+      "xmlLine": 1966,
+      "event": "SysPrepRedirectorConnected",
+      "windowName": null
+    },
+    {
+      "time": "2026-10-23T13:11:34.323581000-07:00",
+      "xmlLine": 1990,
+      "event": "Phase1InitStarted",
+      "windowName": null
+    },
+    {
+      "time": "2026-10-23T13:11:56.264466200-07:00",
+      "xmlLine": 6904,
+      "event": "WindowFirstPresent",
+      "windowName": "com.android.documentsui"
+    }
+  ],
+  "hostCompletionEventCounts": {
+    "StartPhase1Completed": 0,
+    "UserBootCompleted": 0,
+    "Phase1InitStarted": 1
+  },
+  "hostSocketFallbackErrors": [
+    {
+      "time": "2026-10-23T13:11:38.105315100-07:00",
+      "xmlLine": 3263,
+      "hresult": "0x8007274c",
+      "sourceFile": "HvStreamSocket.cpp",
+      "sourceLine": 123
+    },
+    {
+      "time": "2026-10-23T13:11:43.106093600-07:00",
+      "xmlLine": 4053,
+      "hresult": "0x8007274c",
+      "sourceFile": "HvStreamSocket.cpp",
+      "sourceLine": 123
+    },
+    {
+      "time": "2026-10-23T13:11:48.112123200-07:00",
+      "xmlLine": 4093,
+      "hresult": "0x8007274c",
+      "sourceFile": "HvStreamSocket.cpp",
+      "sourceLine": 123
+    },
+    {
+      "time": "2026-10-23T13:11:53.124875600-07:00",
+      "xmlLine": 4133,
+      "hresult": "0x8007274c",
+      "sourceFile": "HvStreamSocket.cpp",
+      "sourceLine": 123
+    },
+    {
+      "time": "2026-10-23T13:11:58.127770800-07:00",
+      "xmlLine": 6962,
+      "hresult": "0x8007274c",
+      "sourceFile": "HvStreamSocket.cpp",
+      "sourceLine": 123
+    }
+  ],
+  "limits": [
+    "A missing ETW event alone is not proof that an event cannot occur outside the capture window.",
+    "Guest logcat and ANR wall clocks initially use the build date (2024-12-06); use ETW host timestamps to correlate host time.",
+    "Only the audio-policy service wait is proven to block SystemServer by the supplied ANR; CAS/OMX/DRM/media failures are additional incompatibilities."
+  ],
+  "audioPolicyWait": {
+    "count": 2,
+    "first": [
+      {
+        "line": 1341,
+        "text": "12-06 02:43:08.235   284   284 I ServiceManager: Waiting for service 'media.audio_policy' on '/dev/binder'..."
+      },
+      {
+        "line": 1389,
+        "text": "12-06 02:43:10.749   284   284 I ServiceManager: Waiting for service 'media.audio_policy' on '/dev/binder' successful after waiting 2514ms"
+      }
+    ],
+    "last": [
+      {
+        "line": 1341,
+        "text": "12-06 02:43:08.235   284   284 I ServiceManager: Waiting for service 'media.audio_policy' on '/dev/binder'..."
+      },
+      {
+        "line": 1389,
+        "text": "12-06 02:43:10.749   284   284 I ServiceManager: Waiting for service 'media.audio_policy' on '/dev/binder' successful after waiting 2514ms"
+      }
+    ]
+  },
+  "watchdog": [],
+  "audioHalWait": [],
+  "_publication": {
+    "sourceReport": "artifacts/wsa/audio-boot-progress.json",
+    "sourceReportSha256": "25b3e0518aeca2771cc6d3d09e93407b287f854309896e90b812e1233830a04d",
+    "scope": "Sanitized historical evidence; not an installation or apply receipt.",
+    "transformations": [
+      "Workspace paths normalized to repository-relative paths; user-profile and Windows paths use environment placeholders."
+    ]
+  }
+}

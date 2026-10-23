@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "recordedUtc": "2026-10-23T20:21:09.9541616Z",
+  "scope": "Read-only live module, Windows GPU counter, display API and ADB dumpsys inspection; no settings changed and no test app installed",
+  "loadedGraphicsModules": [
+    {
+      "ModuleName": "gfxstream_backend.dll",
+      "FileName": "tools/wsabuilds/LTS8-arm64/WSA_2407.40000.4.0_arm64/gfxstream_backend.dll"
+    },
+    {
+      "ModuleName": "d3d12.dll",
+      "FileName": "%WINDIR%/SYSTEM32/d3d12.dll"
+    },
+    {
+      "ModuleName": "dxgi.dll",
+      "FileName": "%WINDIR%/SYSTEM32/dxgi.dll"
+    },
+    {
+      "ModuleName": "d3d11.dll",
+      "FileName": "%WINDIR%/SYSTEM32/d3d11.dll"
+    },
+    {
+      "ModuleName": "d3d9.dll",
+      "FileName": "%WINDIR%/SYSTEM32/d3d9.dll"
+    },
+    {
+      "ModuleName": "Microsoft.Internal.WarpPal.dll",
+      "FileName": "%WINDIR%/System32/Microsoft.Internal.WarpPal.dll"
+    },
+    {
+      "ModuleName": "nvldumdax.dll",
+      "FileName": "%WINDIR%/System32/DriverStore/FileRepository/nv_hp_woa.inf_arm64_ed73da4dae9f1563/nvldumdax.dll"
+    },
+    {
+      "ModuleName": "nvgpucompa64.dll",
+      "FileName": "%WINDIR%/System32/DriverStore/FileRepository/nv_hp_woa.inf_arm64_ed73da4dae9f1563/nvgpucompa64.dll"
+    },
+    {
+      "ModuleName": "NvMemMapStorageax.dll",
+      "FileName": "%WINDIR%/System32/DriverStore/FileRepository/nv_hp_woa.inf_arm64_ed73da4dae9f1563/NvMemMapStorageax.dll"
+    },
+    {
+      "ModuleName": "nvwgf2umax.dll",
+      "FileName": "%WINDIR%/System32/DriverStore/FileRepository/nv_hp_woa.inf_arm64_ed73da4dae9f1563/nvwgf2umax.dll"
+    },
+    {
+      "ModuleName": "nvppeax.dll",
+      "FileName": "%WINDIR%/System32/DriverStore/FileRepository/nv_hp_woa.inf_arm64_ed73da4dae9f1563/nvppeax.dll"
+    },
+    {
+      "ModuleName": "nvd3dumax.dll",
+      "FileName": "%WINDIR%/System32/DriverStore/FileRepository/nv_hp_woa.inf_arm64_ed73da4dae9f1563/nvd3dumax.dll"
+    },
+    {
+      "ModuleName": "libGLESv2.dll",
+      "FileName": "tools/wsabuilds/LTS8-arm64/WSA_2407.40000.4.0_arm64/libGLESv2.dll"
+    },
+    {
+      "ModuleName": "libEGL.dll",
+      "FileName": "tools/wsabuilds/LTS8-arm64/WSA_2407.40000.4.0_arm64/libEGL.dll"
+    },
+    {
+      "ModuleName": "d3dcompiler_47.dll",
+      "FileName": "%WINDIR%/SYSTEM32/d3dcompiler_47.dll"
+    }
+  ],
+  "rawGpuEngineCounters": [
+    {
+      "UtilizationPercentage": 0,
+      "Timestamp_Sys100NS": 134372604699056063,
+      "Frequency_Sys100NS": 10000000,
+      "engineIndex": 7,
+      "engineType": "Security_1"
+    },
+    {
+      "UtilizationPercentage": 0,
+      "Timestamp_Sys100NS": 134372604699056063,
+      "Frequency_Sys100NS": 10000000,
+      "engineIndex": 6,
+      "engineType": "Copy"
+    },
+    {
+      "UtilizationPercentage": 0,
+      "Timestamp_Sys100NS": 134372604699056063,
+      "Frequency_Sys100NS": 10000000,
+      "engineIndex": 5,
+      "engineType": "OFA_0"
+    },
+    {
+      "UtilizationPercentage": 0,
+      "Timestamp_Sys100NS": 134372604699056063,
+      "Frequency_Sys100NS": 10000000,
+      "engineIndex": 4,
+      "engineType": "VideoEncode"
+    },
+    {
+      "UtilizationPercentage": 0,
+      "Timestamp_Sys100NS": 134372604699056063,
+      "Frequency_Sys100NS": 10000000,
+      "engineIndex": 3,
+      "engineType": "Security"
+    },
+    {
+      "UtilizationPercentage": 1528267,
+      "Timestamp_Sys100NS": 134372604699056063,
+      "Frequency_Sys100NS": 10000000,
+      "engineIndex": 2,
+      "engineType": "Copy"
+    },
+    {
+      "UtilizationPercentage": 0,
+      "Timestamp_Sys100NS": 134372604699056063,
+      "Frequency_Sys100NS": 10000000,
+      "engineIndex": 1,
+      "engineType": "VideoDecode"
+    },
+    {
+      "UtilizationPercentage": 12050420,
+      "Timestamp_Sys100NS": 134372604699056063,
+      "Frequency_Sys100NS": 10000000,
+      "engineIndex": 0,
+      "engineType": "3D"
+    }
+  ],
+  "counterNote": "Raw cumulative counters, not instantaneous percentages or frames per second. A nonzero counter is evidence of accounted GPU engine work for this process; no per-draw attribution captured.",
+  "softwareRendererModuleMatches": [
+    {
+      "ModuleName": "Microsoft.Internal.WarpPal.dll",
+      "FileName": "%WINDIR%/System32/Microsoft.Internal.WarpPal.dll"
+    }
+  ],
+  "guestGles": [
+    "GLES: Microsoft, Subsystem OpenGL ES Translator, OpenGL ES 3.0"
+  ],
+  "guestHwc": [
+    "      {id=0, hwcId=100, resolution=3440x1440, refreshRate=60.00 Hz, dpi=160.00x160.00, group=0}",
+    "      {id=0, hwcId=101, resolution=2880x1800, refreshRate=60.00 Hz, dpi=240.00x240.00, group=0}",
+    "  h/w composer enabled"
+  ],
+  "guestModeEvidence": [
+    "      DisplayModeRecord{mMode={id=1, width=3440, height=1440, fps=60.000004, alternativeRefreshRates=[]}}",
+    "      DisplayModeRecord{mMode={id=2, width=2880, height=1800, fps=60.000004, alternativeRefreshRates=[]}}",
+    "      PRIORITY_DEFAULT_REFRESH_RATE -> Vote{width=-1, height=-1, minRefreshRate=0.0, maxRefreshRate=60.0, disableRefreshRateSwitching=false, baseModeRefreshRate=0.0}",
+    "    mRefreshRateChangeable: false"
+  ],
+  "hostModes": [
+    {
+      "name": "\\\\.\\DISPLAY1",
+      "description": "NVIDIA RTX Spark N1X (6144-core Blackwell RTX GPU)",
+      "state": 1,
+      "current": {
+        "width": 2880,
+        "height": 1800,
+        "hz": 60
+      },
+      "supportedRatesAtCurrentResolution": [
+        "120",
+        "100",
+        "75",
+        "60",
+        "48",
+        "30"
+      ]
+    },
+    {
+      "name": "\\\\.\\DISPLAY2",
+      "description": "NVIDIA RTX Spark N1X (6144-core Blackwell RTX GPU)",
+      "state": 5,
+      "current": {
+        "width": 3440,
+        "height": 1440,
+        "hz": 60
+      },
+      "supportedRatesAtCurrentResolution": [
+        "60"
+      ]
+    }
+  ],
+  "interpretation": {
+    "graphics": "Guest uses Microsoft Subsystem GLES translator; current WsaClient has package gfxstream/ANGLE and NVIDIA ARM64 D3D UMD modules loaded, with nonzero raw 3D/Copy engine counters. This supports an active host GPU path rather than a purely CPU-only stack.",
+    "graphicsLimit": "Does not prove every app draw is GPU accelerated, the exact active D3D backend, frame pacing or 120 FPS.",
+    "refresh": "The live Windows internal-display change to 120 Hz did not change the already-running WSA virtual display modes from 60 Hz. This establishes the current live behavior, not a permanent WSA 60 Hz cap.",
+    "internal120": "DISPLAY1 2880x1800 was successfully tested at session-only 120 Hz by the root agent. WSA guest display 2 and FrameProbe draw callbacks stayed about 60 Hz; both Windows displays were restored to their original full DEVMODE values.",
+    "external120": "DISPLAY2 3440x1440 enumerates only 60 Hz under the current connection and resolution."
+  },
+  "evidenceFiles": [
+    "artifacts/wsa/gpu-surfaceflinger-readonly.txt",
+    "artifacts/wsa/gpu-display-readonly.txt",
+    "artifacts/wsa/host-display-modes-readonly.json",
+    "artifacts/wsa/angle-renderer.json",
+    "artifacts/wsa/live-display120-verification.json",
+    "artifacts/wsa/display120-script-check.json"
+  ],
+  "updatedUtc": "2026-10-23T20:21:44.363965+00:00",
+  "live120Trial": {
+    "evidence": "artifacts/wsa/live-display120-verification.json",
+    "performedBy": "root agent",
+    "windowsInternalHzDuringTrial": 120,
+    "windowsExternalHzDuringTrial": 60,
+    "guestDisplayModesDuringTrial": [
+      "      {id=0, hwcId=100, resolution=3440x1440, refreshRate=60.00 Hz, dpi=160.00x160.00, group=0}",
+      "      {id=0, hwcId=101, resolution=2880x1800, refreshRate=60.00 Hz, dpi=240.00x240.00, group=0}"
+    ],
+    "frameProbeDisplayId": 2,
+    "appDrawCallbacksApproximatelyHz": 60,
+    "wsaColdStartAt120Tested": false,
+    "windowsPresentedFpsMeasured": false,
+    "rollbackSucceeded": true,
+    "targetOriginalFullDevModeHashRestored": true,
+    "externalOriginalFullDevModeHashPreserved": true,
+    "targetRestoredHz": 60,
+    "externalRestoredHz": 60
+  },
+  "_publication": {
+    "sourceReport": "artifacts/wsa/gpu-refresh-evidence.json",
+    "sourceReportSha256": "7b8fcef43cf25585cebc2d4681f7218eb7bfa2dff40ae78b13f019ef2ffcdf54",
+    "scope": "Sanitized historical evidence; not an installation or apply receipt.",
+    "transformations": [
+      "Workspace paths normalized to repository-relative paths; user-profile and Windows paths use environment placeholders.",
+      "Omitted process ID and GPU adapter LUID from cumulative counter names, preserving engine types, values and measurement limitations."
+    ]
+  }
+}

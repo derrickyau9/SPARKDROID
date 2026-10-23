@@ -1,4 +1,31 @@
-# SPARKDROID
+# SPARKDROID for NVIDIA RTX Spark
+
+Experimental Android integration and ARM64 compatibility tools for Windows on
+NVIDIA RTX Spark (N1X). This independent project contains launcher code,
+compatibility patches, diagnostics, source/version records and measured results.
+
+| Backend | Android version | Verified status |
+|---|---|---|
+| WSA ARM64 | 13 / API 33 | Boots after ARM64-only startup and audio-service fixes; Files, the frame test and VLC welcome screen open in independent Windows windows. Host GPU activity is observed; Android currently exposes 60 Hz. |
+| QEMU / WHPX + Redroid | 16 | Runs with hardware-virtualized ARM64 CPU execution; the usable Android graphics path uses software rendering. |
+| WSL2 + Redroid | Planned | WSL setup and offline tools work; the Android backend and its GPU path remain unfinished. |
+
+For the current WSA installation, open `Start-SPARKDROID-WSA.cmd`; use
+**System > Files** to start Android and **System > Turn off** to shut it down.
+See [WSA Android 13 setup notes and limits](docs/WSA-ANDROID13.md).
+WSA 120 Hz, remaining media services and a WSA Android 16 port are unfinished.
+The WSA scripts record a tested local experiment and require prepared inputs;
+they are not a fresh-clone, one-click installer.
+
+SPARKDROID is an independent adaptation repository, not a GitHub fork of
+WSABuilds. The WSA path uses Microsoft's existing runtime, a pinned
+[MustardChef/WSABuilds ARM64 package](upstream/wsabuilds-arm64.lock.json), and one
+inspected ARM64 audio-service component from
+[snickler/WSA-Patched](upstream/wsa-audio-arm64.lock.json).
+See [component attribution](THIRD_PARTY_NOTICES.md). Third-party system images,
+APKs and runtime binaries are acquired separately and are not redistributed here.
+
+## QEMU / Redroid backend
 
 SPARKDROID is a working experimental Android 16 runtime on this Windows ARM64 laptop. It uses a native ARM64 QEMU 11.1.2 process and Windows Hypervisor Platform to boot Ubuntu ARM64, which runs a pinned ARM64 Redroid container. The Windows launcher is compiled as a self-contained ARM64 .NET application. Android CPU instructions execute through hardware virtualization; no TCG CPU fallback is selected.
 
@@ -8,7 +35,7 @@ This is a functional prototype with incomplete acceptance. A custom AOSP system 
 
 ## Run the existing build
 
-An experimental **WSL2 ARM64 backend** is being developed separately. WSL and the verified Ubuntu image are prepared, but this host must restart before WSL can boot; Android Binder/ashmem integration and GPU validation remain unfinished. See [WSL2 setup and current status](docs/WSL2.md). The control panel below continues to operate the existing QEMU backend.
+An experimental **WSL2 ARM64 backend** was prepared separately. The host has since restarted and WSL works; a dedicated tools distro was used for offline WSA filesystem checks. The WSL Android runtime, Binder/ashmem integration and GPU validation remain unfinished. See [WSL2 setup and current status](docs/WSL2.md). The control panel below continues to operate the existing QEMU backend.
 
 Open `Start-SPARKDROID.cmd`, then choose **Start**. Select **Refresh status** when Android has booted, and **Refresh apps** to list installed applications. Choose an app and **Launch app window**. The launcher uses explicit refresh and has no resident polling loop.
 

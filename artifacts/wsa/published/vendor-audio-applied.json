@@ -1,0 +1,27 @@
+{
+  "appliedUtc": "2026-10-23T20:11:16.3211715Z",
+  "backupDirectory": "tools/wsabuilds/backups/abi-before-audio",
+  "modifiedImages": [
+    "vendor.vhdx"
+  ],
+  "sourceSha256": "7300d4e7c6fe204210e99c0ea6d10da9103041ff112381d29e3e248badc0155a",
+  "installedSha256": "dd3593f3a182a983aed1ca15a75de7c913eb010781865177ed07eb2ba82a382e",
+  "changedGuestFiles": [
+    "/vendor/bin/hw/android.hardware.audio.service"
+  ],
+  "userdataModified": false,
+  "runtimeBootVerified": true,
+  "inactiveAvbExperiment": true,
+  "avbValid": false,
+  "avbEnforcementChanged": false,
+  "note": "Experimental ELF64 audio replacement. Expanded filesystem has no valid AVB trailer. Original images and prior ABI candidate retained for rollback.",
+  "bootVerification": "artifacts/wsa/android13-runtime-verification.json",
+  "_publication": {
+    "sourceReport": "artifacts/wsa/vendor-audio-applied.json",
+    "sourceReportSha256": "9f0c11651103016e72f4ea28f42254099d9e4b47f869e5ca99610a3fde809417",
+    "scope": "Sanitized historical evidence; not an installation or apply receipt.",
+    "transformations": [
+      "Workspace paths normalized to repository-relative paths; user-profile and Windows paths use environment placeholders."
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "release": "https://github.com/MustardChef/WSABuilds/releases/tag/Windows_11_2407.40000.4.0_LTS_8_arm64",
+  "tag": "Windows_11_2407.40000.4.0_LTS_8_arm64",
+  "publishedUtc": "2026-09-04T11:30:05Z",
+  "asset": "WSA_2407.40000.4.0_arm64_Release-Nightly-NoGApps-NoAmazon.7z",
+  "size": 474466924,
+  "sha256": "e16fd710505d84d5e28a4d5b10698b3a4e27b94128ef9b1a7c1efe75cd9d9241",
+  "url": "https://github.com/MustardChef/WSABuilds/releases/download/Windows_11_2407.40000.4.0_LTS_8_arm64/WSA_2407.40000.4.0_arm64_Release-Nightly-NoGApps-NoAmazon.7z",
+  "localPath": "tools/wsabuilds/WSA_2407.40000.4.0_arm64_Release-Nightly-NoGApps-NoAmazon.7z"
+}

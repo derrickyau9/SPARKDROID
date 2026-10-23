@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "source": "dmesg.xml",
+  "sourceSha256": "57642fe33c08a83491ccad33a624f52ed0ca94a25b4c19bcb281f330b8705f7c",
+  "sourceBytes": 2129247,
+  "eventCount": 2400,
+  "guestLogTextCount": 2147,
+  "vmAttemptCount": 4,
+  "arm32BoringSslFailureAttempts": 4,
+  "confirmedBoringSslShutdownAttempts": 4,
+  "lossCounters": {
+    "EventsLost": 0,
+    "BuffersLost": 0
+  },
+  "processingErrors": [
+    {
+      "xmlLine": 50,
+      "errorCode": "15005"
+    }
+  ],
+  "finding": "Every captured attempt fails to execute the vendor ARM32 BoringSSL self-test (ENOEXEC), then Android init requests reboot,boringssl-self-check-failed. The VM exits gracefully at the guest request.",
+  "interpretationLimits": [
+    "This identifies the immediate guest boot blocker, not proof that subsequent boot stages work.",
+    "Exec format error alone does not distinguish missing kernel AArch32 support from unavailable CPU AArch32 EL0 support.",
+    "Header decode errors are separate from successfully decoded GuestLog events."
+  ],
+  "evidence": [
+    {
+      "attempt": 1,
+      "time": "2026-10-23T12:50:34.935815000-07:00",
+      "xmlEventLine": 13015,
+      "xmlDataLine": 13031,
+      "text": "[    1.609767] init: cannot execv('/vendor/bin/boringssl_self_test32'). See the 'Debugging init' section of init's README.md for tips: Exec format error"
+    },
+    {
+      "attempt": 1,
+      "time": "2026-10-23T12:50:34.937118600-07:00",
+      "xmlEventLine": 13061,
+      "xmlDataLine": 13077,
+      "text": "[    1.611303] init: Service 'boringssl_self_test32_vendor' (pid 35) exited with status 127 waiting took 0.002000 seconds"
+    },
+    {
+      "attempt": 1,
+      "time": "2026-10-23T12:50:34.939502100-07:00",
+      "xmlEventLine": 13130,
+      "xmlDataLine": 13146,
+      "text": "[    1.613052] init: Service with 'reboot_on_failure' option failed, shutting down system."
+    },
+    {
+      "attempt": 1,
+      "time": "2026-10-23T12:50:34.940218100-07:00",
+      "xmlEventLine": 13153,
+      "xmlDataLine": 13169,
+      "text": "[    1.614488] init: Got shutdown_command 'reboot,boringssl-self-check-failed' Calling HandlePowerctlMessage()"
+    },
+    {
+      "attempt": 1,
+      "time": "2026-10-23T12:50:34.942018600-07:00",
+      "xmlEventLine": 13245,
+      "xmlDataLine": 13261,
+      "text": "[    1.616353] init: Reboot start, reason: reboot,boringssl-self-check-failed, reboot_target: boringssl-self-check-failed"
+    },
+    {
+      "attempt": 1,
+      "time": "2026-10-23T12:50:34.944093900-07:00",
+      "xmlEventLine": 13360,
+      "xmlDataLine": 13376,
+      "text": "[    1.618623] init: Reboot ending, jumping to kernel"
+    },
+    {
+      "attempt": 1,
+      "time": "2026-10-23T12:50:35.294077500-07:00",
+      "xmlEventLine": 13752,
+      "xmlDataLine": 13773,
+      "termination": {
+        "Status": 0,
+        "ExitType": "GracefulExit",
+        "Attribution": [
+          {
+            "SystemExit": {
+              "Detail": "Shutdown",
+              "Initiator": "GuestOS"
+            }
+          },
+          {
+            "WorkerExit": {
+              "Type": "Stopped",
+              "Detail": "PowerOff",
+              "Initiator": "GuestOS"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "attempt": 2,
+      "time": "2026-10-23T12:50:37.748951300-07:00",
+      "xmlEventLine": 26826,
+      "xmlDataLine": 26842,
+      "text": "[    1.451169] init: cannot execv('/vendor/bin/boringssl_self_test32'). See the 'Debugging init' section of init's README.md for tips: Exec format error"
+    },
+    {
+      "attempt": 2,
+      "time": "2026-10-23T12:50:37.750524100-07:00",
+      "xmlEventLine": 26872,
+      "xmlDataLine": 26888,
+      "text": "[    1.453683] init: Service 'boringssl_self_test32_vendor' (pid 35) exited with status 127 waiting took 0.003000 seconds"
+    },
+    {
+      "attempt": 2,
+      "time": "2026-10-23T12:50:37.751680200-07:00",
+      "xmlEventLine": 26941,
+      "xmlDataLine": 26957,
+      "text": "[    1.455037] init: Service with 'reboot_on_failure' option failed, shutting down system."
+    },
+    {
+      "attempt": 2,
+      "time": "2026-10-23T12:50:37.752316600-07:00",
+      "xmlEventLine": 26964,
+      "xmlDataLine": 26980,
+      "text": "[    1.455537] init: Got shutdown_command 'reboot,boringssl-self-check-failed' Calling HandlePowerctlMessage()"
+    },
+    {
+      "attempt": 2,
+      "time": "2026-10-23T12:50:37.753621700-07:00",
+      "xmlEventLine": 27056,
+      "xmlDataLine": 27072,
+      "text": "[    1.456847] init: Reboot start, reason: reboot,boringssl-self-check-failed, reboot_target: boringssl-self-check-failed"
+    },
+    {
+      "attempt": 2,
+      "time": "2026-10-23T12:50:37.756299800-07:00",
+      "xmlEventLine": 27171,
+      "xmlDataLine": 27187,
+      "text": "[    1.459648] init: Reboot ending, jumping to kernel"
+    },
+    {
+      "attempt": 2,
+      "time": "2026-10-23T12:50:38.130586000-07:00",
+      "xmlEventLine": 27586,
+      "xmlDataLine": 27607,
+      "termination": {
+        "Status": 0,
+        "ExitType": "GracefulExit",
+        "Attribution": [
+          {
+            "SystemExit": {
+              "Detail": "Shutdown",
+              "Initiator": "GuestOS"
+            }
+          },
+          {
+            "WorkerExit": {
+              "Type": "Stopped",
+              "Detail": "PowerOff",
+              "Initiator": "GuestOS"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "attempt": 3,
+      "time": "2026-10-23T12:50:40.561060500-07:00",
+      "xmlEventLine": 40795,
+      "xmlDataLine": 40811,
+      "text": "[    1.416035] init: cannot execv('/vendor/bin/boringssl_self_test32'). See the 'Debugging init' section of init's README.md for tips: Exec format error"
+    },
+    {
+      "attempt": 3,
+      "time": "2026-10-23T12:50:40.561993900-07:00",
+      "xmlEventLine": 40818,
+      "xmlDataLine": 40834,
+      "text": "[    1.417624] init: Service 'boringssl_self_test32_vendor' (pid 35) exited with status 127 waiting took 0.002000 seconds"
+    },
+    {
+      "attempt": 3,
+      "time": "2026-10-23T12:50:40.563381200-07:00",
+      "xmlEventLine": 40887,
+      "xmlDataLine": 40903,
+      "text": "[    1.419133] init: Service with 'reboot_on_failure' option failed, shutting down system."
+    },
+    {
+      "attempt": 3,
+      "time": "2026-10-23T12:50:40.564120000-07:00",
+      "xmlEventLine": 40910,
+      "xmlDataLine": 40926,
+      "text": "[    1.419815] init: Got shutdown_command 'reboot,boringssl-self-check-failed' Calling HandlePowerctlMessage()"
+    },
+    {
+      "attempt": 3,
+      "time": "2026-10-23T12:50:40.565672000-07:00",
+      "xmlEventLine": 41002,
+      "xmlDataLine": 41018,
+      "text": "[    1.421433] init: Reboot start, reason: reboot,boringssl-self-check-failed, reboot_target: boringssl-self-check-failed"
+    },
+    {
+      "attempt": 3,
+      "time": "2026-10-23T12:50:40.568483100-07:00",
+      "xmlEventLine": 41117,
+      "xmlDataLine": 41133,
+      "text": "[    1.424322] init: Reboot ending, jumping to kernel"
+    },
+    {
+      "attempt": 3,
+      "time": "2026-10-23T12:50:40.942511000-07:00",
+      "xmlEventLine": 41509,
+      "xmlDataLine": 41530,
+      "termination": {
+        "Status": 0,
+        "ExitType": "GracefulExit",
+        "Attribution": [
+          {
+            "SystemExit": {
+              "Detail": "Shutdown",
+              "Initiator": "GuestOS"
+            }
+          },
+          {
+            "WorkerExit": {
+              "Type": "Stopped",
+              "Detail": "PowerOff",
+              "Initiator": "GuestOS"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "attempt": 4,
+      "time": "2026-10-23T12:50:43.442122700-07:00",
+      "xmlEventLine": 54807,
+      "xmlDataLine": 54823,
+      "text": "[    1.452923] init: cannot execv('/vendor/bin/boringssl_self_test32'). See the 'Debugging init' section of init's README.md for tips: Exec format error"
+    },
+    {
+      "attempt": 4,
+      "time": "2026-10-23T12:50:43.444357400-07:00",
+      "xmlEventLine": 54853,
+      "xmlDataLine": 54869,
+      "text": "[    1.455128] init: Service 'boringssl_self_test32_vendor' (pid 35) exited with status 127 waiting took 0.003000 seconds"
+    },
+    {
+      "attempt": 4,
+      "time": "2026-10-23T12:50:43.448048500-07:00",
+      "xmlEventLine": 54922,
+      "xmlDataLine": 54938,
+      "text": "[    1.459288] init: Service with 'reboot_on_failure' option failed, shutting down system."
+    },
+    {
+      "attempt": 4,
+      "time": "2026-10-23T12:50:43.449859700-07:00",
+      "xmlEventLine": 54945,
+      "xmlDataLine": 54961,
+      "text": "[    1.460620] init: Got shutdown_command 'reboot,boringssl-self-check-failed' Calling HandlePowerctlMessage()"
+    },
+    {
+      "attempt": 4,
+      "time": "2026-10-23T12:50:43.451734300-07:00",
+      "xmlEventLine": 55037,
+      "xmlDataLine": 55053,
+      "text": "[    1.463585] init: Reboot start, reason: reboot,boringssl-self-check-failed, reboot_target: boringssl-self-check-failed"
+    },
+    {
+      "attempt": 4,
+      "time": "2026-10-23T12:50:43.453841100-07:00",
+      "xmlEventLine": 55152,
+      "xmlDataLine": 55168,
+      "text": "[    1.465976] init: Reboot ending, jumping to kernel"
+    },
+    {
+      "attempt": 4,
+      "time": "2026-10-23T12:50:43.815751100-07:00",
+      "xmlEventLine": 55544,
+      "xmlDataLine": 55565,
+      "termination": {
+        "Status": 0,
+        "ExitType": "GracefulExit",
+        "Attribution": [
+          {
+            "SystemExit": {
+              "Detail": "Shutdown",
+              "Initiator": "GuestOS"
+            }
+          },
+          {
+            "WorkerExit": {
+              "Type": "Stopped",
+              "Detail": "PowerOff",
+              "Initiator": "GuestOS"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "_publication": {
+    "sourceReport": "artifacts/wsa/guest-boot-failure.json",
+    "sourceReportSha256": "2056d83f6f72227795761e1c09d50d876dc17a4dc66bd2edd98bf18cf48ba1e5",
+    "scope": "Sanitized historical evidence; not an installation or apply receipt.",
+    "transformations": [
+      "Workspace paths normalized to repository-relative paths; user-profile and Windows paths use environment placeholders."
+    ]
+  }
+}

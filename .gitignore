@@ -15,8 +15,17 @@ artifacts/toolchain/clangarm64.db
 artifacts/launcher/win-arm64/
 artifacts/launcher/refresh-build/
 artifacts/refresh/*.apk
+artifacts/refresh/*.idsig
 artifacts/apks/*.apk
 artifacts/downloads/
 src/**/publish/
 **/__pycache__/
 artifacts/package-validation/
+
+# Local WSA inventories, runtime receipts, raw diagnostics and monitor snapshots.
+# Only deliberately curated, sanitized evidence is published.
+artifacts/wsa/*
+!artifacts/wsa/published/
+
+# Downloaded AOSP reference snapshots for the deferred WSA Android 16 research.
+upstream/aosp/wsa16-*

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "upstreamProject": "snickler/WSA-Patched",
+  "release": "https://github.com/snickler/WSA-Patched/releases/tag/0.0.2",
+  "publishedUtc": "2024-08-01T03:29:25Z",
+  "archiveUrl": "https://github.com/snickler/WSA-Patched/releases/download/0.0.2/wsa-patched-0.0.2.7z",
+  "archiveBytes": 578898572,
+  "archiveSha256": "b1582feef760fdd7cd9897de767a37d5d476a91187f1fb7b50e86786e56e265a",
+  "publisherDigestVerified": false,
+  "component": {
+    "guestPath": "/vendor/bin/hw/android.hardware.audio.service",
+    "bytes": 19472,
+    "sha256": "c7a830d4f62c5643c3a7303d442892dcf4d1899741261fa775eeabeb86805e22",
+    "elfBits": 64,
+    "elfMachine": 183,
+    "localPath": "tools/wsabuilds/snickler-inspection/candidates/android.hardware.audio.service"
+  },
+  "scope": "Only the audio-service executable was used; other upstream partitions and applications were not installed.",
+  "verification": "Locally computed hashes and static compatibility inspection; no reproducible source build or publisher signature verification."
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "recordedUtc": "2026-10-23T20:12:17.863339+00:00",
+  "scope": "Read-only existing WSL CPU/sysfs/dmesg/config and WSA kernel embedded config; no AArch32 code executed",
+  "conclusion": "N1X uses Cortex-X925 and Cortex-A725 cores; Arm primary sources describe both as AArch64-only. Native AArch32 execution cannot be enabled by merely changing the WSA kernel or Android ABI properties.",
+  "localEvidence": {
+    "wslKernel": {
+      "exitCode": 0,
+      "stdout": "6.18.54.1-microsoft-standard-WSL2",
+      "stderr": ""
+    },
+    "cpuPartCounts": {
+      "0xd85": 20
+    },
+    "cpu0Midr": {
+      "exitCode": 0,
+      "stdout": "0x00000000410fd851",
+      "stderr": ""
+    },
+    "wslCompat": [
+      "CONFIG_COMPAT=y"
+    ],
+    "cpuFeatureLog": [
+      "[    0.000000] CPU features: detected: Address authentication (architected QARMA3 algorithm)",
+      "[    0.000000] CPU features: detected: GICv3 CPU interface",
+      "[    0.000000] CPU features: detected: Spectre-v4",
+      "[    0.000000] CPU features: detected: Spectre-BHB",
+      "[    0.000000] CPU features: detected: Broken broadcast TLBI completion",
+      "[    0.000000] CPU features: detected: SSBS not fully self-synchronizing",
+      "[    0.019033] CPU features: detected: Data cache clean to the PoU not required for I/D coherence",
+      "[    0.019034] CPU features: detected: Common not Private translations",
+      "[    0.019035] CPU features: detected: CRC32 instructions",
+      "[    0.019035] CPU features: detected: Data cache clean to Point of Deep Persistence",
+      "[    0.019036] CPU features: detected: Data cache clean to Point of Persistence",
+      "[    0.019039] CPU features: detected: E0PD",
+      "[    0.019039] CPU features: detected: Enhanced Counter Virtualization",
+      "[    0.019040] CPU features: detected: Enhanced Counter Virtualization (CNTPOFF)",
+      "[    0.019041] CPU features: detected: Generic authentication (architected QARMA3 algorithm)",
+      "[    0.019043] CPU features: detected: RCpc load-acquire (LDAPR)",
+      "[    0.019045] CPU features: detected: LSE atomic instructions",
+      "[    0.019046] CPU features: detected: Privileged Access Never",
+      "[    0.019046] CPU features: detected: PMUv3",
+      "[    0.019047] CPU features: detected: Speculation barrier (SB)",
+      "[    0.019048] CPU features: detected: TLB range maintenance instructions",
+      "[    0.019051] CPU features: detected: Speculative Store Bypassing Safe (SSBS)",
+      "[    0.019051] CPU features: detected: Scalable Vector Extension",
+      "[    0.062486] CPU features: detected: Hardware dirty bit management on CPU0-19"
+    ],
+    "wsaKernelSha256": "68b94befe12ad0fc59947e2c0d31b899f3f45f2fffcbe8dda6c171f1704e0233",
+    "wsaEmbeddedConfig": [
+      "CONFIG_ARM64=y",
+      "CONFIG_ARM64_PAGE_SHIFT=12",
+      "CONFIG_ARM64_4K_PAGES=y",
+      "CONFIG_COMPAT=y"
+    ]
+  },
+  "limitations": [
+    "WSL reports a virtual CPU view: all 20 vCPUs report 0xd85, so this is not a physical core topology measurement.",
+    "Neither /proc/cpuinfo Features nor MIDR directly encodes the AArch32 EL0 capability. MIDR identifies a CPU model; source documentation supplies its capability.",
+    "ID_AA64PFR0_EL1 was not measured; the standard sysfs identification directory exposes MIDR/AIDR/REVIDR only. Linux userspace MRS feature exposure masks fields, and a hypervisor may constrain the guest view.",
+    "No 32-bit EL0 line was found in captured WSL dmesg; absence alone is not used to establish physical hardware capability.",
+    "The old WSA kernel and current WSL kernel both have CONFIG_COMPAT=y; this is compatibility code, not CPU instruction-set emulation.",
+    "WSA ENOEXEC alone cannot distinguish missing CPU/virtualization/kernel support. Hardware conclusion comes from NVIDIA topology and Arm core documentation."
+  ],
+  "sources": [
+    {
+      "url": "https://docs.nvidia.com/rtx-spark/rtx-spark-porting-guide/latest/portingandemulation/cpuspecific.html",
+      "fact": "N1X 20-core model has 10 Cortex-X925 performance and 10 Cortex-A725 efficiency cores."
+    },
+    {
+      "url": "https://www.arm.com/products/silicon-ip-cpu/cortex-a/cortex-a725",
+      "fact": "Arm specifications call Cortex-A725 AArch64-only."
+    },
+    {
+      "url": "https://github.com/ARM-software/arm-trusted-firmware/blob/master/lib/cpus/aarch64/cortex_x925.S",
+      "fact": "Arm source marks Cortex-X925 a 64-bit-only core and rejects AArch32 register context."
+    },
+    {
+      "url": "https://github.com/ARM-software/arm-trusted-firmware/blob/master/include/lib/cpus/aarch64/cortex_x925.h",
+      "fact": "CORTEX_X925_MIDR base is 0x410FD850."
+    },
+    {
+      "url": "https://docs.kernel.org/arch/arm64/cpu-feature-registers.html",
+      "fact": "Userspace ID register values are system-safe, filtered, and may reflect kernel support rather than complete physical capabilities."
+    },
+    {
+      "url": "https://docs.kernel.org/arch/arm64/asymmetric-32bit.html",
+      "fact": "Linux may reject AArch32 ELF with ENOEXEC where no usable compatible CPU exists; software emulation/recompilation are separate alternatives."
+    }
+  ],
+  "_publication": {
+    "sourceReport": "artifacts/wsa/n1x-aarch32-evidence.json",
+    "sourceReportSha256": "a8c10bc866ec098765396231f4f600260db23bf05c64b7af41871bbc6780f782",
+    "scope": "Sanitized historical evidence; not an installation or apply receipt.",
+    "transformations": [
+      "Workspace paths normalized to repository-relative paths; user-profile and Windows paths use environment placeholders."
+    ]
+  }
+}

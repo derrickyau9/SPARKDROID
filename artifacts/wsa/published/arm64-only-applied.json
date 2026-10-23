@@ -1,0 +1,22 @@
+{
+  "appliedUtc": "2026-10-23T20:00:45.1157403Z",
+  "backupDirectory": "tools/wsabuilds/backups/lts8-before-arm64-only",
+  "modifiedImages": [
+    "system.vhdx",
+    "vendor.vhdx"
+  ],
+  "userdataModified": false,
+  "selfTestServicesModified": false,
+  "runtimeBootVerified": false,
+  "avbHashtreesRegenerated": false,
+  "avbEnforcementChanged": false,
+  "note": "Experimental ARM64-only ABI/zygote configuration. Original AVB descriptors are retained; no AVB validity claim.",
+  "_publication": {
+    "sourceReport": "artifacts/wsa/arm64-only-applied.json",
+    "sourceReportSha256": "10789df5aa916e5e288618def13e5f94ab80d3902225cb835599f45f32d7ac09",
+    "scope": "Sanitized historical evidence; not an installation or apply receipt.",
+    "transformations": [
+      "Workspace paths normalized to repository-relative paths; user-profile and Windows paths use environment placeholders."
+    ]
+  }
+}

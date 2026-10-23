@@ -1,0 +1,33 @@
+[
+  {
+    "name": "\\\\.\\DISPLAY1",
+    "description": "NVIDIA RTX Spark N1X (6144-core Blackwell RTX GPU)",
+    "state": 1,
+    "current": {
+      "width": 2880,
+      "height": 1800,
+      "hz": 60
+    },
+    "supportedRatesAtCurrentResolution": [
+      "120",
+      "100",
+      "75",
+      "60",
+      "48",
+      "30"
+    ]
+  },
+  {
+    "name": "\\\\.\\DISPLAY2",
+    "description": "NVIDIA RTX Spark N1X (6144-core Blackwell RTX GPU)",
+    "state": 5,
+    "current": {
+      "width": 3440,
+      "height": 1440,
+      "hz": 60
+    },
+    "supportedRatesAtCurrentResolution": [
+      "60"
+    ]
+  }
+]
