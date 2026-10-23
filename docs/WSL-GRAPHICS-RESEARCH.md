@@ -4,7 +4,7 @@ Research date: 2026-10-23 (America/Los_Angeles). This document records source-ba
 
 ## Selected direction
 
-The user's WSABuilds lead changes the first experiment: qualify the current **ARM64 WSA binary** before spending effort on a custom WSL kernel and Android graphics bridge. Its existing Windows app/window integration is directly relevant to the requested independent app windows. Microsoft's retirement does not imply that community WSA builds cannot run. Preserve the existing QEMU/Redroid runtime and data while testing this separate runtime. WSA GPU acceleration, ARM64 system compatibility and 120 FPS remain unverified on this NVIDIA N1X host.
+The first experiment qualifies the existing **ARM64 WSA binary** before a custom WSL kernel and Android graphics bridge. Its Windows app/window integration supports the independent app-window objective. The QEMU/Redroid runtime and data remain separate. At the time of this research, WSA GPU acceleration, ARM64 system compatibility and 120 FPS were unverified on NVIDIA N1X; subsequent Android 13 results are recorded in [WSA runtime status](WSA-ANDROID13.md).
 
 Keep the WSL2 ARM64 backend as the source-oriented Android 16 route and fallback. Redroid reuses the current Android image and launcher. If WSA does not meet the target, first qualify Linux GPU rendering in WSL, then use a renderer process in the Linux distribution, where Microsoft's D3D12 libraries can execute, and an Android graphics command transport into that process.
 

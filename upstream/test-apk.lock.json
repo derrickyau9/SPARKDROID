@@ -57,6 +57,6 @@
       "type": "Verity padding"
     }
   ],
-  "signature_verification": "APK v2/v3 block presence inspected; root agent reports successful Android16 package-manager installation",
+  "signature_verification": "APK v2/v3 block presence inspected; Android 16 package-manager installation succeeded",
   "acquired_utc": "2026-10-23T06:51:40.2458354Z"
 }

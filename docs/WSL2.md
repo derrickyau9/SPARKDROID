@@ -41,7 +41,7 @@ These commands become usable **after the Binder/ashmem kernel dependency is reso
 
 Stop requests container shutdown, syncs filesystems and terminates only `SPARKDROID`. Android `/data` is persisted inside that distro. The scripts do not edit global `.wslconfig`, replace the shared WSL kernel, shut down all WSL distributions or install a global port proxy. Kernel integration is outstanding, not an omitted successful step.
 
-Defaults are explicit software rendering and Smooth 60 Hz (540×960). The existing WinForms control panel still manages QEMU; WSL has a separate CLI during development. APK preflight rejects packages whose native libraries do not match `arm64-v8a`, including the user's old 32-bit-only CPU-Z APK. Moving to WSL does not add a missing Android ABI.
+Defaults are explicit software rendering and Smooth 60 Hz (540×960). The existing WinForms control panel still manages QEMU; WSL has a separate CLI during development. APK preflight rejects packages whose native libraries do not match `arm64-v8a`, including ARM32-only APKs. Moving to WSL does not add a missing Android ABI.
 
 ## Graphics direction
 

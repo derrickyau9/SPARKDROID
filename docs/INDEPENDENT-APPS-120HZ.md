@@ -17,7 +17,7 @@ Use the launcher's **Desktop shortcut** action for additional installed apps; it
 
 ## Refresh configuration
 
-After the user reported stutter, the current default became **Smooth 60 Hz**: Performance (8 vCPUs, 8192 MiB), 540×960 at 180 DPI, H.264 with low encoder complexity, and zero extra video buffering. This preserves the logical UI size while reducing pixels and render frequency. It does not change Windows' own 120 Hz screen setting.
+The current default is **Smooth 60 Hz**: Performance (8 vCPUs, 8192 MiB), 540×960 at 180 DPI, H.264 with low encoder complexity, and zero extra video buffering. This preserves the logical UI size while reducing pixels and render frequency. It does not change Windows' own 120 Hz screen setting.
 
 **120 Hz (experimental)** selects 720×1280 at 240 DPI with `display.matchWindows=true`, reading the primary Windows screen rate at launch. Moving a running window between monitors does not automatically reconfigure it. Both modes are available in the launcher:
 

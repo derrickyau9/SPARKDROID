@@ -180,7 +180,7 @@
     "graphics": "Guest uses Microsoft Subsystem GLES translator; current WsaClient has package gfxstream/ANGLE and NVIDIA ARM64 D3D UMD modules loaded, with nonzero raw 3D/Copy engine counters. This supports an active host GPU path rather than a purely CPU-only stack.",
     "graphicsLimit": "Does not prove every app draw is GPU accelerated, the exact active D3D backend, frame pacing or 120 FPS.",
     "refresh": "The live Windows internal-display change to 120 Hz did not change the already-running WSA virtual display modes from 60 Hz. This establishes the current live behavior, not a permanent WSA 60 Hz cap.",
-    "internal120": "DISPLAY1 2880x1800 was successfully tested at session-only 120 Hz by the root agent. WSA guest display 2 and FrameProbe draw callbacks stayed about 60 Hz; both Windows displays were restored to their original full DEVMODE values.",
+    "internal120": "DISPLAY1 2880x1800 was successfully tested with a temporary 120 Hz mode. WSA guest display 2 and FrameProbe draw callbacks stayed about 60 Hz; both Windows displays were restored to their original full DEVMODE values.",
     "external120": "DISPLAY2 3440x1440 enumerates only 60 Hz under the current connection and resolution."
   },
   "evidenceFiles": [
@@ -194,7 +194,6 @@
   "updatedUtc": "2026-10-23T20:21:44.363965+00:00",
   "live120Trial": {
     "evidence": "artifacts/wsa/live-display120-verification.json",
-    "performedBy": "root agent",
     "windowsInternalHzDuringTrial": 120,
     "windowsExternalHzDuringTrial": 60,
     "guestDisplayModesDuringTrial": [

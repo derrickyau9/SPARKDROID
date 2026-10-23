@@ -17,8 +17,7 @@ WSA 120 Hz, remaining media services and a WSA Android 16 port are unfinished.
 The WSA scripts record a tested local experiment and require prepared inputs;
 they are not a fresh-clone, one-click installer.
 
-SPARKDROID is an independent adaptation repository, not a GitHub fork of
-WSABuilds. The WSA path uses Microsoft's existing runtime, a pinned
+The WSA backend uses Microsoft's existing runtime, a pinned
 [MustardChef/WSABuilds ARM64 package](upstream/wsabuilds-arm64.lock.json), and one
 inspected ARM64 audio-service component from
 [snickler/WSA-Patched](upstream/wsa-audio-arm64.lock.json).

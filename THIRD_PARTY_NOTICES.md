@@ -2,13 +2,13 @@
 
 The MIT license at the repository root applies to original SPARKDROID source.
 Third-party source, packages and dependencies retain their own licenses and
-notices. This repository is an independent integration project. It does not
-claim authorship of the Windows Subsystem for Android or Android itself.
+notices. Microsoft WSA and Android components are developed by their respective
+upstream projects.
 
 | Component / project | Use in SPARKDROID |
 |---|---|
 | Microsoft Windows Subsystem for Android; [WSA Linux kernel source](https://github.com/microsoft/WSA-Linux-Kernel) | Existing Windows host, kernel and Android integration. The full WSA stack has not been rebuilt from source by this project. |
-| [MustardChef/WSABuilds](https://github.com/MustardChef/WSABuilds) | ARM64 Android 13 LTS8 base package, pinned in [the package record](upstream/wsabuilds-arm64.lock.json). This is an external binary input, not an upstream source fork. |
+| [MustardChef/WSABuilds](https://github.com/MustardChef/WSABuilds) | ARM64 Android 13 LTS8 base package, pinned in [the package record](upstream/wsabuilds-arm64.lock.json). |
 | [snickler/WSA-Patched 0.0.2](https://github.com/snickler/WSA-Patched/releases/tag/0.0.2) | One inspected ARM64 audio-service executable, with local hashes and provenance in [the component record](upstream/wsa-audio-arm64.lock.json). The other patched partitions and bundled applications were not installed. No reproducible source-build or publisher-signature verification is claimed. |
 | [Android Open Source Project](https://source.android.com/) | Android platform and architectural references. Component-specific AOSP licenses apply to any separately acquired sources. |
 | [Redroid](https://github.com/remote-android/redroid-doc) | Prebuilt Android container used by the QEMU backend and planned WSL backend. Vendored module sources retain their notices and [license](upstream/redroid-modules/LICENSE). |

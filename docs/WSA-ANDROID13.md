@@ -80,12 +80,12 @@ Sanitized publication copies are under `artifacts/wsa/published/`: `guest-boot-f
 The scripts are research procedures for the recorded installation. They require
 separately obtained and extracted packages, offline filesystem tools, and locally
 generated receipts under `artifacts/wsa/`. Some audio build/apply checks pin the
-exact candidate hashes from this session. The ABI patch generates new VHDX GUIDs,
+exact candidate hashes from the recorded validation run. The ABI patch generates new VHDX GUIDs,
 so rebuilding it changes the container hash even when the guest file changes are
 identical. A fresh clone therefore does not reproduce the entire installation
 by running these scripts in sequence; hash/receipt generalization and automated
-input preparation remain future work. Published reports are evidence, not local
-authorization or build receipts.
+input preparation remain future work. Published reports document observations;
+the apply scripts require locally generated build receipts.
 
 Original WSA system/vendor images are preserved at
 `tools/wsabuilds/backups/lts8-before-arm64-only/`; the ABI-only vendor is also

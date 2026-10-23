@@ -1,11 +1,8 @@
 # Android 16 on the WSA ARM64 host
 
-Status: **Deferred at the user's request on 2026-10-23.** The active task is to run the existing WSA Android 13 package first. This document preserves the Android 16 port research for a later resumption; it does not authorize or imply ongoing Android 16 build work.
+Status: **Research only; implementation deferred.** Android 13 is the currently verified WSA version; see [runtime status](WSA-ANDROID13.md).
 
-The subsequent Android 13 bring-up succeeded; see [current runtime status](WSA-ANDROID13.md).
-The analysis below is the earlier Android 16 research snapshot, not an implemented port.
-
-Research date: 2026-10-23. The deferred implementation objective is **an Android 16 guest using the existing native ARM64 WSA Windows host**, including its app-window and hardware graphics integration. The first milestone would be Android 16 boot plus ADB; individual app windows, GPU frames, media and 120 Hz presentation would follow as separate acceptance milestones. No Android 16 WSA boot has yet been established by this research.
+Research date: 2026-10-23. This proposal targets **an Android 16 guest using the existing native ARM64 WSA Windows host**, including its app-window and hardware graphics integration. The first milestone would be Android 16 boot plus ADB; individual app windows, GPU frames, media and 120 Hz presentation would follow as separate acceptance milestones. An Android 16 WSA boot has not been verified.
 
 ## Chosen architecture
 
@@ -84,4 +81,4 @@ VINTF checks framework/vendor capabilities and requirements at build, boot and u
 5. Bring up the native app-window bridge and guest graphics transport. Keep failures separated into transport, gralloc/HWC, renderer and Windows presentation. Prove a nonblack hardware-rendered Android window before changing refresh settings.
 6. Add audio/video and other integration, then measure app-to-screen cadence at 120 Hz. Retain the earlier working image after each completed milestone.
 
-The research work here only inspected source/metadata and existing local binaries and wrote documentation. No package registration, guest-image mutation, WSA startup, kernel replacement or full AOSP sync was performed by this audit.
+This proposal is based on source, metadata and binary inspection. A full AOSP build and an Android 16 WSA boot remain unverified.
